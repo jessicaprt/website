@@ -31,7 +31,13 @@ $(document).ready(function() {
     $('#circle').mouseleave(function() {
         $(this).fadeTo(200, 0.7);
     });
-
+    
+     $('.links a').mouseenter(function() {
+        $(this).fadeTo(200, 0.4);
+    });
+    $('.links a').mouseleave(function() {
+        $(this).fadeTo(200, 1);
+    });
     // ********** ABOUT ME **********
     $('#pic').mouseenter(function() {
         $(this).removeClass('photo');
