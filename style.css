@@ -1,0 +1,297 @@
+/********** SHARED **********/
+body {
+    font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+}
+
+.nav {
+    height: 70px;
+    width: 2000px;
+    font-size: 16px;
+    color: #ece6ec;
+    background-color: #400040;
+    padding-top: 20px;
+    overflow: hidden;
+    position: fixed;
+    z-index: 1
+}
+
+.items {
+    display: inline;
+}
+
+#current {
+    background-color: #ece6ec;
+    color: #400040;
+    border-color: #400040;
+    opacity: 0.9
+}
+
+li {
+    border: 1px solid #ece6ec;
+    border-radius: 6px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 20px  
+}
+
+.nav a {
+    text-decoration: none;
+    color: #ece6ec        
+}
+
+#nav-img {
+    padding-top: 100px;
+    height: 250px;
+    width: 250px;
+    margin:auto;
+}
+
+#border p {
+    margin-top: 100px;
+    text-align: center;
+    color: #400040;
+    opacity: 0.8;
+}
+
+.footer {
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px
+}
+
+/********** HOME **********/
+.home-nav {
+    height: 70px;
+    width: 2000px;
+    font-size: 16px;
+    color: #ece6ec;
+    background-color: #400040;
+    padding-top: 20px;
+    overflow: hidden;
+    position: fixed;
+    z-index: 1
+}
+
+.home-nav a {
+    text-decoration: none;
+    color: #ece6ec        
+}
+
+.home-items {
+    display: inline;
+}
+
+.jumbotron {
+    background-image:url('images/IMG_88794.JPG');
+    background-repeat: no-repeat;
+    height: 900px;
+    margin: auto;
+}
+
+.jumbotron .container {
+    position: relative;
+    top:100px;
+}
+
+.jumbotron #circle {
+    background-image: url("images/CIRCLE1.png");
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    opacity: 0.7;
+}
+
+.jumbotron h3 {
+    color: #351935;
+    font-size: 32px;  
+    text-align: center;
+}
+
+.jumbotron p {
+    font-size: 28.2px;
+    color: #ece6ec;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.description {
+    font-size: 13px;
+    height: 130px;
+    color: #400040;
+    background-color: #ece6ec;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 4px
+}
+
+.links {
+    background-color: #400040;
+    opacity: 0.8;
+    font-family: Papyrus, fantasy;
+    color: #ece6ec;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 30px;
+    height: 100px;
+    margin-top: 20px;
+    margin-right: auto;
+}
+
+.footer {
+    padding: 10px;
+    text-align: center
+}
+
+.description a {
+    text-decoration: underline;
+    color: #400040;
+}
+
+.boxes {
+    margin-bottom: 20px
+}
+
+/********** ABOUT *********/
+
+.photo {
+    background-image: url("images/profilepic.jpg");
+    height: 310px;
+    width: 210px;
+    margin: auto;
+    border-radius: 13px
+}
+
+.photo2 {
+    background-image: url("images/profilepic2.jpg");
+    height: 310px;
+    width: 210px;
+    margin: auto;
+    border-radius: 20%;
+    opacity: 0.9
+}
+
+.photo3 {
+    background-image: url("images/profilepic3.jpg");
+    height: 310px;
+    width: 210px;
+    margin: auto;
+    border-radius: 13px
+}
+
+
+.abt-description h3 {
+    font-size: 26px;
+    text-align: center;
+    color: #400040
+}
+
+.abt-description h4 {
+    text-align: center
+}
+
+.abt-description p {
+    color: #400040;
+    text-align: center;
+    text-indent: 50px;
+    padding-bottom: 40px;
+}
+
+/********** PROJECTS **********/
+.prj-text p {
+    text-align: center;
+    color: #400040;
+}
+
+.prj-text {
+    height: 300px
+}
+
+/********** LINKS **********/
+.col-sm-4 {
+    margin:auto
+}
+
+.links-body {
+    color: #fff
+}
+
+
+
+/******** CONTACT INFO ********/
+.monitor {
+    background-image: url("images/monitor.jpg");
+    height: 600px;
+    width: 525px;
+    margin: auto;
+    padding-top: 90px;
+    text-align: center;
+    font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+}
+
+.monitor h2 {
+    color: #400040;
+    
+}
+
+.monitor p {
+    font-size: 20px;
+    color: #400040;
+    opacity: 0.7
+}
+
+.email-form {
+    padding-top: 40px;
+    background-color: #ece6ec;
+    margin-bottom: 20px;
+    padding-bottom: 20px
+}
+
+.email-font {
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    color: #400040;
+}
+
+form {
+    width: 670px;
+    margin:auto;
+    align-content: center;
+    font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    font-size: 18px;
+    background-color: #ece6ec;
+}
+
+input[type=text] {
+    border: 1.3px solid #400040;
+    border-radius: 6px;
+    padding-left: 10px;
+    margin-left: 10px
+}
+
+input[type=submit] {
+    border-radius 6px;
+    background-color: #ece6ec;
+    border: 1px solid #400040
+    
+}
+
+input[type=reset] {
+    border-radius 6px;
+    background-color: #ece6ec;
+    border: 1px solid #400040
+    
+}
+
+textarea {
+    height: 50px;
+    padding-top: 2px;
+    border-radius: 6px;
+    padding-left: 10px;
+    margin-left: 10px;
+    border: 1.3px solid #400040;
+    height: 100px;
+}
