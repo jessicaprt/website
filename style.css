@@ -63,20 +63,30 @@ li {
 
 /********** HOME **********/
 .home-nav {
-    height: 70px;
-    width: 2000px;
-    font-size: 16px;
-    color: #ece6ec;
-    background-color: #400040;
-    padding-top: 20px;
+    height: 180px;
+    font-size: 15px;
+    color: #000;
+    background-color: #fff;
+    padding-top: 60px;
     overflow: hidden;
-    position: fixed;
-    z-index: 1
+    z-index: 1;
+    text-align: center;
+}
+
+.home-nav ul {
+    padding-right: 68px;
+}
+
+.Jess {
+    margin-right: auto;
+    padding-right: 12px;
+    margin-top: -40px;
+    height: 85px;
 }
 
 .home-nav a {
     text-decoration: none;
-    color: #ece6ec        
+    color: #400040;
 }
 
 .home-items {
@@ -84,10 +94,11 @@ li {
 }
 
 .jumbotron {
-    background-image:url('images/IMG_88794.jpg');
+    background-image:url('images/IMG_8602.jpg');
     background-repeat: no-repeat;
-    height: 900px;
+    height: 560px;
     margin: auto;
+    position: relative;
 }
 
 .jumbotron .container {
@@ -113,16 +124,14 @@ li {
     font-size: 13px;
     height: 130px;
     color: #400040;
-    background-color: #ece6ec;
     text-align: center;
     padding: 30px;
     margin-bottom: 4px
 }
 
 .links {
-    background-color: #400040;
     opacity: 0.8;
-    font-family: Papyrus, fantasy;
+    font-family: Century Gothic, fantasy;
     color: #ece6ec;
     text-align: center;
     padding-top: 40px;
@@ -149,7 +158,7 @@ li {
 
 .links a{
     text-decoration: none;
-    color: #ece6ec;
+    color: #400040;
 }
 
 /********** ABOUT *********/

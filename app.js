@@ -1,6 +1,6 @@
 $(document).ready(function() {
     
-    // ********** SHARED
+    // ********** SHARED **********
     $('.items').mouseenter(function() {
         $(this).fadeTo(200, 0.4);
     });
@@ -24,12 +24,20 @@ $(document).ready(function() {
         $(this).fadeTo(200, 1);
     });
     
-    // ********** HOME **********
-    $('#circle').mouseenter(function() {
-        $(this).fadeTo(200, 0.9);
+    // ********** HOME **********    
+    $('.home-items').mouseenter(function() {
+    $(this).fadeTo(200, 0.4);
     });
-    $('#circle').mouseleave(function() {
-        $(this).fadeTo(200, 0.7);
+    
+    $('.home-items').mouseleave(function() {
+        $(this).fadeTo(200,1);
+    });
+    
+    $('.jessica').mouseenter(function() {
+        $(this).fadeTo(200, 0.6);
+    });
+    $('.jessica').mouseleave(function() {
+        $(this).fadeTo(200, 1);
     });
     
      $('.links a').mouseenter(function() {
