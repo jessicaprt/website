@@ -70,6 +70,7 @@ li {
     overflow: hidden;
     z-index: 1;
     text-align: center;
+    padding-top: 10px;
 }
 
 .home-nav ul {
