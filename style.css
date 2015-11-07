@@ -106,13 +106,13 @@ li {
     top:100px;
 }
 
-.jumbotron #circle {
+/* .jumbotron #circle {
     background-image: url("images/CIRCLE1.png");
     height: 400px;
     width: 400px;
     margin: auto;
     opacity: 0.7;
-}
+} */
 
 .jumbotron h3 {
     color: #351935;
