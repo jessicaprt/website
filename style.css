@@ -164,7 +164,7 @@ li {
 /********** ABOUT *********/
 
 .photo {
-    background-image: url("images/profilepic.jpg");
+    background-image: url("images/profilePic.jpg");
     height: 310px;
     width: 210px;
     margin: auto;
