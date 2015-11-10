@@ -240,6 +240,11 @@ body {
     color: #400040;
 }
 
+.blog-text a {
+    text-decoration: none;
+    color: #400040;
+}
+
 /******** CONTACT INFO ********/
 .monitor {
     background-image: url("images/monitor.jpg");
