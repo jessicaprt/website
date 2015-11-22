@@ -62,17 +62,21 @@ body {
 /********** HOME **********/
 .home-nav {
     height: 100px;
-    font-size: 15px;
+    font-size: 16px;
     overflow: hidden;
     z-index: 1;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 40px;
+    margin-left: 90px;
 }
 
 .home-header {
-    height:250px;
-    background-image: url(images/header.jpg);
+    height:270px;
+    background-image: url(images/header..png);
+    background-position: center;
     margin-top: -25px;
+    margin-right: auto;
+    opacity: 0.9
 }
 .home-nav ul {
     padding-right: 68px;
@@ -86,8 +90,8 @@ body {
 
 .Jess {
     margin-right: auto;
-    margin-top: 40px;
-    height: 80px;
+    margin-top: 70px;
+
 }
 
 .home-nav a {
