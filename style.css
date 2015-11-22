@@ -69,6 +69,11 @@ body {
     padding-top: 10px;
 }
 
+.home-header {
+    height:250px;
+    background-image: url(images/header.jpg);
+    margin-top: -25px;
+}
 .home-nav ul {
     padding-right: 68px;
 }
