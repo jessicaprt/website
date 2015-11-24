@@ -54,9 +54,10 @@ body {
 }
 
 .footer {
+    background-color: #ece6ec;
     padding: 10px;
     text-align: center;
-    margin-bottom: 20px
+    margin-top: 20px;
 }
 
 /********** HOME **********/
@@ -156,8 +157,7 @@ body {
 
 
 .footer {
-    padding: 10px;
-    text-align: center
+    text-align: center;
 }
 
 .description a {
@@ -166,7 +166,7 @@ body {
 }
 
 .boxes {
-    margin-bottom: 20px
+    height: 520px;
 }
 
 .links a{
@@ -226,16 +226,18 @@ body {
 }
 
 .prj-text {
-    height: 300px
+    margin-top: 120px;
+    height: 550px
 }
-
 /********** LINKS **********/
 .col-sm-4 {
     margin:auto
 }
 
 .links-body {
-    color: #fff
+    margin-top: 120px;
+    color: #fff;
+    height: 600px;
 }
 
 /************ BLOG ************/
