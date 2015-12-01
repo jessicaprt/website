@@ -12,21 +12,12 @@ body {
     padding-top: 20px;
     overflow: hidden;
     position: fixed;
-    z-index: 1
+    z-index: 1;
+    box-shadow: 0px 3px 5px #888888;
 }
 
 .items {
     display: inline;
-}
-
-#current {
-    background-color: #ece6ec;
-    color: #400040;
-    border-color: #400040;
-    opacity: 0.9
-}
-
-li {
     border: 1px solid #ece6ec;
     border-radius: 6px;
     padding-top: 4px;
@@ -34,6 +25,13 @@ li {
     padding-left: 8px;
     padding-right: 8px;
     margin-left: 20px  
+}
+
+#current {
+    background-color: #ece6ec;
+    color: #400040;
+    border-color: #400040;
+    opacity: 0.9
 }
 
 .nav a {
@@ -56,51 +54,70 @@ li {
 }
 
 .footer {
+    background-color: #ece6ec;
     padding: 10px;
     text-align: center;
-    margin-bottom: 20px
+    margin-top: 20px;
 }
 
 /********** HOME **********/
 .home-nav {
-    height: 70px;
-    width: 2000px;
+    height: 100px;
     font-size: 16px;
-    color: #ece6ec;
-    background-color: #400040;
-    padding-top: 20px;
     overflow: hidden;
-    position: fixed;
-    z-index: 1
+    z-index: 1;
+    text-align: center;
+    padding-top: 40px;
+    margin-left: 90px;
+}
+
+.home-header {
+    height:270px;
+    background-image: url(images/header..png);
+    background-position: center;
+    margin-top: -25px;
+    margin-right: auto;
+    opacity: 0.9
+}
+.home-nav ul {
+    padding-right: 68px;
+}
+
+.title-pg {
+    width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Jess {
+    margin-right: auto;
+    margin-top: 70px;
+
 }
 
 .home-nav a {
     text-decoration: none;
-    color: #ece6ec        
+    color: #400040;
 }
 
 .home-items {
     display: inline;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .jumbotron {
-    background-image:url('images/IMG_88794.jpg');
+    background-image:url('images/jumbotron.jpg');
     background-repeat: no-repeat;
-    height: 900px;
+    height: 700px;
     margin: auto;
+    position: relative;
+    box-shadow: 0px 3px 5px #888888;
 }
 
 .jumbotron .container {
     position: relative;
     top:100px;
-}
-
-.jumbotron #circle {
-    background-image: url("images/CIRCLE1.png");
-    height: 400px;
-    width: 400px;
-    margin: auto;
-    opacity: 0.7;
 }
 
 .jumbotron h3 {
@@ -113,17 +130,15 @@ li {
     font-size: 13px;
     height: 130px;
     color: #400040;
-    background-color: #ece6ec;
     text-align: center;
     padding: 30px;
     margin-bottom: 4px
 }
 
 .links {
-    background-color: #400040;
     opacity: 0.8;
-    font-family: Papyrus, fantasy;
-    color: #ece6ec;
+    font-family: Century Gothic, fantasy;
+    color: #400040;
     text-align: center;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -133,9 +148,16 @@ li {
     margin-right: auto;
 }
 
+.link-img {
+    position: relative;
+    overflow: hidden;
+    margin: auto; 
+    opacity: 0.8;
+}
+
+
 .footer {
-    padding: 10px;
-    text-align: center
+    text-align: center;
 }
 
 .description a {
@@ -144,12 +166,12 @@ li {
 }
 
 .boxes {
-    margin-bottom: 20px
+    height: 520px;
 }
 
 .links a{
     text-decoration: none;
-    color: #ece6ec;
+    color: #400040;
 }
 
 /********** ABOUT *********/
@@ -204,19 +226,45 @@ li {
 }
 
 .prj-text {
-    height: 300px
+    margin-top: 120px;
+    height: 550px
 }
-
 /********** LINKS **********/
 .col-sm-4 {
     margin:auto
 }
 
 .links-body {
-    color: #fff
+    margin-top: 120px;
+    color: #fff;
+    height: 600px;
 }
 
+/************ BLOG ************/
 
+.blog {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    color: #400040;
+    font-size: 16px;
+}
+
+.blog a {
+    text-decoration: none;
+    color: #400040;
+}
+
+.blog-text {
+    text-align: center;
+    color: #400040;
+}
+
+.blog-text a {
+    text-decoration: none;
+    color: #400040;
+}
 
 /******** CONTACT INFO ********/
 .monitor {
