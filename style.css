@@ -68,7 +68,6 @@ body {
     z-index: 1;
     text-align: center;
     padding-top: 40px;
-    margin-left: 90px;
 }
 
 .home-header {
@@ -81,6 +80,12 @@ body {
 }
 .home-nav ul {
     padding-right: 68px;
+    background-color: #400040;
+    opacity: 0.6;
+    padding-left: 90px;
+    height: 30px;
+    padding-top: 5px;
+    margin-top: 10px;
 }
 
 .title-pg {
@@ -92,18 +97,20 @@ body {
 .Jess {
     margin-right: auto;
     margin-top: 70px;
+    margin-left: -11 px;
 
 }
 
 .home-nav a {
     text-decoration: none;
-    color: #400040;
+    color: #ece6ec;
 }
 
 .home-items {
     display: inline;
     padding-right: 10px;
     padding-left: 10px;
+    opacity: 1;
 }
 
 .jumbotron {
