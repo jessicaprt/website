@@ -167,6 +167,14 @@ body {
     color: #400040;
 }
 
+.bar-dec {
+    background-color: #400040;
+    height: 27px;
+    opacity: 0.6;
+    margin-top: 20px;
+    
+}
+
 .boxes {
     height: 520px;
 }
