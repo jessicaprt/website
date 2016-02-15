@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html>
     <head>
         <link href="bootstrap.css" rel="stylesheet">
         <link rel="shortcut icon" href="images/icon.ico">
@@ -27,9 +26,19 @@
             </ul>
         </div>
     </div>  
-    <div class="jumbotron">
+        <!-- <div class="jumbotron"> </div> -->
+        
+    <div id="background">
+        <script type="text/javascript">
+            $('#background').hide();//hide the background while the images load, ready to fade in later
+        </script>
 
-    </div> 
+        <img class="active" src="images/jumbotron2.jpg" alt=""/>
+        <img src="images/hacked2.jpg" alt="" />
+        <img src="images/universal.jpg" alt=""  />
+    </div>
+    <script type="text/javascript" src="background.js"></script>
+        
     <div class="boxes">
         <div class = "bar-dec"></div>
         <!-- AboUt -->
@@ -65,11 +74,13 @@
                 <div class="description">
                     <p>This is where I write about my adventures, random thoughts and everything in between. Read my <a href="http://misselprup.tumblr.com">blog</a> to know more about my everyday life, and some other stuff that I like to do.</p>
             </div>
-         </div>
-       </div>
+        
+        </div>
+        
+        </div>
         
        <!--FOOTER -->
-       <div class ="footer">
+        <div class ="footer">
            <p>©2015 | designed by Jessica Prieto | photograph taken by Jessica Prieto</p>
         </div>
     </body>

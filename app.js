@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function () {
     
     // ********** SHARED **********
     $('.items').mouseenter(function() {
@@ -56,13 +56,11 @@ $(document).ready(function() {
         $(this).removeClass('photo3');
         $(this).addClass('photo');
     });
-    
     // ********** LINKS **********
     $('.lnk-pic').mouseenter(function() {
         $(this).fadeTo(200,0.5);
     });
     $('.lnk-pic').mouseleave(function() {
-        $(this).fadeTo(200,1);
+        $(this).fadeTo(200, 1);
     });
 });
-
