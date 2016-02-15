@@ -74,7 +74,7 @@ body {
     height:270px;
     background-image: url(images/header..png);
     background-position: center;
-    margin-top: -25px;
+    margin-top: -50px;
     margin-right: auto;
     opacity: 0.9
 }
@@ -124,7 +124,7 @@ body {
 
 #background {
     padding:0;
-    margin-top: 250px;
+    margin-top: 220px;
     width:100%;
     position:absolute;
     top:0;
@@ -198,7 +198,7 @@ body {
 }
 
 .boxes {
-    margin-top: 535px;
+    margin-top: 525px;
     height: 520px;
 }
 
