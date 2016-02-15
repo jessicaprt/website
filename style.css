@@ -253,14 +253,12 @@ body {
 }
 
 /********** PROJECTS **********/
-.prj-text p {
-    text-align: center;
-    color: #400040;
-}
 
-.prj-text {
-    margin-top: 120px;
-    height: 550px
+.prj-img {    
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+        
 }
 /********** LINKS **********/
 .col-sm-4 {
@@ -271,6 +269,10 @@ body {
     margin-top: 120px;
     color: #fff;
     height: 600px;
+}
+
+#prj-footer {
+    margin-top: 500px;
 }
 
 /************ BLOG ************/
