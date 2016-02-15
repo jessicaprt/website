@@ -11,5 +11,5 @@ function cycleImages(){
     $(window).load(function(){
 		$('#background').fadeIn(1500);
 		  // run every 7s
-		  setInterval('cycleImages()', 5000);
+		  setInterval('cycleImages()', 7000);
     })

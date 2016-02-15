@@ -175,7 +175,7 @@ body {
 .link-img {
     position: relative;
     overflow: hidden;
-    margin: auto; 
+    margin-top: 10px; 
     opacity: 0.8;
 }
 
