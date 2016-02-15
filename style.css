@@ -259,8 +259,13 @@ body {
     text-align: center;
     padding-left: 30px;
     padding-right: 30px;
-        
+    color: #400040;
 }
+
+.prj-img h3 {
+    color: purple;
+}
+
 /********** LINKS **********/
 .col-sm-4 {
     margin:auto
