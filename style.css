@@ -218,7 +218,7 @@ body {
 }
 
 .photo2 {
-    background-image: url("images/profilepic2.jpg");
+    background-image: url("images/profilePic2.jpg");
     height: 310px;
     width: 210px;
     margin: auto;
@@ -227,7 +227,7 @@ body {
 }
 
 .photo3 {
-    background-image: url("images/profilepic3.jpg");
+    background-image: url("images/profilePic3.jpg");
     height: 310px;
     width: 210px;
     margin: auto;
@@ -235,10 +235,11 @@ body {
 }
 
 
-.abt-description h3 {
-    font-size: 26px;
+.abt-description h4 {
     text-align: center;
-    color: #400040
+    color: #400040;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 .abt-description h4 {
