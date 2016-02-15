@@ -255,7 +255,8 @@ body {
 
 /********** PROJECTS **********/
 
-.prj-img {    
+.prj-img {  
+    margin-top: 30px;
     text-align: center;
     padding-left: 30px;
     padding-right: 30px;
