@@ -266,6 +266,10 @@ body {
     color: purple;
 }
 
+.prj-footer {
+    margin-top: 560px;
+}
+
 /********** LINKS **********/
 .col-sm-4 {
     margin:auto
