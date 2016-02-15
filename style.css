@@ -266,9 +266,13 @@ body {
 }
 
 .links-body {
-    margin-top: 120px;
+    margin-top: 20px;
     color: #fff;
-    height: 600px;
+}
+
+.lnks-ftr {
+    margin-top: 150px;
+    margin-bottom: 0px;
 }
 
 #prj-footer {
