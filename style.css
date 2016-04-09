@@ -263,12 +263,18 @@ body {
     color: #400040;
 }
 
+
 .prj-img h3 {
     color: purple;
 }
 
+.line {
+    height: 550px;
+}
+
 .prj-footer {
-    margin-top: 560px;
+    height: 10px;
+    margin-bottom: 8px;
 }
 
 /********** LINKS **********/
