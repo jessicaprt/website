@@ -8,6 +8,20 @@ function cycleImages() {
     });
 }
 
+function cycleImage() {
+    $(this).removeClass('background1');
+    $(this).addClass('background2');
+    
+    setInterval('cycleImage2()', 7000);
+}
+
+function cycleImage2() {
+    $(this).removeClass('background2');
+    $(this).addClass('background3');
+    
+    setInterval('cycleImage()', 7000);
+}
+
 $(window).load(function(){
 	$('#background').fadeIn(1500);
     // run every 7s

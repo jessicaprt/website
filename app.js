@@ -25,8 +25,18 @@ $(document).ready(function () {
     });
     
     // ********** HOME **********    
+    $('#background').load(function() {
+        $(this).fadeIn(1500);
+        
+        setInterval(function() {
+            $(this).removeClass('background1');
+            $(this).addClass('background2')
+        }, 3000);
+        
+    });
+    
     $('.home-items').mouseenter(function() {
-    $(this).fadeTo(200, 0.4);
+        $(this).fadeTo(200, 0.4);
     });
     
     $('.home-items').mouseleave(function() {
