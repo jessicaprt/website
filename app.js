@@ -74,3 +74,11 @@ $(document).ready(function () {
         $(this).fadeTo(200, 1);
     });
 });
+
+$(window).scroll(function() {
+    var stickynav = $('.home-nav'),
+        scroll = $(window).scrollTop();
+    
+    if (scroll >= 300) stickynav.addClass('fixed-nav');
+    else stickynav.removeClass('fixed-nav');
+});

@@ -4,27 +4,29 @@
         <link rel="shortcut icon" href="images/icon.ico">
         <link rel="stylesheet" href="style.css">
         <script src="jquery-2.1.4.min.js" type="text/javascript"></script>
-        <!--<script type="text/javascript" src="background.js"></script>-->
+        <!--<script type="text/javascrispt" src="background.js"></script>-->
         <script src="app.js" type="text/javascript"></script>
         <title>Jessica Prieto</title>
     </head>
   
-    <body>
+    <body data-spy="scroll" data-target=".home-nav" data-offset="50">
         
     <div class = "home-header">
         <img src = "images/IMG_0409.jpg">
-    </div>
-        
+    </div> 
     <div class="home-nav">
-        <ul>
-            <li class="home-items"><a href="about.html">ABOUT </a></li>
-            <li class="home-items"><a href="projects.html">PROJECTS</a></li>
-            <li class="home-items"><a href="#"><a href="links.html">LINKS</a></a></li>
-            <li class="home-items"><a href="http://misselprup.tumblr.com">BLOG</a></li>
-            <li class="home-items"><a href="contacts.html">CONTACT</a></li>
-        </ul>
+            <div class = "sticky-nav">
+                <ul>
+                <li class="home-items"><a href="#About">ABOUT </a></li>
+                <li class="home-items"><a href="projects.html">PROJECTS</a></li>
+                <li class="home-items"><a href="#"><a href="links.html">LINKS</a></a></li>
+                <li class="home-items"><a href="http://misselprup.tumblr.com">BLOG</a></li>
+                <li class="home-items"><a href="contacts.html">CONTACT</a></li>
+                </ul>
+            </div>
     </div>
-        
+    
+    <div id = "About">
     <div class = "container" id="background">
         <script type="text/javascript">
             $('#background').hide();//hide the background while the images load, ready to fade in later
@@ -38,56 +40,50 @@
     </div>
         
     <div class = "container" id = "des">
-        <p>My name is Jessica Prieto. I'm a Computer Engineering undergraduate from the University of Alberta. </p>
-
+        <h4><em>"I see everyday as an opportunity to explore new things, and to let my passion grow."</em></h4>
+                
+                <p>Hello! My name is Jessica Prieto. I am a Computer Engineering undergraduate at the University of Alberta.</p>
+                <p>I enjoy my time learning more about computer engineering through my academics, as well as teaching myself different development tools and by being around people with a similar passion. I have met a lot of people with the same interests in technology by being involved with the Computer Engineering Club where I currently serve as the VP Social-- I organize academic and social events by the club and I take part in networking with other companies to get them involved.</p>
+                <p>I regularly engage in different activities in university. Aside from my involvement with the Computer Engineering club, I also have coordinator positions with the Engineering Students' Society at the U of A. I have worked as the memories coordinator, where I document all ESS events, and I also worked as the Pi throw coordinator where I organized "Pi Week 2016" - an annal ESS fundraising event that raises money towards Habitat for Humanity.</p>
     </div>
     
+    </div>
     <div class = "bar-dec"></div>
         
-    <div class = "container">
+    <div class = "container des-projects">
+        <h1>PROJECTS</h1>
+        <p class = "prj">Here are some of my projects that I've done in school as well as my other personal projects. Click <a href="projects.html">here</a> to view more. 
+        </p>
         <div class = "col-sm-6">
             <img src = "images/projects/ttt.jpg" class = "hm-img">
-            <p> lksjd </p>
+            <p> </p>
+            <p> <strong>Tic Tac Toe</strong> </p>
+            </p>
+            <p>This impossible game of tic tac toe was implemented by using the minimax algorithm (written in Python) in order to build an AI such that the computer will always win, or the game results in a draw.</p>
+        </div>
+        
+        <div class = "col-sm-6">
+            <img src = "images/projects/snake.jpg" class = "hm-img">
+            <p> </p>
+            <p> <strong>Snake on Arduino</strong> </p>
+            </p>
+           <p>For the hardware components of this version of the classic snake game, a joystick and an LCD (Adafruit) was connected to an Arduino Mega. This game was written in C with the use of the Arduino library.</p>
         </div>
         
     </div>
-    
-    <div class="boxes">
-        <!-- AboUt -->
-        <div class="col-sm-4">
-            <div class="link-img">
-                <img src="images/about.jpg" />                
-            </div>
-            <div class="description">
-                <p>My name is Jessica Antonette Prieto. I'm a third year Computer Engineering undergraduate from the University of Alberta</p>
-                <p>Click <a href="about.html">here</a> to know more about me.</p>          
-            </div>
-        </div>
-            
-        <!-- PROJECTS -->
-        
-        <div class="col-sm-4">
-            <div class="link-img">
-                <img src="images/proj.jpg" />                
-            </div>
-            <div class="description">
-                <p>I put some of my <a href="projects.html">projects</a> here (both school projects and personal ones.</p>
-                </div>
-            </div> 
-        
-        <!-- BLOG -->
-        <div class="col-sm-4">
 
-                <div class="link-img">
-                    <img src="images/blog.jpg" />              
-                </div>
-                <div class="description">
-                    <p>This is where I write about my adventures, random thoughts and everything in between. Read my <a href="http://misselprup.tumblr.com">blog</a> to know more about my everyday life, and some other stuff that I like to do.</p>
-            </div>
-        
+    <div class = "bar-dec"></div>
+
+    <div class = "container">
+        <h1>BLOG</h1>
+        <div class = "entry">
+        <h3><a href = "http://misselprup.tumblr.com/post/133706495244/vancouver-2015">VANCOUVER 2015</a></h3>
+<figure data-orig-width="5052" data-orig-height="3200" class="tmblr-full"><img src="http://41.media.tumblr.com/6e70b1aa00f03a2cbe4464d3c5664f37/tumblr_inline_ny7c4ifC1Z1r6k7er_500.jpg" data-orig-width="5052" data-orig-height="3200" width="500" height="316"></figure>
+        <p><i>I finally went to Vancouver for the first time.</i></p>
+        <p>Because it was Fall reading break in university, my friend/roommate <b>Liza</b> and I thought that it would be a good idea to leave Edmonton for a bit. We decided to go to Vancouver since we both have never been to the city, and it's fairly close since it's in the neighboring province... 
+            <em><a href = "http://misselprup.tumblr.com/post/133706495244/vancouver-2015">Read more.</a></em></p>
         </div>
-        
-        </div>        
+    </div>
     
     <script type="text/javascript" src="background.js"></script>
 
