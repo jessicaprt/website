@@ -62,45 +62,30 @@ body {
 }
 
 /********** HOME **********/
-.home-nav {
-    height: 100px;
-    font-size: 16px;
-    overflow: hidden;
-    z-index: 1;
-    text-align: center;
-    padding-top: 40px;
-}
 
 .home-header {
-    height:270px;
-    background-image: url(images/header..png);
+    background-image: url(images/IMG_0409.jpg);
     background-position: center;
-    margin-top: -50px;
     margin-right: auto;
-    opacity: 0.9;
+    height: 280px;
     position: relative;
 }
+
+.home-nav {
+    font-size: 18px;
+    overflow: hidden;
+    text-align: center;
+    
+}
+
 .home-nav ul {
     padding-right: 68px;
     background-color: #400040;
-    opacity: 0.6;
+    opacity: 0.9;
     padding-left: 90px;
-    height: 30px;
-    padding-top: 5px;
-    margin-top: 10px;
-}
-
-.title-pg {
-    width: 380px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.Jess {
-    margin-right: auto;
-    margin-top: 70px;
-    margin-left: -11 px;
-
+    height: 60px;
+    padding-top: 20px;
+    position: relative;
 }
 
 .home-nav a {
@@ -110,12 +95,13 @@ body {
 
 .home-items {
     display: inline;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
     opacity: 1;
 }
 
 #background {
+    margin-top: 20px;
     position: relative;
     padding:0;
     top:0;
