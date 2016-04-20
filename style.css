@@ -110,8 +110,12 @@ body {
     margin-bottom: 40px;
 }
 
-#container {
+.container {
     position: relative;
+}
+
+#des {
+   position: relative; 
 }
 
 #background img {
