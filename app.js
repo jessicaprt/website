@@ -50,10 +50,10 @@ $(document).ready(function () {
         $(this).fadeTo(200, 1);
     });
     
-     $('.links a').mouseenter(function() {
+     $('a').mouseenter(function() {
         $(this).fadeTo(200, 0.4);
     });
-    $('.links a').mouseleave(function() {
+    $('a').mouseleave(function() {
         $(this).fadeTo(200, 1);
     });
     // ********** ABOUT ME **********
