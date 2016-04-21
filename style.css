@@ -60,6 +60,7 @@ body {
     position: relative;
 }
 
+
 /********** HOME **********/
 
 .home-header {
@@ -330,6 +331,7 @@ a {
     padding-top: 90px;
     text-align: center;
     font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    margin-bottom: 100px;
 }
 
 .monitor h2 {
