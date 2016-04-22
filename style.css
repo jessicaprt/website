@@ -206,6 +206,16 @@ a {
     position: relative
 }
 
+.navs {
+    padding-top: 60px;
+}
+
+.full {
+    background-color: #ece6ec;
+    padding: 10px;
+    text-align: center;
+}
+
 /********** ABOUT *********/
 
 .photo {
