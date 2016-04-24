@@ -340,11 +340,11 @@ a {
 
 /******** CONTACT INFO ********/
 .monitor {
-    background-image: url("images/monitor.jpg");
-    height: 600px;
-    width: 525px;
     margin: auto;
-    padding-top: 90px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    background-color: #ece6ec;
     text-align: center;
     font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
     margin-bottom: 100px;
