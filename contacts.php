@@ -56,9 +56,9 @@
         </div>
         
         -->
-<!-- Begin Response-O-Matic Form -->
+        <!-- Begin Response-O-Matic Form -->
 <!-- DO NOT EDIT YOUR FORM HERE, PLEASE LOG IN AND EDIT AT RESPONSE-O-MATIC.COM -->
-<form enctype="multipart/form-data" method="post" action="http://www.response-o-matic.com/mail.php" accept-charset="UTF-8" target="_blank">
+<form enctype="multipart/form-data" method="post" action="http://www.response-o-matic.com/mail.php" accept-charset="UTF-8">
 	<div>
 		<input type="hidden" name="acctid" id="acctid" value="u2hq5ckde74kbtbr" />
 		<input type="hidden" name="formid" id="formid" value="1286290" />
@@ -99,9 +99,10 @@
 		</tr>
 	</table>
 </form>
-<br>
+<br><center><font face="Arial, Helvetica" size="1"><b>
+<a href="http://www.response-o-matic.com">Click here</a> to put a form like this on your site.
+</b></font></center>
 <!-- End Response-O-Matic Form -->
-
 
         <div class ="footer">
             <p>All content © Jessica Prieto (unless otherwise noted).</p>

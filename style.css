@@ -216,6 +216,12 @@ a {
     text-align: center;
 }
 
+.contacts {
+    text-align: center;
+    font-size: 20px;
+    margin-top: -40px;
+}
+
 /********** ABOUT *********/
 
 .photo {
@@ -344,31 +350,6 @@ a {
     margin-bottom: 100px;
 }
 
-.monitor h2 {
-    color: #400040;
-    
-}
-
-.monitor p {
-    font-size: 20px;
-    color: #400040;
-    opacity: 0.7
-}
-
-.email-form {
-    padding-top: 40px;
-    background-color: #ece6ec;
-    margin-bottom: 20px;
-    padding-bottom: 20px
-}
-
-.email-font {
-    font-size: 25px;
-    text-align: center;
-    font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
-    color: #400040;
-}
-
 form {
     width: 670px;
     margin:auto;
@@ -376,13 +357,15 @@ form {
     font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
     font-size: 18px;
     background-color: #ece6ec;
+    padding: 20px;
 }
 
 input[type=text] {
     border: 1.3px solid #400040;
     border-radius: 6px;
     padding-left: 10px;
-    margin-left: 10px
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 
 input[type=submit] {
@@ -392,12 +375,6 @@ input[type=submit] {
     
 }
 
-input[type=reset] {
-    border-radius 6px;
-    background-color: #ece6ec;
-    border: 1px solid #400040
-    
-}
 
 textarea {
     height: 50px;
