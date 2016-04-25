@@ -284,7 +284,9 @@ a {
 }
 
 .line {
-    height: 550px;
+    height: 650px;
+    margin-top: 20px;
+    
 }
 
 .prj-footer {
