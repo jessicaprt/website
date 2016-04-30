@@ -8,15 +8,7 @@ $(document).ready(function () {
     $('.items').mouseleave(function() {
         $(this).fadeTo(200,1);
     });
-        
-    $('.description a').mouseenter(function() {
-        $(this).fadeTo(200, 0.6);
-    });
     
-    $('.description a').mouseleave(function() {
-        $(this).fadeTo(200,1);
-    });
-           
     $('#nav-img').mouseenter(function() {
         $(this).fadeTo(200, 0.6);
     });
