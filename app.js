@@ -51,6 +51,8 @@ $(document).ready(function () {
     
     $('.hide1').hide();
     $('.hide2').hide();
+    $('.prj-hide1').hide();
+    $('.prj-hide2').hide();
     
     $('.blog-el-travel').mouseenter(function(){
         $('.hide1').show();
@@ -67,7 +69,23 @@ $(document).ready(function () {
     $('.blog-el-school').mouseleave(function(){
         $('.hide2').hide();
     });
+    
+    $('.prj1').mouseenter(function(){
+        $('.prj-hide1').show();
+    });
+    
+    $('.prj1').mouseleave(function(){
+        $('.prj-hide1').hide();
+    });
 
+    $('.prj2').mouseenter(function(){
+        $('.prj-hide2').show();
+    });
+    
+    $('.prj2').mouseleave(function(){
+        $('.prj-hide2').hide();
+    });
+    
     // ********** ABOUT ME **********
     $('#pic').mouseenter(function() {
         $(this).removeClass('photo');

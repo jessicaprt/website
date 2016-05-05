@@ -154,6 +154,8 @@ body {
 
 .col-sm-6 {
     text-align: center;
+    position: relative;
+    align-self: center
 }
 
 .hm-img {
@@ -229,14 +231,18 @@ a {
 
 .blog-travel {
     background-image: url("http://40.media.tumblr.com/f003af476c453d5647935dd3bf5e254c/tumblr_inline_o60hiqYWCX1r6k7er_500.jpg");
+    background-repeat: no-repeat;
     height: 300px;
-    width: 500px;
+    width: 520px;
+    margin-bottom: 10px;
 }
 
 .blog-school {
     background-image: url("http://41.media.tumblr.com/8ccc086126835ccba1c072cc892a636a/tumblr_inline_o6f7obHCdS1r6k7er_500.jpg");
+    background-repeat: no-repeat;
     height: 300px;
-    width: 500px;
+    width: 520px;
+    margin-bottom: 10px;
 }
 
 .blog-el-travel {
@@ -265,6 +271,10 @@ a {
     text-decoration: none;
 }
 
+#Projects a {
+    text-decoration: none;
+}
+
 .hide1 {
     font-size: 15px;
     margin-top: -10px;
@@ -275,7 +285,55 @@ a {
     margin-top: -10px;
 }
 
+.feat-prj1 {
+    background-image: url("images/projects/ttt-home.jpg");
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 550px;
+    margin-bottom: 10px;
+}
 
+.feat-prj2 {
+    background-image: url("images/projects/snake-home.jpg");
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 550px;
+    margin-bottom: 10px;
+}
+
+.prj1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    background-color: #fff;
+    width: 300px;
+    bottom: 0;
+    position: absolute;
+    margin-left: 10px;
+}
+
+.prj2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    background-color: #fff;
+    width: 300px;
+    bottom: 0;
+    position: absolute;
+    margin-left: 10px;
+}
+
+
+.prj-hide1 {
+    font-size: 15px;
+    margin-top: -10px;
+    padding: 10px
+}
+
+.prj-hide2 {
+    font-size: 15px;
+    margin-top: -10px;
+}
 
 /********** ABOUT *********/
 
