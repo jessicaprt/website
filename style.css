@@ -233,7 +233,7 @@ a {
     background-image: url("http://40.media.tumblr.com/f003af476c453d5647935dd3bf5e254c/tumblr_inline_o60hiqYWCX1r6k7er_500.jpg");
     background-repeat: no-repeat;
     height: 300px;
-    width: 520px;
+    width: 500px;
     margin-bottom: 10px;
 }
 
@@ -241,7 +241,15 @@ a {
     background-image: url("http://41.media.tumblr.com/8ccc086126835ccba1c072cc892a636a/tumblr_inline_o6f7obHCdS1r6k7er_500.jpg");
     background-repeat: no-repeat;
     height: 300px;
-    width: 520px;
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+.blog-tech {
+    background-image: url("images/tech-img.jpg");
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 500px;
     margin-bottom: 10px;
 }
 
@@ -267,6 +275,17 @@ a {
     margin-left: 10px;
 }
 
+.blog-el-tech {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    background-color: #fff;
+    width: 300px;
+    bottom: 0;
+    position: absolute;
+    margin-left: 10px;
+}
+
 #Blog a {
     text-decoration: none;
 }
@@ -281,6 +300,11 @@ a {
 }
 
 .hide2 {
+    font-size: 15px;
+    margin-top: -10px;
+}
+
+.hide3 {
     font-size: 15px;
     margin-top: -10px;
 }

@@ -51,6 +51,7 @@ $(document).ready(function () {
     
     $('.hide1').hide();
     $('.hide2').hide();
+    $('.hide3').hide();
     $('.prj-hide1').hide();
     $('.prj-hide2').hide();
     
@@ -68,6 +69,14 @@ $(document).ready(function () {
     
     $('.blog-el-school').mouseleave(function(){
         $('.hide2').hide();
+    });
+    
+    $('.blog-el-tech').mouseenter(function(){
+        $('.hide3').show();
+    });
+    
+    $('.blog-el-tech').mouseleave(function(){
+        $('.hide3').hide();
     });
     
     $('.prj1').mouseenter(function(){
