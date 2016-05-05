@@ -1,4 +1,18 @@
 /********** SHARED **********/
+@media screen and (min-width: 980px) /* Desktop */ {
+    .gallery-hm {
+        width: 800px;
+        height: 517px;
+    }
+}
+
+@media screen  and (max-width: 979px) /* Tablet */ {
+    .gallery-hm {
+        width: 800px;
+        height: 517px;
+    }
+}
+
 body {
     font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
 }
@@ -65,7 +79,14 @@ body {
     position: relative;
 }
 
+.row p {
+    text-align: center;
+}
 
+.col-centered {
+    float:none;
+    margin: 0 auto;
+}
 /********** HOME **********/
 
 .home-header {
@@ -88,7 +109,6 @@ body {
     padding-left: 90px;
     height: 60px;
     padding-top: 20px;
-    position: relative;
     opacity: 0.9
 }
 
@@ -99,6 +119,7 @@ body {
 
 .sticky-nav {
     background-color: white;
+    position: relative;
 }
 
 .home-items {
@@ -421,14 +442,6 @@ a {
     margin-top: 20px;
 }
 
-.l {
-    text-align: left;
-}
-
-.r{
-    text-align: right;
-}
-
 .prj-img h3 {
     color: purple;
 }
@@ -438,6 +451,13 @@ a {
     margin-bottom: 8px;
 } 
 
+.l {
+    text-align: left
+}
+
+.r {
+    text-align: right
+}
 /************ BLOG ************/
 
 .blog {
@@ -517,3 +537,24 @@ textarea {
     border: 1.3px solid #400040;
     height: 100px;
 }
+
+@media screen and (max-width: 500px) /* Mobile */ {
+    @
+    home-header {
+        width: 300px;
+    }
+    
+    body {
+        width: 500px;
+    }
+    .gallery-hm {
+        width: 138px;
+        height: 129px;
+        overflow: hidden;
+    }
+
+}
+
+
+
+
