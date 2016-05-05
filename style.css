@@ -383,49 +383,36 @@ a {
 
 /********** PROJECTS **********/
 
-.prj-img {  
-    margin-top: 30px;
-    text-align: center;
+.prj-item {  
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
     padding-left: 30px;
     padding-right: 30px;
     color: #400040;
+    font-size: 16px;
 }
 
+.prj-item-img {
+    margin-top: 20px;
+}
+
+.l {
+    text-align: left;
+}
+
+.r{
+    text-align: right;
+}
 
 .prj-img h3 {
     color: purple;
 }
 
-.line {
-    height: 650px;
-    margin-top: 20px;
-    
-}
-
 .prj-footer {
     height: 10px;
     margin-bottom: 8px;
-}
-
-/********** LINKS **********/
-.col-sm-4 {
-    margin:auto
-}
-
-.links-body {
-    margin-top: 20px;
-    color: #fff;
-    height: 400px;
-}
-
-.lnks-ftr {
-    margin-top: 150px;
-    margin-bottom: 0px;
-}
-
-#prj-footer {
-    margin-top: 500px;
-}
+} 
 
 /************ BLOG ************/
 
