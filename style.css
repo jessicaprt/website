@@ -307,12 +307,9 @@ a {
     margin-left: 10px;
 }
 
-#Blog a {
+.navs a {
     text-decoration: none;
-}
-
-#Projects a {
-    text-decoration: none;
+    color: #400040
 }
 
 .hide1 {
@@ -554,7 +551,6 @@ textarea {
     }
 
 }
-
 
 
 

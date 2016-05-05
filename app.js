@@ -42,7 +42,7 @@ $(document).ready(function () {
         $(this).fadeTo(200, 1);
     });
     
-     $('a').mouseenter(function() {
+    $('a').mouseenter(function() {
         $(this).fadeTo(200, 0.4);
     });
     $('a').mouseleave(function() {
