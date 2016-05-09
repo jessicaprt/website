@@ -254,24 +254,27 @@ a {
     background-image: url("http://40.media.tumblr.com/f003af476c453d5647935dd3bf5e254c/tumblr_inline_o60hiqYWCX1r6k7er_500.jpg");
     background-repeat: no-repeat;
     height: 300px;
-    width: 500px;
+    width: 360px;
     margin-bottom: 10px;
+    overflow: hidden
 }
 
 .blog-school {
     background-image: url("http://41.media.tumblr.com/8ccc086126835ccba1c072cc892a636a/tumblr_inline_o6f7obHCdS1r6k7er_500.jpg");
     background-repeat: no-repeat;
     height: 300px;
-    width: 500px;
+    width: 360px;
     margin-bottom: 10px;
+    overflow: hidden
 }
 
 .blog-tech {
     background-image: url("images/tech-img.jpg");
     background-repeat: no-repeat;
     height: 300px;
-    width: 500px;
+    width: 360px;
     margin-bottom: 10px;
+    overflow: hidden
 }
 
 .blog-el-travel {
@@ -517,23 +520,21 @@ input[type=text] {
     margin-bottom: 10px;
 }
 
+textarea {
+    border: 1.3px solid #400040;
+    border-radius: 6px;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
 input[type=submit] {
     border-radius 6px;
     background-color: #ece6ec;
     border: 1px solid #400040
-    
 }
 
 
-textarea {
-    height: 50px;
-    padding-top: 2px;
-    border-radius: 6px;
-    padding-left: 10px;
-    margin-left: 10px;
-    border: 1.3px solid #400040;
-    height: 100px;
-}
 
 @media screen and (max-width: 500px) /* Mobile */ {
     @
@@ -544,6 +545,7 @@ textarea {
     body {
         width: 500px;
     }
+    
     .gallery-hm {
         width: 138px;
         height: 129px;

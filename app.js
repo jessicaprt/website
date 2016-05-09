@@ -27,11 +27,11 @@ $(document).ready(function () {
         
     });
     
-    $('.home-items').mouseenter(function() {
+    $('.home-curr').mouseenter(function() {
         $(this).fadeTo(200, 0.4);
     });
     
-    $('.home-items').mouseleave(function() {
+    $('.home-curr').mouseleave(function() {
         $(this).fadeTo(200,1);
     });
     
