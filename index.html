@@ -6,6 +6,7 @@
         <script src="jquery-2.1.4.min.js" type="text/javascript"></script>
         <!--<script type="text/javascrispt" src="background.js"></script>-->
         <script src="app.js" type="text/javascript"></script>
+        <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
         <title>Jessica Prieto</title>
     </head>
   
@@ -15,16 +16,16 @@
         <img src = "images/IMG_0409.jpg">
     </div> 
     <div class="home-nav">
-            <div class = "sticky-nav">
-                <ul>
-                <li class="home-items"><a href="#Home">HOME </a></li>
+        <div class = "sticky-nav">
+            <ul>
+                <li class="home-items"><a href="index.html">HOME </a></li>
                 <li class="home-items"><a href="#About">ABOUT </a></li>
                 <li class="home-items"><a href="#Projects">PROJECTS</a></li>
-                <li class="home-items"><a href="#Gallery">GALLERY</a></li>
                 <li class="home-items"><a href="#Blog">BLOG</a></li>
+                <li class="home-items"><a href="#Gallery">GALLERY</a></li>
                 <li class="home-items"><a href="#CONTACT">CONTACT</a></li>
-                </ul>
-            </div>
+            </ul>
+        </div>
     </div>
     
     <div id = "About">
@@ -32,11 +33,11 @@
         <script type="text/javascript">
             $('#background').hide();//hide the background while the images load, ready to fade in later
         </script>
-
-        <img class="active" src="images/disney.jpg" alt=""/>
+        
+        <img class="active" src="images/engg.jpg" alt="" />
+        <img src="images/disney.jpg" alt=""/>
         <img src="images/hacked2.jpg" alt="" />
         <img src="images/universal.jpg" alt="" />
-        <img src="images/engg.jpg" alt=""  />
         
     </div>
         
@@ -47,37 +48,81 @@
        
     
     </div>
-    <!--<div class = "bar-dec"></div>-->
-        
+    </div>
+    
+    <!-- PROJECTS -->
     <div class = "container des-projects navs" id = "Projects">
-        <h1>PROJECTS</h1>
+        <h1><a href = "projects.html">PROJECTS</a></h1>
         <p class = "prj">Here are some of my projects that I've done in school as well as my other personal projects. Click <a href="projects.html">here</a> to view more. 
         </p>
         
+        <div class = "row">
+            <div class = "col-md-6 col-xs-12">
+                <div class = "feat-prj1">
+                    <div class = "prj1">
+                        <p class = "title">Tic Tac Toe</p>
+                        <p class = "prj-hide1"><em><u>Python</u></em></p>
+                        <p class = "prj-hide1">This impossible game of tic tac toe was implemented by using the minimax algorithm in order to build an AI such that the computer will always win, or the game results in a draw. k</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "col-md-6 col-xs-12">
+                <div class = "feat-prj2">
+                    <div class = "prj2"><p class = "title">Snake on Arduino</p>
+                        <p class = "prj-hide2"><em><u>C</u></em></p>
+                        <p class = "prj-hide2">For the hardware components of this version of the classic snake game, a joystick and an LCD (Adafruit) was connected to an Arduino Mega.</p>
+                    </div>
+                </div>    
+            </div>
+        </div>        
+    </div>
         
-        <div class = "col-sm-6">
-            <img src = "images/projects/ttt.jpg" class = "hm-img" />
-            <p> <strong>Tic Tac Toe</strong> </p>
-            <p>This impossible game of tic tac toe was implemented by using the minimax algorithm (written in Python) in order to build an AI such that the computer will always win, or the game results in a draw.</p>
+    <div class = "container"><p class ="full"S><i><a href = "projects.html">View more projects.</a></i></p></div>
+        
+    <!-- BLOG -->
+    <div class = "container des-projects navs" id = "Blog">
+        <h1><a href = "http://misselprup.tumblr.com">BLOG</a></h1>
+        
+        <div class = "row">            
+            <div class = "col-md-4 col-xs-6">
+                <div class = "blog-travel">
+                    <div class = "blog-el-travel"><a href = "http://misselprup.tumblr.com/tagged/travel"><p class = "title">Travel
+                    </p>
+                    <p class = "hide1">read about the places I've been to</p></a>
+                    </div>
+                </div> 
+            </div>
+
+            <div class = "col-md-4 col-xs-6">
+                <div class = "blog-school">
+                    <div class = "blog-el-school"><a href = "http://misselprup.tumblr.com/tagged/university"><p class = "title">University Life
+                    </p>
+                    <p class = "hide2">my community involvements and my road to getting my undergraduate degree.</p></a>
+                    </div>
+                </div> 
+            </div>
+            
+            <div class = "col-md-4 col-xs-6">
+                <div class = "blog-tech">
+                    <div class = "blog-el-tech"><a href = "http://techdiaries.tumblr.com"><p class = "title">Tech corner
+                    </p>
+                    <p class = "hide3">Blurbs about tech-related things.</p></a>
+                    </div>
+                </div> 
+            </div>
         </div>
-        
-        <div class = "col-sm-6">
-            <img src = "images/projects/snake.jpg" class = "hm-img" />
-            <p> <strong>Snake on Arduino</strong> </p>
-           <p>For the hardware components of this version of the classic snake game, a joystick and an LCD (Adafruit) was connected to an Arduino Mega. This game was written in C with the use of the Arduino library.</p>
-        </div>
-        
-        <div class = "container"></div>
-            <p class ="full"S><i><a href = "projects.html">View more projects.</a></i></p>
-        </div>
-        
+    </div>
+    
+    <!-- GALLERY -->   
     <div class = "container navs gallery" id = "Gallery">
         <h1><a href ="gallery.html">GALLERY</a></h1>
-        <a data-flickr-embed="true" data-footer="true"  href="https://www.flickr.com/photos/142048571@N04/albums/72157667410229916" title="Vancouver"><img src="https://farm2.staticflickr.com/1461/25944415184_a29f2a35b1_c.jpg" width="800" height="520" alt="Vancouver"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+        <a data-flickr-embed="true"  href="https://www.flickr.com/photos/142048571@N04/albums/72157667301900850" title="Favourites"><img src="https://farm2.staticflickr.com/1520/26117912343_a65cc7a0eb_c.jpg" class = "gallery-hm" alt="Favourites"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>      
         
         <div class = "container"></div>
             <p class ="full"S><i><a href = "gallery.html">View more photos.</a></i></p>
         </div>
+<<<<<<< HEAD
         
         
     </div>
@@ -103,6 +148,8 @@
             </div>
         </div>
     </div>
+=======
+>>>>>>> 61737e325106a79eb33425e1a592cd1d036e0154
     
     <script type="text/javascript" src="background.js"></script>
 
@@ -120,7 +167,7 @@
     <div class = "container contacts">
         <p>or use this form</p>
     </div>
-        <!-- Begin Response-O-Matic Form -->
+<!-- Begin Response-O-Matic Form -->
 <!-- DO NOT EDIT YOUR FORM HERE, PLEASE LOG IN AND EDIT AT RESPONSE-O-MATIC.COM -->
 <form enctype="multipart/form-data" method="post" action="http://www.response-o-matic.com/mail.php" accept-charset="UTF-8" target="_blank">
 	<div>
@@ -135,7 +182,6 @@
 			</td>
 			<td valign="top">
 				<input type="text" name="name" id="name" size="40" value="" />
-				
 			</td>
 		</tr>
 		<tr>
@@ -144,7 +190,6 @@
 			</td>
 			<td valign="top">
 				<input type="text" name="email" id="email" size="40" value="" />
-				
 			</td>
 		</tr>
 		<tr>
@@ -153,7 +198,6 @@
 			</td>
 			<td valign="top">
 				<textarea name="field-06dad7738d78a56" id="field-06dad7738d78a56" rows="6" cols="40"></textarea>
-				
 			</td>
 		</tr>
 		<tr>
@@ -168,7 +212,7 @@
 
        <!--FOOTER -->
         <div class ="footer" id="home-ftr">
-           <p>All content © Jessica Prieto (unless otherwise noted).</p>
+           <p>designed by Jessica Prieto</p>
         </div>
     </body>
 </html>

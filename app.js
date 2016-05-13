@@ -27,11 +27,11 @@ $(document).ready(function () {
         
     });
     
-    $('.home-items').mouseenter(function() {
+    $('.home-curr').mouseenter(function() {
         $(this).fadeTo(200, 0.4);
     });
     
-    $('.home-items').mouseleave(function() {
+    $('.home-curr').mouseleave(function() {
         $(this).fadeTo(200,1);
     });
     
@@ -42,7 +42,7 @@ $(document).ready(function () {
         $(this).fadeTo(200, 1);
     });
     
-     $('a').mouseenter(function() {
+    $('a').mouseenter(function() {
         $(this).fadeTo(200, 0.4);
     });
     $('a').mouseleave(function() {
@@ -51,6 +51,9 @@ $(document).ready(function () {
     
     $('.hide1').hide();
     $('.hide2').hide();
+    $('.hide3').hide();
+    $('.prj-hide1').hide();
+    $('.prj-hide2').hide();
     
     $('.blog-el-travel').mouseenter(function(){
         $('.hide1').show();
@@ -67,7 +70,31 @@ $(document).ready(function () {
     $('.blog-el-school').mouseleave(function(){
         $('.hide2').hide();
     });
+    
+    $('.blog-el-tech').mouseenter(function(){
+        $('.hide3').show();
+    });
+    
+    $('.blog-el-tech').mouseleave(function(){
+        $('.hide3').hide();
+    });
+    
+    $('.prj1').mouseenter(function(){
+        $('.prj-hide1').show();
+    });
+    
+    $('.prj1').mouseleave(function(){
+        $('.prj-hide1').hide();
+    });
 
+    $('.prj2').mouseenter(function(){
+        $('.prj-hide2').show();
+    });
+    
+    $('.prj2').mouseleave(function(){
+        $('.prj-hide2').hide();
+    });
+    
     // ********** ABOUT ME **********
     $('#pic').mouseenter(function() {
         $(this).removeClass('photo');

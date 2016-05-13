@@ -1,4 +1,18 @@
 /********** SHARED **********/
+@media screen and (min-width: 980px) /* Desktop */ {
+    .gallery-hm {
+        width: 800px;
+        height: 517px;
+    }
+}
+
+@media screen  and (max-width: 979px) /* Tablet */ {
+    .gallery-hm {
+        width: 800px;
+        height: 517px;
+    }
+}
+
 body {
     font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
 }
@@ -65,7 +79,14 @@ body {
     position: relative;
 }
 
+.row p {
+    text-align: center;
+}
 
+.col-centered {
+    float:none;
+    margin: 0 auto;
+}
 /********** HOME **********/
 
 .home-header {
@@ -88,7 +109,6 @@ body {
     padding-left: 90px;
     height: 60px;
     padding-top: 20px;
-    position: relative;
     opacity: 0.9
 }
 
@@ -99,6 +119,7 @@ body {
 
 .sticky-nav {
     background-color: white;
+    position: relative;
 }
 
 .home-items {
@@ -154,6 +175,8 @@ body {
 
 .col-sm-6 {
     text-align: center;
+    position: relative;
+    align-self: center
 }
 
 .hm-img {
@@ -229,14 +252,29 @@ a {
 
 .blog-travel {
     background-image: url("http://40.media.tumblr.com/f003af476c453d5647935dd3bf5e254c/tumblr_inline_o60hiqYWCX1r6k7er_500.jpg");
+    background-repeat: no-repeat;
     height: 300px;
-    width: 500px;
+    width: 360px;
+    margin-bottom: 10px;
+    overflow: hidden
 }
 
 .blog-school {
     background-image: url("http://41.media.tumblr.com/8ccc086126835ccba1c072cc892a636a/tumblr_inline_o6f7obHCdS1r6k7er_500.jpg");
+    background-repeat: no-repeat;
     height: 300px;
-    width: 500px;
+    width: 360px;
+    margin-bottom: 10px;
+    overflow: hidden
+}
+
+.blog-tech {
+    background-image: url("images/tech-img.jpg");
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 360px;
+    margin-bottom: 10px;
+    overflow: hidden
 }
 
 .blog-el-travel {
@@ -261,8 +299,20 @@ a {
     margin-left: 10px;
 }
 
-#Blog a {
+.blog-el-tech {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    background-color: #fff;
+    width: 300px;
+    bottom: 0;
+    position: absolute;
+    margin-left: 10px;
+}
+
+.navs a {
     text-decoration: none;
+    color: #400040
 }
 
 .hide1 {
@@ -275,7 +325,60 @@ a {
     margin-top: -10px;
 }
 
+.hide3 {
+    font-size: 15px;
+    margin-top: -10px;
+}
 
+.feat-prj1 {
+    background-image: url("images/projects/ttt-home.jpg");
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 550px;
+    margin-bottom: 10px;
+}
+
+.feat-prj2 {
+    background-image: url("images/projects/snake-home.jpg");
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 550px;
+    margin-bottom: 10px;
+}
+
+.prj1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    background-color: #fff;
+    width: 300px;
+    bottom: 0;
+    position: absolute;
+    margin-left: 10px;
+}
+
+.prj2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    background-color: #fff;
+    width: 300px;
+    bottom: 0;
+    position: absolute;
+    margin-left: 10px;
+}
+
+
+.prj-hide1 {
+    font-size: 15px;
+    margin-top: -10px;
+    padding: 10px
+}
+
+.prj-hide2 {
+    font-size: 15px;
+    margin-top: -10px;
+}
 
 /********** ABOUT *********/
 
@@ -325,50 +428,36 @@ a {
 
 /********** PROJECTS **********/
 
-.prj-img {  
-    margin-top: 30px;
-    text-align: center;
+.prj-item {  
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
     padding-left: 30px;
     padding-right: 30px;
     color: #400040;
+    font-size: 16px;
 }
 
+.prj-item-img {
+    margin-top: 20px;
+}
 
 .prj-img h3 {
     color: purple;
 }
 
-.line {
-    height: 650px;
-    margin-top: 20px;
-    
-}
-
 .prj-footer {
     height: 10px;
     margin-bottom: 8px;
+} 
+
+.l {
+    text-align: left
 }
 
-/********** LINKS **********/
-.col-sm-4 {
-    margin:auto
+.r {
+    text-align: right
 }
-
-.links-body {
-    margin-top: 20px;
-    color: #fff;
-    height: 400px;
-}
-
-.lnks-ftr {
-    margin-top: 150px;
-    margin-bottom: 0px;
-}
-
-#prj-footer {
-    margin-top: 500px;
-}
-
 /************ BLOG ************/
 
 .blog {
@@ -431,20 +520,39 @@ input[type=text] {
     margin-bottom: 10px;
 }
 
+textarea {
+    border: 1.3px solid #400040;
+    border-radius: 6px;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
 input[type=submit] {
     border-radius 6px;
     background-color: #ece6ec;
     border: 1px solid #400040
+}
+
+
+
+@media screen and (max-width: 500px) /* Mobile */ {
+    @
+    home-header {
+        width: 300px;
+    }
     
+    body {
+        width: 500px;
+    }
+    
+    .gallery-hm {
+        width: 138px;
+        height: 129px;
+        overflow: hidden;
+    }
+
 }
 
 
-textarea {
-    height: 50px;
-    padding-top: 2px;
-    border-radius: 6px;
-    padding-left: 10px;
-    margin-left: 10px;
-    border: 1.3px solid #400040;
-    height: 100px;
-}
+
