@@ -436,6 +436,7 @@ a {
     padding-right: 30px;
     color: #400040;
     font-size: 16px;
+    text-align: center;
 }
 
 .prj-item-img {
@@ -450,14 +451,6 @@ a {
     height: 10px;
     margin-bottom: 8px;
 } 
-
-.l {
-    text-align: left
-}
-
-.r {
-    text-align: right
-}
 /************ BLOG ************/
 
 .blog {
