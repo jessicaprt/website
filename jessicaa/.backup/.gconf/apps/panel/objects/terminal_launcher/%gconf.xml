@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<gconf>
+        <entry name="launcher_location" mtime="1409839345" type="string">
+                <stringvalue>/usr/share/applications/gnome-terminal.desktop</stringvalue>
+        </entry>
+</gconf>

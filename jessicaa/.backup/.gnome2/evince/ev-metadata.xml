@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<metadata>
+  <document uri="last-used-value" atime="1455082633">
+    <entry key="window_x" type="gint" value="0"/>
+    <entry key="window_y" type="gint" value="25"/>
+    <entry key="page-ranges" type="gchararray" value=""/>
+    <entry key="print-pages" type="gchararray" value="all"/>
+    <entry key="reverse" type="gchararray" value="false"/>
+    <entry key="window_height" type="gint" value="824"/>
+    <entry key="window_width_ratio" type="gdouble" value="2.6143790849673203"/>
+    <entry key="page" type="gint" value="1"/>
+    <entry key="output-uri" type="gchararray" value=""/>
+    <entry key="sidebar_page" type="gchararray" value="thumbnails"/>
+    <entry key="window_width" type="gint" value="1600"/>
+    <entry key="collate" type="gchararray" value="false"/>
+    <entry key="window_maximized" type="gboolean" value="1"/>
+    <entry key="zoom" type="gdouble" value="0.88333174749508903"/>
+    <entry key="window_height_ratio" type="gdouble" value="1.0404040404040404"/>
+    <entry key="sizing_mode" type="gchararray" value="free"/>
+    <entry key="n-copies" type="gchararray" value="1"/>
+    <entry key="number-up" type="gchararray" value="1"/>
+    <entry key="scale" type="gchararray" value="100"/>
+    <entry key="page-set" type="gchararray" value="all"/>
+  </document>
+  <document uri="file:///afs/ualberta.ca/home/j/e/jessicaa/Downloads/Prieto_Jessica__resume.pdf" atime="1455082603">
+    <entry key="window_x" type="gint" value="0"/>
+    <entry key="window_y" type="gint" value="25"/>
+    <entry key="window_height" type="gint" value="824"/>
+    <entry key="window_width_ratio" type="gdouble" value="2.6143790849673203"/>
+    <entry key="sidebar_page" type="gchararray" value="thumbnails"/>
+    <entry key="window_width" type="gint" value="1600"/>
+    <entry key="window_maximized" type="gboolean" value="1"/>
+    <entry key="window_height_ratio" type="gdouble" value="1.0404040404040404"/>
+  </document>
+  <document uri="file:///media/KINGSTON/MecE%20301%20Lab%204.pdf" atime="1445276040">
+    <entry key="window_x" type="gint" value="0"/>
+    <entry key="window_y" type="gint" value="25"/>
+    <entry key="page-ranges" type="gchararray" value=""/>
+    <entry key="print-pages" type="gchararray" value="all"/>
+    <entry key="reverse" type="gchararray" value="false"/>
+    <entry key="window_height" type="gint" value="1004"/>
+    <entry key="window_width_ratio" type="gdouble" value="3.1372549019607843"/>
+    <entry key="page" type="gint" value="1"/>
+    <entry key="output-uri" type="gchararray" value=""/>
+    <entry key="sidebar_page" type="gchararray" value="thumbnails"/>
+    <entry key="window_width" type="gint" value="1920"/>
+    <entry key="collate" type="gchararray" value="false"/>
+    <entry key="window_maximized" type="gboolean" value="1"/>
+    <entry key="zoom" type="gdouble" value="0.88333174749508903"/>
+    <entry key="window_height_ratio" type="gdouble" value="1.2676767676767677"/>
+    <entry key="sizing_mode" type="gchararray" value="free"/>
+    <entry key="n-copies" type="gchararray" value="1"/>
+    <entry key="number-up" type="gchararray" value="1"/>
+    <entry key="scale" type="gchararray" value="100"/>
+    <entry key="page-set" type="gchararray" value="all"/>
+  </document>
+  <document uri="file:///afs/ualberta.ca/home/j/e/jessicaa/Downloads/Prieto_Jessica__coverletter.pdf" atime="1455082633">
+    <entry key="window_x" type="gint" value="0"/>
+    <entry key="window_y" type="gint" value="25"/>
+    <entry key="window_height" type="gint" value="824"/>
+    <entry key="window_width_ratio" type="gdouble" value="2.6143790849673203"/>
+    <entry key="sidebar_page" type="gchararray" value="thumbnails"/>
+    <entry key="window_width" type="gint" value="1600"/>
+    <entry key="window_maximized" type="gboolean" value="1"/>
+    <entry key="window_height_ratio" type="gdouble" value="1.0404040404040404"/>
+  </document>
+  <document uri="file:///media/KINGSTON/Assignment_3.pdf" atime="1445275747">
+    <entry key="window_x" type="gint" value="1295"/>
+    <entry key="window_y" type="gint" value="44"/>
+    <entry key="window_height" type="gint" value="600"/>
+    <entry key="window_width_ratio" type="gdouble" value="0.98039215686274506"/>
+    <entry key="sidebar_page" type="gchararray" value="thumbnails"/>
+    <entry key="window_width" type="gint" value="600"/>
+    <entry key="window_maximized" type="gboolean" value="0"/>
+    <entry key="window_height_ratio" type="gdouble" value="0.75757575757575757"/>
+  </document>
+  <document uri="file:///afs/ualberta.ca/home/j/e/jessicaa/Downloads/resume.pdf" atime="1455082593">
+    <entry key="window_x" type="gint" value="0"/>
+    <entry key="window_y" type="gint" value="25"/>
+    <entry key="window_height" type="gint" value="824"/>
+    <entry key="window_width_ratio" type="gdouble" value="2.6143790849673203"/>
+    <entry key="sidebar_page" type="gchararray" value="thumbnails"/>
+    <entry key="window_width" type="gint" value="1600"/>
+    <entry key="window_maximized" type="gboolean" value="1"/>
+    <entry key="window_height_ratio" type="gdouble" value="1.0404040404040404"/>
+  </document>
+</metadata>

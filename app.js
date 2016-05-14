@@ -41,13 +41,13 @@ $(document).ready(function () {
     $('.jessica').mouseleave(function() {
         $(this).fadeTo(200, 1);
     });
-    
+    /*
     $('a').mouseenter(function() {
         $(this).fadeTo(200, 0.4);
     });
     $('a').mouseleave(function() {
         $(this).fadeTo(200, 1);
-    });
+    }); */
     
     $('.hide1').hide();
     $('.hide2').hide();

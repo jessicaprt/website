@@ -17,7 +17,6 @@
             
             .jumbotron{
                 background-image: url("images/home-jumbotron.jpg");
-                height: 300px;
                 margin-top: 50px;
             }
             
@@ -155,11 +154,6 @@
                 color: #ece6ec;
                 margin-top: -50px;
                 height: 1000px;
-            }
-            
-            #Gallery .feat-images {
-                margin-top: 50px;
-                margin-bottom: 50px;
             }
             
             #Gallery .row .col-md-12 {
@@ -401,8 +395,13 @@
                 <div class = "container des">
                     <h1><strong>Gallery</strong></h1>
                     <p>Here are some of my favourite photos.</p>
-                    <div class = "feat-images">
-                        <a data-flickr-embed="true"  href="https://www.flickr.com/photos/142048571@N04/albums/72157667301900850" title="Favourites"><img src="https://farm2.staticflickr.com/1520/26117912343_a65cc7a0eb_c.jpg" width="800" height="517" alt="Favourites"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+                    <div class = "row">
+                        <div class = "col-md-12">
+                            <div class = "feat-images">
+                                <a data-flickr-embed="true"  href="https://www.flickr.com/photos/142048571@N04/albums/72157667301900850" title="Favourites"><img src="https://farm2.staticflickr.com/1520/26117912343_a65cc7a0eb_c.jpg" width="800" alt="Favourites"></a>
+                                <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+                            </div>
+                        </div>
                     </div>
                     
                     <div class = "row">
@@ -432,37 +431,28 @@
                             <input type="hidden" name="formid" id="formid" value="1286290" />
                             <input type="hidden" name="required_vars" id="required_vars" value="name,email,field-06dad7738d78a56" />
                         </div>
-                        <table cellspacing="5" cellpadding="5" border="0">
-                            <tr>
-                                <td valign="top">
-                                    <strong>Name:</strong>
-                                </td>
-                                <td valign="top">
-                                    <input type="text" name="name" id="name" size="40" value="" />
-                                </td>
-                            </tr>
-                            <tr>
-                                <td valign="top">
-                                    <strong>Email Address:</strong>
-                                </td>
-                                <td valign="top">
-                                    <input type="text" name="email" id="email" size="40" value="" />
-                                </td>
-                            </tr>
-                            <tr>
-                                <td valign="top">
-                                    <strong>Message:</strong>
-                                </td>
-                                <td valign="top">
-                                    <textarea name="field-06dad7738d78a56" id="field-06dad7738d78a56" rows="6" cols="40"></textarea>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td colspan="2" align="center">
-                                    <input type="submit" value=" Send message " />
-                                </td>
-                            </tr>
-                        </table>
+                        <div class = "row">
+                            <div class = "col-md-12">
+                            Name:<br>
+                            <input type="text" name="name" id="name" size="40" value="" />
+                            </div>
+                            
+                            <div class = "col-md-12">
+                            Email:<br>
+                            <input type="text" name="email" id="email" size="40" value="" />
+                            </div>
+                            
+                            <div class = "col-md-12">
+                            Message:<br>
+                            <textarea name="field-06dad7738d78a56" id="field-06dad7738d78a56" rows="6" cols="40"></textarea>
+                            </div>
+                            
+                            <div class = "col-md-12">
+                            <input type="submit" value=" Send message " />
+                            </div>
+                        </div>
+                        
+                        
                     </form>
                     <br>
                     <!-- End Response-O-Matic Form -->
