@@ -156,9 +156,11 @@
                 margin-top: -50px;
             }
             
-            #Gallery .feat-images {
+            #Gallery .feat-images iframe{
                 margin-top: 50px;
                 margin-bottom: 10px;
+                height: 600px;
+                width: 80%
             }
             
             #Gallery .button-gal {
@@ -313,6 +315,10 @@
                     width: 80%;
                     margin: 10px 30% 10px 11%;
                 }
+                
+                #Gallery .feat-images iframe{
+                    height: 400px;
+                }
             }
             
             @media only screen and (max-width: 350px) {
@@ -340,6 +346,10 @@
                 div#envelope{
                     width: 80%;
                     margin: 10px 30% 10px 11%;
+                }
+                
+                #Gallery .feat-images iframe{
+                    height: 250px;
                 }
             }
             
@@ -486,7 +496,7 @@
                     <h1><strong>Gallery</strong></h1>
                     <p>Here are some of my favourite photos.</p>
                     <div class = "feat-images">
-                        <!--<a data-flickr-embed="true"  href="https://www.flickr.com/photos/142048571@N04/albums/72157667301900850" title="Favourites"><img src="https://farm2.staticflickr.com/1520/26117912343_a65cc7a0eb_c.jpg" width="90%" alt="Favourites"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>-->
+                        <iframe src ="https://www.flickr.com/photos/142048571@N04/26117912343/in/album-72157667301900850/player"></iframe>
                     </div>
                     
                     <div class = "row">
