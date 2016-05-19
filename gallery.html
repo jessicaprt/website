@@ -1,60 +1,118 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link href="bootstrap.css" rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
+        <title>Jessica Prieto | Gallery</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <script src="jquery.min.js"></script>
+        <script src="bootstrap.min.js"></script>
         <link rel="shortcut icon" href="images/icon.ico">
-        <script src="jquery-2.1.4.min.js" type="text/javascript"></script>
+        <script type="text/javascrispt" src="background.js"></script>
         <script src="app.js" type="text/javascript"></script>
-        <title>GALLERY | Jessica Prieto</title>
+        <style>
+            body {
+                position: relative;
+                font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+            }
+            
+            .jumbotron{
+                background-image: url("images/home-jumbotron.jpg");
+                margin-top: 50px;
+            }
+            
+            .name {
+                width: 40%;
+                margin-left: 10%;
+            }
+            
+            .navbar {
+                background-color: #4b0066;
+                font-size: 18px;
+            }
+            
+            .line {
+                text-align: center;
+            }
+            
+            .line1 {
+                text-align: center;
+                background-color: rgba(236, 230, 236, 0.9);
+            }
+            
+            iframe{
+                margin-top: 20px;
+                margin-bottom: 10px;
+                height: 600px;
+                width: 95%;
+                padding: 3px;
+                background-color: rgba(236, 230, 236, 0.1);
+                border-bottom-color: #250033;
+            }
+            
+            .footer {
+                padding: 20px;
+                font-size: 15px;
+                text-align: center;
+                margin-top: 30px;
+            }
+            
+             @media only screen and (min-width: 351px) and (max-width: 600px){
+                iframe{
+                    height: 400px;
+                }
+            }
+            
+             @media only screen and (max-width: 350px) {
+                 .feat-images iframe{
+                    height: 250px;
+                }
+            }
+            
+        </style>
         
     </head>
     
-    <body>
-    <div class = "home-header" id = "Home">
-        <img src = "images/IMG_0409.jpg">
-    </div>     
-        <!--Navigation Bar-->
-    <div class="home-nav">
-        <div class = "sticky-nav">
-            <ul>
-                <li class="home-items home-curr"><a href="index.html">HOME </a></li>
-                <li class="home-items CURR">|</li>
-                <li class="home-items CURR">GALLERY</li>
-            </ul>
-        </div>
-    </div>        
-        <div class="container gallery">
-            <!-- SIZE: 800x534 -->
-            <h3><b>Night</b></h3>
-            <a data-flickr-embed="true" data-footer="true"  href="https://www.flickr.com/photos/142048571@N04/albums/72157667587317841" title="night"><img src="https://farm2.staticflickr.com/1520/26117912343_a65cc7a0eb_c.jpg" width="800" height="517" alt="night"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-            
-            <h3><b>VANCOUVER, BC</b></h3>
-            
-            <a data-flickr-embed="true" data-footer="true"  href="https://www.flickr.com/photos/142048571@N04/albums/72157667410229916" title="Vancouver"><img src="https://farm2.staticflickr.com/1461/25944415184_a29f2a35b1_c.jpg" width="800" height="520" alt="Vancouver"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-            
-            <h3><b>NEVADA, USA</b></h3>
-            
-            <a data-flickr-embed="true" data-footer="true"  href="https://www.flickr.com/photos/142048571@N04/albums/72157667383244122" title="Las Vegas"><img src="https://farm2.staticflickr.com/1484/26538164752_a67759aacd_c.jpg" width="800" height="534" alt="Las Vegas"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-            
-        </div>
-        
-        <div>
-            <script>
-                { "photos": { "page": 1, "pages": 9, "perpage": 4, "total": 34, 
-    "photo": [
-      { "id": "26221955893", "owner": "142048571@N04", "secret": "36cd0daee8", "server": "7428", "farm": 8, "title": "", "ispublic": 1, "isfriend": 0, "isfamily": 0 },
-      { "id": "26553798270", "owner": "142048571@N04", "secret": "bd412c91f1", "server": "7658", "farm": 8, "title": "", "ispublic": 1, "isfriend": 0, "isfamily": 0 },
-      { "id": "26117912343", "owner": "142048571@N04", "secret": "a65cc7a0eb", "server": "1520", "farm": 2, "title": "moonlight at 3:20 am", "ispublic": 1, "isfriend": 0, "isfamily": 0 },
-      { "id": "26117912413", "owner": "142048571@N04", "secret": "3318e119c7", "server": "1671", "farm": 2, "title": "", "ispublic": 1, "isfriend": 0, "isfamily": 0 }
-    ] }, "stat": "ok" }
-            </script>
-        </div>
-        
-        <div class = lnks-ftr>
-            <div class ="footer">
-                <p>designed by Jessica Prieto</p>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+        <nav class = "navbar navbar-inverse navbar-fixed-top">
+            <div class = "container-fluid">
+                <div class = "navbar-header">
+                    <button type = "button" class = "navbar-toggle" data-toggle = "collapse" data-target = "#myNavbar">
+                        <span class = "icon-bar"></span>
+                        <span class = "icon-bar"></span>
+                        <span class = "icon-bar"></span>
+                    </button>
+                    <a class = "navbar-brand" href = "index.html"><strong>JP.</strong></a>
+                </div>
+                <div class = "collapse navbar-collapse" id = "myNavbar">
+                    <ul class = "nav navbar-nav">
+                        <li><a href = "gallery.html">Gallery</a></li>
+                    </ul>
+                </div>
             </div>
+        </nav>
+        
+        <div class = "jumbotron" id = "Home">
+            <img class = "name" src = "images/name.png">
+        </div>
+        
+        <div class = "container line">
+            <h3><b>Night</b></h3>
+            <iframe src ="https://www.flickr.com/photos/142048571@N04/albums/72157667587317841/player" frameborder="0"></iframe>
+        </div>
+        
+        <div class = "container line1">
+            <h3><b>VANCOUVER, BC</b></h3>
+            <iframe src ="https://www.flickr.com/photos/142048571@N04/albums/72157667410229916/player" frameborder="0"></iframe>
+        </div>
+        
+        <div class = "container line">
+            <h3><b>NEVADA, USA</b></h3>
+            <iframe src ="https://www.flickr.com/photos/142048571@N04/albums/72157667383244122/player" frameborder="0"></iframe>
+        </div>
+                
+        <div class ="footer">
+            <p>designed by Jessica Prieto</p>
         </div>
     </body>
 </html>
