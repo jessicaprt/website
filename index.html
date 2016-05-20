@@ -11,6 +11,7 @@
         <script src="app.js" type="text/javascript"></script>
         <style>
             body {
+                background-color: #ece6ec;
                 position: relative;
                 font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
             }
@@ -32,19 +33,34 @@
             
             #About {
                 background-color: #ece6ec;
-                margin-top: -50px;
                 padding-bottom: 100px;
             }
             
-            #ProfilePic {
-                margin-top: 50px;
-                margin-right:auto;
-                border: 3px groove #4b0066;
+            
+            .abt {
+                background-image: url(images/profile2.jpg);
+                width: 100%;
+            }
+            
+            .abt-des {
+                margin: 20px;
+                background-color: rgba(236, 230, 236, 0.8);
+                padding-top: 50px; 
+                padding-bottom: 50px; 
+                text-align: center;
+                font-family: sans-serif;
+                font-size: 16px;
             }
             
             .des {
                 padding-top: 50px; 
-                text-align: center
+                padding-bottom: 50px; 
+                text-align: center;
+                font-size: 16px;
+            }
+            
+            .des p {
+                padding: 10px;
             }
             
             #Projects {
@@ -394,16 +410,19 @@
         
         <!-- ABOUT -->
         <div id = "About">            
-            <div class = "container des">
-                <div class ="col-md-8 col-sm-6">
+            <div class = "container-fluid abt">
+                <div class = "container">
+                <div class ="col-md-8 col-sm-6 abt-des">
                     <h1><strong>About Me</strong></h1>
-                    <h4><em>I am a Computer Engineering undergraduate from the University of Alberta.</em></h4>
+                    <p><em>I am a Computer Engineering undergraduate from the University of Alberta.</em></p>
                     <p>
-                        <strong>Starting with some random facts about me,</strong><br>I grew up in the Philippines where I  lived for 18 years before moving to Canada. I enjoy playing my guitar and ukulele and I also enjoy singing. Photography is one of my favourite things to do. I love going to different places and just take pictures (you can look at some of my clicks at the <a href ="#Gallery" style="text-decoration:none; color: #250033">Gallery</a> section). <em>I love working with computers.</em> Often, I would teach my self 
+                        <strong>Starting with some random facts about me,</strong><br>I grew up in the Philippines where I  lived for 18 years before moving to Canada. I enjoy playing my guitar and ukulele and I also enjoy singing. Photography is one of my favourite things to do. I love going to different places and just take pictures <a href ="#Gallery" style="text-decoration:none;  color: #250033">(you can look at some of my photos at the <em>Gallery</em> section)</a>.<em>
                     </p>
                     <p>
-                        <strong>I have a good share of community involvement.</strong>
-                        <br>Within the university, especially within the faculty of Engineering, I have joined various student groups and worked with my fellow students.
+                        <strong>I love working with computers!</strong> If that's not yet obvious basen on my chosen undergraduate degree. <br>My interest is mostly on <em>web</em> and <em>app</em> development. When I started learning how to write code, I could not stop wanting to learn more. As I learn more skills, I grow more passionate and more motivated to keep developing my knowledge. 
+                    </p>
+                    <p>
+                        <strong>I love being involved with my community.</strong> Within the university, especially within the faculty of Engineering, I have joined various student groups and worked with my fellow students.
                         <ul>
                             <li><em>Students' Union -</em> Orientation Leader (2014; 2015)</li>
                             <li><em>Engineering Students' Society -</em> Memories Coordinator (2014-2015; 2015-2016)</li>
@@ -420,10 +439,11 @@
                         </ul>
                     </p>
                 </div>
-        
-                <div class = "col-md-4 col-sm-6">
-                    <img src = "images/profilePic.jpg" id = "ProfilePic">
                 </div>
+        
+                <!--<div class = "col-md-4 col-sm-6">
+                    <img src = "images/profile3.jpg" id = "ProfilePic">
+                </div>-->
             </div>
         </div>
         
