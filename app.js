@@ -52,6 +52,7 @@ $(document).ready(function () {
     $('.hide1').hide();
     $('.hide2').hide();
     $('.hide3').hide();
+    $('.hide4').hide();
     $('.prj-hide1').hide();
     $('.prj-hide2').hide();
     
@@ -77,6 +78,14 @@ $(document).ready(function () {
     
     $('.blog-el-tech').mouseleave(function(){
         $('.hide3').hide();
+    });
+    
+    $('.blog-el-rand').mouseenter(function(){
+        $('.hide4').show();
+    });
+    
+    $('.blog-el-rand').mouseleave(function(){
+        $('.hide4').hide();
     });
     
     $('.prj1').mouseenter(function(){

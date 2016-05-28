@@ -121,6 +121,10 @@
                 font-size: 20px;
             }
             
+            .b-title {
+                padding: 20px;
+            }
+            
             #Blog {
                 background-color: #ece6ec;
                 margin-top: -50px;
@@ -128,26 +132,24 @@
             
             #Blog .row {
                 margin-top: 20px;
-                
             }
             
-            #Blog .row .col-md-4 .bcontent{
+            #Blog .row .col-md-6 .bcontent{
                 padding: 10px;
-                width: 95%;
                 margin: auto;
-                width: 95%;
+                width: 85%;
                 background-color: rgba(37, 0, 51, 0.6);
                 margin-bottom: 100px;
             }
             
-            #Blog .row .col-md-4 .bcontent img {
-                width: 95%;
+            #Blog .row .col-md-6 .bcontent img {
+                width: 80%;
                 margin-top: 20px;
                 border: 4px groove #250033;
                 box-shadow: 4px 4px 8px  rgba(0, 0, 0, 0.5);
             }
             
-            #Blog .row .col-md-4 .Blog-button {
+            #Blog .row .col-md-6 .Blog-button {
                 background-color: #ece6ec;
                 width: 80%;
                 margin: auto;
@@ -157,11 +159,11 @@
                 padding-bottom: 10px;
             }
             
-            #Blog .row .col-md-4 .Blog-button .title {
+            #Blog .row .col-md-6 .Blog-button .title {
                 font-size: 20px;
             }
             
-            #Blog .row .col-md-4 .Blog-button a {
+            #Blog .row .col-md-6 .Blog-button a {
                 text-decoration: none;
                 color: #250033;
             }
@@ -169,16 +171,25 @@
             .hide1 {
                 font-size: 15px;
                 margin-top: -10px;
+                padding: 5px;
             }
 
             .hide2 {
                 font-size: 15px;
                 margin-top: -10px;
+                padding: 5px;
             }
 
             .hide3 {
                 font-size: 15px;
                 margin-top: -10px;
+                padding: 5px;
+            }
+            
+            .hide4 {
+                font-size: 15px;
+                margin-top: -10px;
+                padding: 5px;
             }
             
             #Gallery {
@@ -499,39 +510,50 @@
             <!-- BLOG -->
             <div id = "Blog">
                 <div class = "container des">
-                    <h1><strong>Blogs</strong></h1>
+                    <div class = "b-title"><h1><strong>Blogs</strong></h1></div>
                     <div class = "row">
-                        <div class = "col-md-4">
+                        <div class = "col-md-6">
                             <div class = "bcontent">
                                 <img src = "images/blog-img-travel.jpg">
 
-                                <div class = "blog-el-travel Blog-button"><a href = "http://misselprup.tumblr.com/tagged/travel"><p class = "title">Travel
+                                <div class = "blog-el-travel Blog-button"><a href = "http://misselprup.tumblr.com/tagged/travel"><p class = "title">Outdoor Adventures
                                 </p>
-                                <p class = "hide1">read about the places I've been to</p></a>
+                                <p class = "hide1">Whenever given a chance, I like to think of myself as a bit of an explorer. Here is where I document some of my adventures.</p></a>
                                 </div>
                             </div>
                         </div>
                         
-                        <div class = "col-md-4">
+                        <div class = "col-md-6">
+                            <div class = "bcontent">
+                                <img src = "images/blog-img-rnd.jpg">
+                                <div class = "blog-el-rand Blog-button"><a href = "#"><p class = "title">A Day in the Life of~
+                                </p>
+                                <p class = "hide4">And of course, I have a corner for all the random things that I do on my spare time.</p></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class = "row">
+                        <div class = "col-md-6">
                             <div class = "bcontent">
                                 <img src = "images/blog-img-school.jpg">
 
                                 <div class = "blog-el-school Blog-button"><a href = "http://misselprup.tumblr.com/tagged/university"><p class = "title">University Life
                                 </p>
-                                <p class = "hide2">my community involvements and my road to getting my undergraduate degree.</p></a>
+                                <p class = "hide2">Being involved with the community and meeting new people is what I really like. I always see to it that I enjoy every single moment that I have in my university life.</p></a>
                                 </div>
                             </div>
                         </div>
-                        
-                        <div class = "col-md-4">
+                        <div class = "col-md-6">
                             <div class = "bcontent">
                                 <img src = "images/blog-img-tech.jpg">
                                 <div class = "blog-el-tech Blog-button"><a href = "http://techdiaries.tumblr.com"><p class = "title">Tech corner
                                 </p>
-                                <p class = "hide3">Blurbs about tech-related things.</p></a>
+                                <p class = "hide3">I'm definitely at the stage where I'm still discovering more exciting things in the tech world.</p></a>
                                 </div>
                             </div>
-                        </div> 
+                        </div>                        
                     </div>
                 </div>
             </div>
