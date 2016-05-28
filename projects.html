@@ -19,6 +19,7 @@
             .jumbotron{
                 background-image: url("images/home-jumbotron.jpg");
                 margin-top: 50px;
+                box-shadow: 8px 8px 10px #888888;
             }
             
             .name {
@@ -48,6 +49,16 @@
             .prj-item-img {
                 width: 80%;
                 margin-left: auto;
+                box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.5);
+                
+            }
+            
+            .line .prj-item-img {
+                border: 3px solid rgba(37, 0, 51, 0.9);
+            }
+            
+            .line1 .prj-item-img {
+                border: 3px solid rgba(37, 0, 51, 0.6);
             }
             
             .footer {
@@ -98,7 +109,24 @@
         <div class = "jumbotron" id = "Home">
             <img class = "name" src = "images/name.png">
         </div>
-        
+        <!-- tic-tac-toe (web app) -->
+        <div class = "container line1">
+            <div class = "row">
+                
+                <div class="col-xs-12 col-md-4">
+                    <div class ="prj-item">
+                        <p><img src = "images/projects/ttt-web.jpg" class = "prj-item-img"/></p>
+                    </div>
+                </div>
+                    
+                <div class="col-xs-12 col-md-8 prj-item">
+                    <h3><strong>Tic Tac Toe </strong><em>(Web App version)</em></h3>
+                    <!--<p><a href="http://github.com/jessicaprt/tic-tac-toe"> <img src = "images/projects/githubicon.png"></a></p>-->
+                    <p><em>work in progress..</em></p>
+                    <p>Since I was able to previously build a tictactoe application in python and using <em>tkinter</em> as the GUI, I decided to build a version with a <strong><em>web-based user interface.</em></strong><br>I used this chance to also gain experience deploying an app to <strong>Heroku</strong>.</p>
+                </div>
+            </div>
+        </div>
         <!-- tic-tac-toe-->
         <div class = "container line">
             <div class = "row">
@@ -124,7 +152,7 @@
             <div class = "row">
                 <div class="col-xs-12 col-md-4">
                     <div class ="prj-item">
-                        <p><img src = "images/projects/fire_escape.jpg" class = "prj-item-img"/></p>
+                        <p><img src = "images/projects/fire_escapev3.jpg" class = "prj-item-img"/></p>
                     </div>
                 </div>
                 <div class = "col-xs-12 col-md-8 prj-item">
@@ -159,7 +187,7 @@
             <div class = "row">
                 <div class="col-xs-12 col-md-4">
                     <div class ="prj-item">
-                        <p><img src = "images/projects/website.jpg" class = "prj-item-img"/></p>
+                        <p><img src = "images/projects/websitev2.jpg" class = "prj-item-img"/></p>
                     </div>
                 </div>
                     
