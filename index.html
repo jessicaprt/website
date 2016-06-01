@@ -121,6 +121,10 @@
                 font-size: 20px;
             }
             
+            .b-title {
+                padding: 20px;
+            }
+            
             #Blog {
                 background-color: #ece6ec;
                 margin-top: -50px;
@@ -128,26 +132,24 @@
             
             #Blog .row {
                 margin-top: 20px;
-                
             }
             
-            #Blog .row .col-md-4 .bcontent{
+            #Blog .row .col-md-6 .bcontent{
                 padding: 10px;
-                width: 95%;
                 margin: auto;
-                width: 95%;
+                width: 85%;
                 background-color: rgba(37, 0, 51, 0.6);
                 margin-bottom: 100px;
             }
             
-            #Blog .row .col-md-4 .bcontent img {
-                width: 95%;
+            #Blog .row .col-md-6 .bcontent img {
+                width: 80%;
                 margin-top: 20px;
                 border: 4px groove #250033;
                 box-shadow: 4px 4px 8px  rgba(0, 0, 0, 0.5);
             }
             
-            #Blog .row .col-md-4 .Blog-button {
+            #Blog .row .col-md-6 .Blog-button {
                 background-color: #ece6ec;
                 width: 80%;
                 margin: auto;
@@ -157,11 +159,11 @@
                 padding-bottom: 10px;
             }
             
-            #Blog .row .col-md-4 .Blog-button .title {
+            #Blog .row .col-md-6 .Blog-button .title {
                 font-size: 20px;
             }
             
-            #Blog .row .col-md-4 .Blog-button a {
+            #Blog .row .col-md-6 .Blog-button a {
                 text-decoration: none;
                 color: #250033;
             }
@@ -169,16 +171,25 @@
             .hide1 {
                 font-size: 15px;
                 margin-top: -10px;
+                padding: 5px;
             }
 
             .hide2 {
                 font-size: 15px;
                 margin-top: -10px;
+                padding: 5px;
             }
 
             .hide3 {
                 font-size: 15px;
                 margin-top: -10px;
+                padding: 5px;
+            }
+            
+            .hide4 {
+                font-size: 15px;
+                margin-top: -10px;
+                padding: 5px;
             }
             
             #Gallery {
@@ -434,12 +445,12 @@
                 <div class = "container">
                     <div class ="col-md-8 abt-des">
                         <h1><strong>About Me</strong></h1>
-                        <p><em>I am a Computer Engineering undergraduate from the University of Alberta.</em></p>
+                        <p><em>Hello there! I am Jessica Antonette Prieto and I am a Computer Engineering undergraduate from the University of Alberta.</em></p>
                         <p>
-                            <strong>Starting with some random facts about me,</strong><br>I grew up in the Philippines where I  lived for 18 years before moving to Canada. I enjoy playing my guitar and ukulele and I also enjoy singing. Photography is one of my favourite things to do. I love going to different places and just take pictures <a href ="#Gallery" style="text-decoration:none;  color: #250033">(you can look at some of my photos at the <em>Gallery</em> section)</a>.<em>
+                            <strong>Starting with some random facts about me,</strong> I grew up in the Philippines where I lived for 18 years before moving to Calgary, Alberta. I am a music-lover! My free time involves playing  my guitar or my ukulele and singing. I love going on adventures and taking pictures of everything. Photography is definitely one of my favourites (you can look at some of my photos at the <a href ="#Gallery" style="text-decoration:none;  color: #250033"><em>Gallery</em></a> section).
                         </p>
                         <p>
-                            <strong>I love working with computers!</strong> If that's not yet obvious basen on my chosen undergraduate degree. <br>My interest is mostly on <em>web</em> and <em>app</em> development. When I started learning how to write code, I could not stop wanting to learn more. As I learn more skills, I grow more passionate and more motivated to keep developing my knowledge. 
+                            <strong>I love working with computers</strong> to state the obvious (given my chosen undergraduate deree). Working in the tech industry is definitely what I want to do with my life. I am really interested on <em>web</em> and <em>app</em> development cause it's where I really get to apply my creativity. I know there are a lot of other stuff out there that I have yet to discover. And as I do so, my passion for tech just grows! <br>I talked about some of the projects that I have so far on the <a href = "projects.html" style="text-decoration:none;  color: #250033"><em>Projects</em></a> page.
                         </p>
                         <p>
                             <strong>I love being involved with my community.</strong> Within the university, especially within the faculty of Engineering, I have joined various student groups and worked with my fellow students.
@@ -502,39 +513,50 @@
             <!-- BLOG -->
             <div id = "Blog">
                 <div class = "container des">
-                    <h1><strong>Blogs</strong></h1>
+                    <div class = "b-title"><h1><strong>Blogs</strong></h1></div>
                     <div class = "row">
-                        <div class = "col-md-4">
+                        <div class = "col-md-6">
                             <div class = "bcontent">
                                 <img src = "images/blog-img-travel.jpg">
 
-                                <div class = "blog-el-travel Blog-button"><a href = "http://misselprup.tumblr.com/tagged/travel"><p class = "title">Travel
+                                <div class = "blog-el-travel Blog-button"><a href = "http://misselprup.tumblr.com/tagged/travel"><p class = "title">Outdoor Adventures
                                 </p>
-                                <p class = "hide1">read about the places I've been to</p></a>
+                                <p class = "hide1">Whenever given a chance, I like to think of myself as a bit of an explorer. Here is where I document some of my adventures.</p></a>
                                 </div>
                             </div>
                         </div>
                         
-                        <div class = "col-md-4">
+                        <div class = "col-md-6">
+                            <div class = "bcontent">
+                                <img src = "images/blog-img-rnd.jpg">
+                                <div class = "blog-el-rand Blog-button"><a href = "http://jp-thoughts.tumblr.com/tagged/jpslife"><p class = "title">A Day in the Life of
+                                </p>
+                                <p class = "hide4">And of course, I have a corner for all the random things that I do on my spare time.</p></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class = "row">
+                        <div class = "col-md-6">
                             <div class = "bcontent">
                                 <img src = "images/blog-img-school.jpg">
 
-                                <div class = "blog-el-school Blog-button"><a href = "http://misselprup.tumblr.com/tagged/university"><p class = "title">University Life
+                                <div class = "blog-el-school Blog-button"><a href = "http://jp-thoughts.tumblr.com/tagged/university"><p class = "title">University Life
                                 </p>
-                                <p class = "hide2">my community involvements and my road to getting my undergraduate degree.</p></a>
+                                <p class = "hide2">Being involved with the community and meeting new people is what I really like. I always see to it that I enjoy every single moment that I have in my university life.</p></a>
                                 </div>
                             </div>
                         </div>
-                        
-                        <div class = "col-md-4">
+                        <div class = "col-md-6">
                             <div class = "bcontent">
                                 <img src = "images/blog-img-tech.jpg">
-                                <div class = "blog-el-tech Blog-button"><a href = "http://techdiaries.tumblr.com"><p class = "title">Tech corner
+                                <div class = "blog-el-tech Blog-button"><a href = "http://jp-thoughts.tumblr.com/tagged/tech"><p class = "title">Tech corner
                                 </p>
-                                <p class = "hide3">Blurbs about tech-related things.</p></a>
+                                <p class = "hide3">I'm definitely at the stage where I'm still discovering more exciting things in the tech world.</p></a>
                                 </div>
                             </div>
-                        </div> 
+                        </div>                        
                     </div>
                 </div>
             </div>

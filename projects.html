@@ -37,6 +37,14 @@
                 height: 24px;
             }
             
+            .git-icon {
+                height: 20px;
+            }
+            
+            .dev-icon {
+                height: 23px;
+            }
+            
             .row {
                 margin: auto;
                 padding: 20px;
@@ -109,10 +117,27 @@
         <div class = "jumbotron" id = "Home">
             <img class = "name" src = "images/name.png">
         </div>
+    
+        <!-- binary clock -->
+        <div class = "container line">
+            <div class = "row">
+                <div class="col-xs-12 col-md-4">
+                    <div class ="prj-item">
+                        <p><img src = "images/projects/binaryclock.jpg" class = "prj-item-img"/></p>
+                    </div>
+                </div>
+                    
+                <div class="col-xs-12 col-md-8 prj-item">
+                    <h3><strong>Arduino Binary Clock</strong></h3>
+                    <!--<p><a href="http://github.com/jessicaprt/tic-tac-toe"> <img src = "images/projects/icons/githubicon.png"></a></p>-->
+                    <p>A <strong><em>binary clock </em></strong> is a clock that displays the time of day in binary format (<a href="https://en.wikipedia.org/wiki/Binary_clock">wikipedia</a>). Each column represents a single digit (i.e. first colums represents the tens place for hours and the second colums represents the ones place, etc..). 20 LED bulbs were used for display: 6 to represent the <em>hour</em>, and 7 each to represent the <em>minute</em> and <em>seconds</em>. This clock is set manually by using three pushbuttons: one to set up the hour, one for minutes, and one for resetting the seconds.</p>
+                </div>
+            </div>
+        </div>    
+    
         <!-- tic-tac-toe (web app) -->
         <div class = "container line1">
             <div class = "row">
-                
                 <div class="col-xs-12 col-md-4">
                     <div class ="prj-item">
                         <p><img src = "images/projects/ttt-web.jpg" class = "prj-item-img"/></p>
@@ -121,12 +146,13 @@
                     
                 <div class="col-xs-12 col-md-8 prj-item">
                     <h3><strong>Tic Tac Toe </strong><em>(Web App version)</em></h3>
-                    <!--<p><a href="http://github.com/jessicaprt/tic-tac-toe"> <img src = "images/projects/githubicon.png"></a></p>-->
+                    <p>Since I was able to previously build a tictactoe game in python and using <em>tkinter</em> as the GUI, I decided to build a version with a <strong><em>web-based user interface.</em></strong><br>I used this chance to also gain experience deploying an app to <strong>Heroku</strong>.</p>
+                    <!--<p><a href="http://github.com/jessicaprt/tic-tac-toe"> <img src = "images/projects/icons/githubicon.png"></a></p>-->
                     <p><em>work in progress..</em></p>
-                    <p>Since I was able to previously build a tictactoe application in python and using <em>tkinter</em> as the GUI, I decided to build a version with a <strong><em>web-based user interface.</em></strong><br>I used this chance to also gain experience deploying an app to <strong>Heroku</strong>.</p>
                 </div>
             </div>
         </div>
+    
         <!-- tic-tac-toe-->
         <div class = "container line">
             <div class = "row">
@@ -139,13 +165,12 @@
                     
                 <div class="col-xs-12 col-md-8 prj-item">
                     <h3><strong>Tic Tac Toe</strong></h3>
-                    <p><a href="http://github.com/jessicaprt/tic-tac-toe"> <img src = "images/projects/githubicon.png"></a></p>
                     <p>For my final project in <strong>CMPUT 275 - Introduction to Tangible Computing II</strong>, my partner and I decided to build a one-player Tic Tac Toe game.</p>
-                    <p>This impossible game of tic tac toe was implemented by using the minimax algorithm (written in Python) in order to build an AI such that the computer will always win, or the game results in a draw. </p>
+                    <p>This impossible game of tic tac toe was implemented by using the minimax algorithm in order to build an AI such that the computer will always win, or the game results in a draw. The game was written in Python with a basic GUI built with tkinter.</p>
+                    <p><a href="http://github.com/jessicaprt/tic-tac-toe"> <img src = "images/projects/icons/githubicon.png" class="git-icon"></a></p>
                 </div>
             </div>
         </div>
-
             
         <!-- fire escape-->
         <div class = "container line1">
@@ -157,8 +182,8 @@
                 </div>
                 <div class = "col-xs-12 col-md-8 prj-item">
                     <h3><strong>Fire Escape</strong></h3>
-                    <p><a href="http://devpost.com/software/fire-escape"> <img src = "images/projects/devpost.png"></a></p>
-                    <p><em>My first hackathon experience!</em> Fire Escape is an arcade game that aims to educate players with fire hazards and safety. Four other competitors including myself created this project as part of an entry to <strong>hackEd 2016: </strong><em>U of A Computer Engineering Club's 24-hour hackathon.</em> My part for this project is being in charge of the game's assets-- this includes most of the graphics used in the game, building the maps for the levels, and choosing the sound effects.</p>
+                    <p><em>My first hackathon experience!</em> Fire Escape is an arcade game that aims to educate players with fire hazards and safety. I teamed up with four other people to create this project as part of an entry to <strong>hackEd 2016: </strong><em>U of A Computer Engineering Club's 24-hour hackathon.</em> My part for this project is being in charge of the game's assets-- this includes most of the graphics used in the game, building the maps for the levels, and choosing the sound effects.</p>
+                    <p><a href="http://devpost.com/software/fire-escape"> <img src="images/projects/icons/devpost.png" class="dev-icon"></a></p>
                 </div>
             </div>
         </div>
@@ -174,9 +199,9 @@
                     
                 <div class = "col-xs-12 col-md-8 prj-item">
                     <h3><strong>Snake on Arduino</strong></h3>
-                        <p><a href="https://github.com/jessicaprt/Snake-Game-arduino"> <img src = "images/projects/githubicon.png"></a></p>
-                        <p>This was my final project as part of my course in <strong>CMPUT 274 - Introduction to Tangible Computing I</strong>.</p>
-                        <p>For the hardware components of this version of the classic snake game, a joystick and an LCD (Adafruit) was connected to an Arduino Mega. This game was written in C with the use of the Arduino library.</p>
+                    <p>This was my final project as part of my course in <strong>CMPUT 274 - Introduction to Tangible Computing I</strong>. This version of the classic <strong><em>Snake</em></strong> game (built with the <em>Arduino Mega)</em> was written in C with the use of the Arduino library.</p>
+                    <p>A 1.8" TFT w/ MicroSD <em>Adafruit</em> LCD was used for the display. To control the movement of the snake, a joystick was used. As for the levels, the more <em>"apples"</em> the snake eats, the faster it moves. The game ends when the snake hits the wall or its body. </p> 
+                    <p><a href="https://github.com/jessicaprt/Snake-Game-arduino"> <img src = "images/projects/icons/githubicon.png" class="git-icon"></a></p>
                 </div>
                     
             </div>
@@ -192,10 +217,9 @@
                 </div>
                     
                 <div class = "col-xs-12 col-md-8 prj-item">
-                    <h3><strong>Personal Website</strong></h3>
-                        <p><a href="https://github.com/jessicaprt/jessicaprt.github.io"> <img src = "images/projects/githubicon.png" ></a></p> 
-                        <p>I count this as one of my projects since this was my first time building a website <em>entirely from scratch</em>. I built this shortly after learning HTML and CSS, as well as the jQuery library and the bootstrap framework.</p>
-                        <p>With my love for designing, I used what knowledge I have into building a website and played around with it to make it look the way it does. I expect this website to change its looks quite often as I discover more about web development.</p>
+                    <h3><strong>Personal Website</strong></h3> 
+                    <p>I count this page as one of my projects since this was my first time building a website <em>entirely from scratch</em>! I built this shortly after I started learning HTML and CSS, as well as the jQuery library and the bootstrap framework. As I go on with learning more about web development, my site has also changed quite a bit. Responsiveness has definitely improved from it's first design, and the mobile version looks pretty decent (compared to the desktop view).</p>
+                    <p><a href="https://github.com/jessicaprt/jessicaprt.github.io"> <img src = "images/projects/icons/githubicon.png" class="git-icon"></a></p>
                 </div>
             </div>
         </div>
