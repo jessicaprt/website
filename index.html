@@ -11,25 +11,40 @@
         <script src="app.js" type="text/javascript"></script>
         <style>
             body {
-                background-color: #ece6ec;
                 position: relative;
                 font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
             }
             
-            .jumbotron{
-                background-image: url("images/home-jumbotron.jpg");
+            .name-head {
                 margin-top: 50px;
-                box-shadow: 8px 8px 10px #888888;
+                padding: 50px;        
             }
             
             .name {
-                width: 40%;
-                margin-left: 10%;
+                width: 50%;
+                margin: 0 auto;
+                position: relative;
             }
             
+            .name img {
+                width: 75%;
+                margin-left: 12.5%;
+            }
+            
+            .nav > .active > a {
+                background-color: #c195d0 !important;
+             }
+            
             .navbar {
-                background-color: #4b0066;
+                background-color: #d6b8e0;
                 font-size: 18px;
+                box-shadow: 0px 0px 0px rgba(255, 255, 255, 0);
+                border-style: none;
+            }
+            
+            .navbar-collapse .nav li a {
+                color: #fff;
+                opacity: 1;
             }
             
             .name-icon {
@@ -41,7 +56,6 @@
                 background-color: #ece6ec;
                 padding-bottom: 100px;
             }
-            
             
             .abt {
                 background-image: url(images/profile2.jpg);
@@ -74,7 +88,7 @@
             #Projects {
                 background-color: #250033;
                 color: #ece6ec;
-                margin-top: -50px;
+                margin-top: -100px;
             }
             
             #Projects h1 {
@@ -198,8 +212,6 @@
                 margin-top: -50px;
             }
             
-<<<<<<< HEAD
-=======
             #Gallery .feat-images iframe{
                 margin-top: 50px;
                 margin-bottom: 10px;
@@ -210,7 +222,6 @@
                 border-bottom-color: #250033;
             }
             
->>>>>>> 0b7bdd6a807d276e70bcdb49eb47a6c2b1cc4608
             #Gallery .row .col-md-12 {
                 border: 2px groove #250033;
                 padding-top: 15px;
@@ -229,7 +240,7 @@
             }
             
             #Contact {
-                background-color: #4b0066;
+                background-color: #993D67;
                 color: #ece6ec;
                 margin-top: -50px;
             }
@@ -290,7 +301,7 @@
                 padding: 5px;
                 border-style: none none solid none;
                 border-color: #ece6ec;
-                background-color: #4b0066;
+                background-color: #993D67;
                 color: #ece6ec;
                 font-size: 15px;
                 text-align: center
@@ -302,10 +313,11 @@
                 padding: 10px;
                 border-radius:5px;
                 border:1px solid #ece6ec;
-                background-color: #ece6ec;
-                color: #250033;
+                background-color: #d392af;
+                color: #993D67;
                 font-size:15px;
-                cursor:pointer;
+                cursor: pointer;
+                font-weight: bold;
             }
                 
             #submit:hover {
@@ -316,11 +328,13 @@
                 width:100%;
                 padding: 15px;
                 margin-top: 10px;
-                border:1px solid #250033;
+                border:1px solid #ece6ec;
                 border-radius:5px;
                 margin-bottom: 20px;
                 resize:none;
-                color: #250033;
+                background-color: #d392af;
+                color: #7f3456;
+                font-weight: bold;
             }
                 
             input[type=text]:focus,textarea:focus {
@@ -366,6 +380,7 @@
                 
                  .abt-des {
                      font-size: 12px;
+                }
             }
             
             @media only screen and (min-width: 320px) and (max-width: 480px) {
@@ -407,14 +422,12 @@
                      font-size: 12px;
                 }
             }
-            
-            
         </style>
     </head>
   
     <body data-spy="scroll" data-target=".navbar" data-offset="50">
         <nav class = "navbar navbar-inverse navbar-fixed-top">
-            <div class = "container-fluid">
+            <div class = "container-fluid s">
                 <div class = "navbar-header">
                     <button type = "button" class = "navbar-toggle" data-toggle = "collapse" data-target = "#myNavbar">
                         <span class = "icon-bar"></span>
@@ -425,18 +438,18 @@
                 </div>
                 <div class = "collapse navbar-collapse" id = "myNavbar">
                     <ul class = "nav navbar-nav">
-                        <li><a href = "#About">About</a></li>
-                        <li><a href = "#Projects">Projects</a></li>
-                        <li><a href = "#Blog">Blogs</a></li>
-                        <li><a href = "#Gallery">Gallery</a></li>
-                        <li><a href = "#Contact">Contact</a></li>
+                        <li><a href = "#About"><strong>About</strong></a></li>
+                        <li><a href = "#Projects"><strong>Projects</strong></a></li>
+                        <li><a href = "#Blog"><strong>Blogs</strong></a></li>
+                        <li><a href = "#Gallery"><strong>Gallery</strong></a></li>
+                        <li><a href = "#Contact"><strong>Contact</strong></a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         
-        <div class = "jumbotron" id = "Home">
-            <img class = "name" src = "images/name.png">
+        <div class = "name-head" id = "Home">
+            <div class = "name"> <img src = "images/name_updated.png"> </div>
         </div>
         
         <!-- ABOUT -->
@@ -510,165 +523,111 @@
                 </div>
             </div>
 
-            <!-- BLOG -->
-            <div id = "Blog">
-                <div class = "container des">
-                    <div class = "b-title"><h1><strong>Blogs</strong></h1></div>
-                    <div class = "row">
-                        <div class = "col-md-6">
-                            <div class = "bcontent">
-                                <img src = "images/blog-img-travel.jpg">
+        <!-- BLOG -->
+        <div id = "Blog">
+            <div class = "container des">
+                <div class = "b-title"><h1><strong>Blogs</strong></h1></div>
+                <div class = "row">
+                    <div class = "col-md-6">
+                        <div class = "bcontent">
+                            <img src = "images/blog-img-travel.jpg">
 
-                                <div class = "blog-el-travel Blog-button"><a href = "http://misselprup.tumblr.com/tagged/travel"><p class = "title">Outdoor Adventures
-                                </p>
-                                <p class = "hide1">Whenever given a chance, I like to think of myself as a bit of an explorer. Here is where I document some of my adventures.</p></a>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class = "col-md-6">
-                            <div class = "bcontent">
-                                <img src = "images/blog-img-rnd.jpg">
-                                <div class = "blog-el-rand Blog-button"><a href = "http://jp-thoughts.tumblr.com/tagged/jpslife"><p class = "title">A Day in the Life of
-                                </p>
-                                <p class = "hide4">And of course, I have a corner for all the random things that I do on my spare time.</p></a>
-                                </div>
+                            <div class = "blog-el-travel Blog-button"><a href = "http://misselprup.tumblr.com/tagged/travel"><p class = "title">Outdoor Adventures
+                            </p>
+                            <p class = "hide1">Whenever given a chance, I like to think of myself as a bit of an explorer. Here is where I document some of my adventures.</p></a>
                             </div>
                         </div>
                     </div>
-                    
-                    <div class = "row">
-                        <div class = "col-md-6">
-                            <div class = "bcontent">
-                                <img src = "images/blog-img-school.jpg">
 
-                                <div class = "blog-el-school Blog-button"><a href = "http://jp-thoughts.tumblr.com/tagged/university"><p class = "title">University Life
-                                </p>
-                                <p class = "hide2">Being involved with the community and meeting new people is what I really like. I always see to it that I enjoy every single moment that I have in my university life.</p></a>
-                                </div>
+                    <div class = "col-md-6">
+                        <div class = "bcontent">
+                            <img src = "images/blog-img-rnd.jpg">
+                            <div class = "blog-el-rand Blog-button"><a href = "http://jp-thoughts.tumblr.com/tagged/jpslife"><p class = "title">A Day in the Life of
+                            </p>
+                            <p class = "hide4">And of course, I have a corner for all the random things that I do on my spare time.</p></a>
                             </div>
                         </div>
-                        <div class = "col-md-6">
-                            <div class = "bcontent">
-                                <img src = "images/blog-img-tech.jpg">
-                                <div class = "blog-el-tech Blog-button"><a href = "http://jp-thoughts.tumblr.com/tagged/tech"><p class = "title">Tech corner
-                                </p>
-                                <p class = "hide3">I'm definitely at the stage where I'm still discovering more exciting things in the tech world.</p></a>
-                                </div>
-                            </div>
-                        </div>                        
                     </div>
                 </div>
-            </div>
-        
-            <!-- Gallery-->
-            <div id = "Gallery">
-                <div class = "container des">
-                    <h1><strong>Gallery</strong></h1>
-                    <p>Here are some of my favourite photos.</p>
-<<<<<<< HEAD
-                    <div class = "row">
-                        <div class = "col-md-12">
-                            <div class = "feat-images">
-                                <a data-flickr-embed="true"  href="https://www.flickr.com/photos/142048571@N04/albums/72157667301900850" title="Favourites"><img src="https://farm2.staticflickr.com/1520/26117912343_a65cc7a0eb_c.jpg" width="800" alt="Favourites"></a>
-                                <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+                <div class = "row">
+                    <div class = "col-md-6">
+                        <div class = "bcontent">
+                            <img src = "images/blog-img-school.jpg">
+
+                            <div class = "blog-el-school Blog-button"><a href = "http://jp-thoughts.tumblr.com/tagged/university"><p class = "title">University Life
+                            </p>
+                            <p class = "hide2">Being involved with the community and meeting new people is what I really like. I always see to it that I enjoy every single moment that I have in my university life.</p></a>
                             </div>
                         </div>
-=======
-                    <div class = "feat-images">
-                        <iframe src ="https://www.flickr.com/photos/142048571@N04/26117912343/in/album-72157667301900850/player" frameborder="0"></iframe>
->>>>>>> 0b7bdd6a807d276e70bcdb49eb47a6c2b1cc4608
                     </div>
-                    
-                    <div class = "row">
-                        <a href = "gallery.html"><div class = "col-md-12 button-hm">
-                        <p><strong>View more photos</strong></p>
-                        </div></a>
-                    </div>
+                    <div class = "col-md-6">
+                        <div class = "bcontent">
+                            <img src = "images/blog-img-tech.jpg">
+                            <div class = "blog-el-tech Blog-button"><a href = "http://jp-thoughts.tumblr.com/tagged/tech"><p class = "title">Tech corner
+                            </p>
+                            <p class = "hide3">I'm definitely at the stage where I'm still discovering more exciting things in the tech world.</p></a>
+                            </div>
+                        </div>
+                    </div>                        
                 </div>
             </div>
+        </div>
 
-<<<<<<< HEAD
+        <!-- Gallery-->
+        <div id = "Gallery">
+            <div class = "container des">
+                <h1><strong>Gallery</strong></h1>
+                <p>Here are some of my favourite photos.</p>
+                <div class = "feat-images">
+                    <iframe src ="https://www.flickr.com/photos/142048571@N04/26117912343/in/album-72157667301900850/player" frameborder="0"></iframe>
+                </div>
+
+                <div class = "row">
+                    <a href = "gallery.html"><div class = "col-md-12 button-hm">
+                    <p><strong>View more photos</strong></p>
+                    </div></a>
+                </div>
+            </div>
+        </div>
+
         <!-- CONTACT -->
         <div id = "Contact">
             <div class = "container des">
                 <h1><strong>Contact Info</strong></h1>
                 <div class = "ccontent">
                     <h4><strong>e-mail:</strong></h4>
-                    <p>jessicaprieto31@gmail.com</p>
-                    <p>jessicaa@ualberta.ca</p>
+                    <p>jessicaprieto31@gmail.com<br>
+                    jessicaa@ualberta.ca</p>
                 </div>
-                <div class = "ccontent  ">
-                    <h4><strong>or use this form:</strong></h4>
-                    <!-- Begin Response-O-Matic Form -->
-                    <!-- DO NOT EDIT YOUR FORM HERE, PLEASE LOG IN AND EDIT AT RESPONSE-O-MATIC.COM -->
+                <div class = "ccontent" id = "envelope">
+                   <!-- Begin Response-O-Matic Form -->
                     <form enctype="multipart/form-data" method="post" action="http://www.response-o-matic.com/mail.php" accept-charset="UTF-8" target="_blank">
+                        <header>
+                            <h4><strong>or use this form:</strong></h4>
+                        </header>
                         <div>
                             <input type="hidden" name="acctid" id="acctid" value="u2hq5ckde74kbtbr" />
                             <input type="hidden" name="formid" id="formid" value="1286290" />
                             <input type="hidden" name="required_vars" id="required_vars" value="name,email,field-06dad7738d78a56" />
                         </div>
-                        <div class = "row">
-                            <div class = "col-md-12">
-                            Name:<br>
-                            <input type="text" name="name" id="name" size="40" value="" />
-                            </div>
-                            
-                            <div class = "col-md-12">
-                            Email:<br>
-                            <input type="text" name="email" id="email" size="40" value="" />
-                            </div>
-                            
-                            <div class = "col-md-12">
-                            Message:<br>
-                            <textarea name="field-06dad7738d78a56" id="field-06dad7738d78a56" rows="6" cols="40"></textarea>
-                            </div>
-                            
-                            <div class = "col-md-12">
-                            <input type="submit" value=" Send message " />
-                            </div>
-                        </div>
-                        
-                        
+
+                        <input type="text" name="name" id="name" width="100px;" placeholder="Name" /><br>
+
+                        <input type="text" name="email" id="email" placeholder="E-mail Address" />
+
+                        <label>Message:</label><br>
+                        <textarea name="field-06dad7738d78a56" id="field-06dad7738d78a56" rows="6" cols="15"></textarea><br>
+
+                        <input type="submit" value="Send" />                            
                     </form>
                     <br>
+
                     <!-- End Response-O-Matic Form -->
-=======
-            <!-- CONTACT -->
-            <div id = "Contact">
-                <div class = "container des">
-                    <h1><strong>Contact Info</strong></h1>
-                    <div class = "ccontent">
-                        <h4><strong>e-mail:</strong></h4>
-                        <p>jessicaprieto31@gmail.com<br>
-                        jessicaa@ualberta.ca</p>
-                    </div>
-                    <div class = "ccontent" id = "envelope">
-                       <!-- Begin Response-O-Matic Form -->
-                        <form enctype="multipart/form-data" method="post" action="http://www.response-o-matic.com/mail.php" accept-charset="UTF-8" target="_blank">
-                            <header>
-                                <h4><strong>or use this form:</strong></h4>
-                            </header>
-                            <div>
-                                <input type="hidden" name="acctid" id="acctid" value="u2hq5ckde74kbtbr" />
-                                <input type="hidden" name="formid" id="formid" value="1286290" />
-                                <input type="hidden" name="required_vars" id="required_vars" value="name,email,field-06dad7738d78a56" />
-                            </div>
-                            
-                            <input type="text" name="name" id="name" width="100px;" placeholder="Name" /><br>
-                            
-                            <input type="text" name="email" id="email" placeholder="E-mail Address" />
-                            
-                            <label>Message:</label><br>
-                            <textarea name="field-06dad7738d78a56" id="field-06dad7738d78a56" rows="6" cols="15"></textarea><br>
-                            
-                            <input type="submit" value="Send" />                            
-                        </form>
-                        <br>
-                        
-                        <!-- End Response-O-Matic Form -->
-                    </div>
->>>>>>> 0b7bdd6a807d276e70bcdb49eb47a6c2b1cc4608
                 </div>
             </div>
+        </div>
+    </body>
+</html>
+
         
