@@ -55,6 +55,17 @@ $(document).ready(function () {
     $('.hide4').hide();
     $('.prj-hide1').hide();
     $('.prj-hide2').hide();
+    $('.abt-hide').hide();
+    
+    $('#hidden').click(function() {
+        $('.abt-hide').show();
+        $('#hidden').attr('id','shown');
+    });
+    
+    $('#shown').click(function() {
+        $('.abt-hide').hide();
+        $('#shown').attr('id','hidden');
+    });
     
     $('.blog-el-travel').mouseenter(function(){
         $('.hide1').show();

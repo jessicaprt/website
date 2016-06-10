@@ -17,7 +17,7 @@
             
             .name-head {
                 margin-top: 50px;
-                padding: 50px;        
+                padding: 50px;
             }
             
             .name {
@@ -57,25 +57,43 @@
                 padding-bottom: 100px;
             }
             
+            button {
+                width: 20%;
+                background-color: rgba(16, 162, 104, 0);
+                border-style: none;
+            }
+            
+            button #hidden {
+                font-size: 30px;
+            }
+            
+            button #shown {
+                font-size: 30px;
+            }
+            
             .abt {
-                background-image: url(images/profile2.jpg);
-                width: 100%;
+                /*background-image: url(images/profile2.jpg);*/
+                background-color: #14CC81;
                 box-shadow: 8px 8px 10px #888888;
             }
             
             .abt-des {
                 margin: 20px;
-                background-color: rgba(236, 230, 236, 0.8);
+                background-color: rgba(16, 162, 104, 0.6);
                 padding-top: 2%; 
                 padding-bottom: 2%; 
                 text-align: center;
                 font-family: sans-serif;
                 font-size: 16px;
-                box-shadow: 10px 8px 10px  rgba(0, 0, 0, 0.5);
+                color: #fff;
             }
             
             .abt-des p {
                 padding: 10px;
+            }
+            
+            .abt-des .abt-show {
+                font-size: 30px
             }
             
             .des {
@@ -83,6 +101,11 @@
                 padding-bottom: 50px; 
                 text-align: center;
                 font-size: 16px;
+            }
+            
+            #About .row img {
+                width: 110%;
+                margin: 0 auto;
             }
             
             #Projects {
@@ -455,33 +478,44 @@
         <!-- ABOUT -->
         <div id = "About">            
             <div class = "container-fluid abt">
-                <div class = "container">
-                    <div class ="col-md-8 abt-des">
-                        <h1><strong>About Me</strong></h1>
-                        <p><em>Hello there! I am Jessica Antonette Prieto and I am a Computer Engineering undergraduate from the University of Alberta.</em></p>
-                        <p>
-                            <strong>Starting with some random facts about me,</strong> I grew up in the Philippines where I lived for 18 years before moving to Calgary, Alberta. I am a music-lover! My free time involves playing  my guitar or my ukulele and singing. I love going on adventures and taking pictures of everything. Photography is definitely one of my favourites (you can look at some of my photos at the <a href ="#Gallery" style="text-decoration:none;  color: #250033"><em>Gallery</em></a> section).
-                        </p>
-                        <p>
-                            <strong>I love working with computers</strong> to state the obvious (given my chosen undergraduate deree). Working in the tech industry is definitely what I want to do with my life. I am really interested on <em>web</em> and <em>app</em> development cause it's where I really get to apply my creativity. I know there are a lot of other stuff out there that I have yet to discover. And as I do so, my passion for tech just grows! <br>I talked about some of the projects that I have so far on the <a href = "projects.html" style="text-decoration:none;  color: #250033"><em>Projects</em></a> page.
-                        </p>
-                        <p>
-                            <strong>I love being involved with my community.</strong> Within the university, especially within the faculty of Engineering, I have joined various student groups and worked with my fellow students.
-                            <ul>
-                                <li><em>Students' Union -</em> Orientation Leader (2014; 2015)</li>
-                                <li><em>Engineering Students' Society -</em> Memories Coordinator (2014-2015; 2015-2016)</li>
-                                <li><em>Engineering Students' Society -</em> Pi Throw Coordinator (2015-2016)</li>
-                                <li><em>Computer Engineering Club -</em> Vice-President Social (2015-2016)</li>
-                                <li><em>Computer Engineering Club -</em> President (2016-2017)</li>
-                            </ul>
-                        </p>
-                        <p>
-                            I love getting more experiences by joining <strong>conferences and competitions.</strong>
-                            <ul>
-                                <li>competed in <strong>HackEd 2016:</strong> Computer Engineering Club's Annual 24-hour hackathon</li>
-                                <li>attended the <strong>Student Developer Conference</strong> by Startup Edmonton</li>
-                            </ul>
-                        </p>
+                <div class = "row">
+                    <div class ="col-md-7 abt-des">
+                        <div class="abt-show"><p><em>Hello there! I am Jessica Antonette Prieto and I am a Computer Engineering undergraduate from the University of Alberta.</em></p>
+                        </div>
+                        
+                        <div class="abt-hide">
+                            <p>
+                                <strong>Starting with some random facts about me,</strong> I grew up in the Philippines where I lived for 18 years before moving to Calgary, Alberta. I am a music-lover! My free time involves playing  my guitar or my ukulele and singing. I love going on adventures and taking pictures of everything. Photography is definitely one of my favourites.
+                            </p>
+                            <p>
+                                <strong>I love working with computers</strong> to state the obvious (given my chosen undergraduate deree). Working in the tech industry is definitely what I want to do with my life. I am really interested on <em>web</em> and <em>app</em> development cause it's where I really get to apply my creativity. I know there are a lot of other stuff out there that I have yet to discover. And as I do so, my passion for tech just grows!
+                            </p>
+                            <p>
+                                <strong>I love being involved with my community.</strong> Within the university, especially within the faculty of Engineering, I have joined various student groups and worked with my fellow students.
+                                <ul>
+                                    <li><em>Students' Union -</em> Orientation Leader (2014; 2015)</li>
+                                    <li><em>Engineering Students' Society -</em> Memories Coordinator (2014-2015; 2015-2016)</li>
+                                    <li><em>Engineering Students' Society -</em> Pi Throw Coordinator (2015-2016)</li>
+                                    <li><em>Computer Engineering Club -</em> Vice-President Social (2015-2016)</li>
+                                    <li><em>Computer Engineering Club -</em> President (2016-2017)</li>
+                                </ul>
+                            </p>
+                            <p>
+                                I love getting more experiences by joining <strong>conferences and competitions.</strong>
+                                <ul>
+                                    <li>competed in <strong>HackEd 2016:</strong> Computer Engineering Club's Annual 24-hour hackathon</li>
+                                    <li>attended the <strong>Student Developer Conference</strong> by Startup Edmonton</li>
+                                </ul>
+                            </p>
+                        </div>
+                
+                    <div>
+                        <button><p id="hidden"><strong>. . .</strong></p></button>
+                    </div>
+                    </div>
+            
+                    <div class="col-md-4">
+                        <img src="images/desk.png">
                     </div>
                 </div>
             </div>
