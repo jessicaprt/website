@@ -119,6 +119,7 @@ button #shown {
     padding-bottom: 50px; 
     text-align: center;
     font-size: 16px;
+    margin-bottom: 50px;
 }
 
 #About .row img {
@@ -131,7 +132,7 @@ button #shown {
     margin-top: -100px;
 }
 
-#Projects h1 {
+.title {
     color: #4d4d4d;
 }
 
@@ -140,66 +141,39 @@ button #shown {
     margin-bottom: 20px;
 }
 
-#Projects .row .col-md-4 img {
+.row .col-md-4 img {
     width: 100%;
 }
 
-#Projects .row .col-md-8 {
+.row .col-md-8 {
     text-align: left;
     color: #4d4d4d;
 }
 
-#Projects .row .col-md-8 h1{
+.row .col-md-8 h1{
     color: #8946a0;
 }
 
-#Project h3 {
-    margin-top: 10px;
+#Project .des {
+    margin-bottom: 50px;
 }
 
 #Projects a{
-    margin-top: 10px;
     color: #8946a0;
     text-decoration: none
 }
 
-.button-hm {
-    border: 2px groove #250033;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    z-index: 1;
-    margin:auto;
-    margin-bottom: 50px;
-    background-color: rgba(236, 230, 236, 0.4);
-}
-
-#Projects .row a{
-    text-decoration: none;
-    color: #ece6ec;
-    font-size: 20px;
-}
-
-#Projects .button-hm {
-    border: 2px groove #250033;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    z-index: 1;
-    margin:auto;
-    margin-bottom: 50px;
-    background-color: #250066;
-}
-
-.b-title {
-    padding: 20px;
-}
-
 #Blog {
-    background-color: #ece6ec;
+    background-color: #fff;
     margin-top: -50px;
 }
 
 #Blog .row {
     margin-top: 20px;
+}
+
+.blog-title a {
+    color: #8946a0;
 }
 
 #Blog .row .col-md-6 .bcontent{
