@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Foundation Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.css">
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/js/foundation.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+</head>
+<body>
+  
+<div style="padding:20px">
+  <h2>Lightbox Feature</h2>
+  <p>When you want to open the image gallery from a single image, rather than showing multiple images, add the <code>.clearing-feature</code> class to ul and add the <code>.clearing-featured-img</code> class to the list item of your choice.</p>
+  <p><strong>Note:</strong> This "Try it" window does not represent the height of an average screen (half of the height is filled with HTML code).</p>
+  <p>To see the lightbox in full height & width, click <a target="_blank" href="lightbox_feature.htm">HERE.</a></p>
+  <ul class="clearing-thumbs clearing-feature" data-clearing>
+    <li><a href="rock600x400.jpg" class="th"><img data-caption="The Pulpit Rock" src="rock200x100.jpg" width="200" height="100"></a></li>
+    <li><a href="skies600x400.jpg" class="th"><img data-caption="Sunrise Skies" src="skies200x100.jpg" width="200" height="100"></a></li>
+    <li class="clearing-featured-img"><a href="lights600x400.jpg" class="th"><img data-caption="Northern Lights" src="lights200x100.jpg" width="200" height="100"></a></li>
+  </ul>
+</div>
+
+<!-- Initialize Foundation JS -->
+<script>
+$(document).ready(function() {
+    $(document).foundation();
+})
+</script>
+
+</body>
+</html>

@@ -61,6 +61,10 @@ body {
     margin-top: -50px;
 }
 
+.abt-show h2 {
+    color: #fff;
+}
+
 button {
     width: 20%;
     background-color: rgba(16, 162, 104, 0);
@@ -150,7 +154,7 @@ button #shown {
     color: #4d4d4d;
 }
 
-.row .col-md-8 h1{
+.row .col-md-8 h2{
     color: #8946a0;
 }
 
@@ -172,71 +176,17 @@ button #shown {
     margin-top: 20px;
 }
 
+.blog-title {
+    margin-top: 30px;
+}
+
 .blog-title a {
     color: #8946a0;
 }
 
-#Blog .row .col-md-6 .bcontent{
-    padding: 10px;
-    margin: auto;
-    width: 85%;
-    background-color: rgba(37, 0, 51, 0.6);
-    margin-bottom: 100px;
-}
-
-#Blog .row .col-md-6 .bcontent img {
-    width: 80%;
-    margin-top: 20px;
-    border: 4px groove #250033;
-    box-shadow: 4px 4px 8px  rgba(0, 0, 0, 0.5);
-}
-
-#Blog .row .col-md-6 .Blog-button {
-    background-color: #ece6ec;
-    width: 80%;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-#Blog .row .col-md-6 .Blog-button .title {
-    font-size: 20px;
-}
-
-#Blog .row .col-md-6 .Blog-button a {
-    text-decoration: none;
-    color: #250033;
-}
-
-.hide1 {
-    font-size: 15px;
-    margin-top: -10px;
-    padding: 5px;
-}
-
-.hide2 {
-    font-size: 15px;
-    margin-top: -10px;
-    padding: 5px;
-}
-
-.hide3 {
-    font-size: 15px;
-    margin-top: -10px;
-    padding: 5px;
-}
-
-.hide4 {
-    font-size: 15px;
-    margin-top: -10px;
-    padding: 5px;
-}
-
 #Gallery {
-    background-color: #250033;
-    color: #ece6ec;
+    background-color: #ece6ec;
+    color: #4b4b4b;
     margin-top: -50px;
 }
 
@@ -261,10 +211,17 @@ button #shown {
     position:relative;
 }
 
-#Gallery .row a{
-    text-decoration: none;
-    color: #ece6ec;
-    font-size: 20px;
+#Gallery h3 {
+    color: #8946a0;
+    margin-top: 20px;
+}
+
+#Gallery a {
+    text-decoration: none
+}
+
+.title2 {
+    color: #fff;
 }
 
 #Contact {
@@ -275,6 +232,14 @@ button #shown {
 
 #Contact .ccontent {
     margin-top: 40px;
+}
+
+#Contact .ccontent h4{
+    color: #fff;
+}
+
+#Contact .ccontent label{
+    color: #fff;
 }
 
 .container {
