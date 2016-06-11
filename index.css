@@ -73,10 +73,6 @@ button {
     margin: 0 auto;
 }
 
-button .abt-btn {
-    padding: 10px;
-}
-
 .abt-btn {
     font-size: 70px;
     opacity: 0.8;
@@ -126,7 +122,6 @@ button .abt-btn {
     padding-bottom: 50px; 
     text-align: center;
     font-size: 16px;
-    margin-bottom: 50px;
 }
 
 #About .row img {
@@ -137,6 +132,7 @@ button .abt-btn {
 #Projects {
     background-color: #ece6ec;
     margin-top: -100px;
+    padding-bottom: 50px;
 }
 
 .title {
@@ -173,6 +169,7 @@ button .abt-btn {
 #Blog {
     background-color: #fff;
     margin-top: -50px;
+    padding-bottom: 50px;
 }
 
 #Blog .row {
@@ -200,6 +197,7 @@ button .abt-btn {
     background-color: #ece6ec;
     color: #4b4b4b;
     margin-top: -50px;
+    padding-bottom: 70px;
 }
 
 #Gallery h3 {
@@ -244,7 +242,7 @@ button .abt-btn {
     background-color: #993D67;
     color: #ece6ec;
     margin-top: -50px;
-    margin-bottom: 0;
+    padding-bottom: 100px;;
     
 }
 
