@@ -9,443 +9,7 @@
         <link rel="shortcut icon" href="images/icon.ico">
         <script type="text/javascrispt" src="background.js"></script>
         <script src="app.js" type="text/javascript"></script>
-        <style>
-            body {
-                position: relative;
-                font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
-            }
-            
-            .name-head {
-                margin-top: 50px;
-                padding: 50px;
-            }
-            
-            .name {
-                width: 50%;
-                margin: 0 auto;
-                position: relative;
-            }
-            
-            .name img {
-                width: 75%;
-                margin-left: 12.5%;
-            }
-            
-            .nav > .active > a {
-                background-color: #c195d0 !important;
-             }
-            
-            .navbar {
-                background-color: #d6b8e0;
-                font-size: 18px;
-                box-shadow: 0px 0px 0px rgba(255, 255, 255, 0);
-                border-style: none;
-            }
-            
-            .navbar-collapse .nav li a {
-                color: #fff;
-                opacity: 1;
-            }
-            
-            .name-icon {
-                margin-top: -3px;
-                height: 24px;
-            }
-            
-            #About {
-                background-color: #ece6ec;
-                padding-bottom: 100px;
-            }
-            
-            button {
-                width: 20%;
-                background-color: rgba(16, 162, 104, 0);
-                border-style: none;
-            }
-            
-            button #hidden {
-                font-size: 30px;
-            }
-            
-            button #shown {
-                font-size: 30px;
-            }
-            
-            .abt {
-                /*background-image: url(images/profile2.jpg);*/
-                background-color: #14CC81;
-                box-shadow: 8px 8px 10px #888888;
-            }
-            
-            .abt-des {
-                margin: 20px;
-                background-color: rgba(16, 162, 104, 0.6);
-                padding-top: 2%; 
-                padding-bottom: 2%; 
-                text-align: center;
-                font-family: sans-serif;
-                font-size: 16px;
-                color: #fff;
-            }
-            
-            .abt-des p {
-                padding: 10px;
-            }
-            
-            .abt-des .abt-show {
-                font-size: 30px
-            }
-            
-            .des {
-                padding-top: 50px; 
-                padding-bottom: 50px; 
-                text-align: center;
-                font-size: 16px;
-            }
-            
-            #About .row img {
-                width: 110%;
-                margin: 0 auto;
-            }
-            
-            #Projects {
-                background-color: #250033;
-                color: #ece6ec;
-                margin-top: -100px;
-            }
-            
-            #Projects h1 {
-                color: #ece6ec
-            }
-            
-            #Projects .row {
-                margin-top: 50px;
-            }
-            
-            #Projects .row .col-md-6 .pcontent{
-                margin-top: 15px;
-                padding: 20px;
-                width: 80%;
-                margin: auto;
-                background-color: rgba(236, 230, 236, 0.4);
-            }
-            
-            #Projects .row .col-md-6 .pcontent img {
-                width: 95%;
-                border: 5px groove #250033;
-                z-index: 1;
-                opacity: 1;
-                box-shadow: 8px 8px 10px  rgba(0, 0, 0, 0.5);
-            }
-            
-            #Projects .row .col-md-6 .pcontent .prj {
-                margin-top: 10px;
-            }
-            
-            .button-hm {
-                border: 2px groove #250033;
-                padding-top: 15px;
-                padding-bottom: 10px;
-                z-index: 1;
-                margin:auto;
-                margin-bottom: 50px;
-                background-color: rgba(236, 230, 236, 0.4);
-            }
-            
-            #Projects .row a{
-                text-decoration: none;
-                color: #ece6ec;
-                font-size: 20px;
-            }
-            
-            .b-title {
-                padding: 20px;
-            }
-            
-            #Blog {
-                background-color: #ece6ec;
-                margin-top: -50px;
-            }
-            
-            #Blog .row {
-                margin-top: 20px;
-            }
-            
-            #Blog .row .col-md-6 .bcontent{
-                padding: 10px;
-                margin: auto;
-                width: 85%;
-                background-color: rgba(37, 0, 51, 0.6);
-                margin-bottom: 100px;
-            }
-            
-            #Blog .row .col-md-6 .bcontent img {
-                width: 80%;
-                margin-top: 20px;
-                border: 4px groove #250033;
-                box-shadow: 4px 4px 8px  rgba(0, 0, 0, 0.5);
-            }
-            
-            #Blog .row .col-md-6 .Blog-button {
-                background-color: #ece6ec;
-                width: 80%;
-                margin: auto;
-                margin-top: 10px;
-                margin-bottom: 10px;
-                padding-top: 10px;
-                padding-bottom: 10px;
-            }
-            
-            #Blog .row .col-md-6 .Blog-button .title {
-                font-size: 20px;
-            }
-            
-            #Blog .row .col-md-6 .Blog-button a {
-                text-decoration: none;
-                color: #250033;
-            }
-            
-            .hide1 {
-                font-size: 15px;
-                margin-top: -10px;
-                padding: 5px;
-            }
-
-            .hide2 {
-                font-size: 15px;
-                margin-top: -10px;
-                padding: 5px;
-            }
-
-            .hide3 {
-                font-size: 15px;
-                margin-top: -10px;
-                padding: 5px;
-            }
-            
-            .hide4 {
-                font-size: 15px;
-                margin-top: -10px;
-                padding: 5px;
-            }
-            
-            #Gallery {
-                background-color: #250033;
-                color: #ece6ec;
-                margin-top: -50px;
-            }
-            
-            #Gallery .feat-images iframe{
-                margin-top: 50px;
-                margin-bottom: 10px;
-                height: 600px;
-                width: 95%;
-                padding: 3px;
-                background-color: rgba(236, 230, 236, 0.1);
-                border-bottom-color: #250033;
-            }
-            
-            #Gallery .row .col-md-12 {
-                border: 2px groove #250033;
-                padding-top: 15px;
-                padding-bottom: 10px;
-                z-index: 1;
-                margin:auto;
-                margin-bottom: 100px;
-                background-color: rgba(236, 230, 236, 0.4);
-                position:relative;
-            }
-            
-            #Gallery .row a{
-                text-decoration: none;
-                color: #ece6ec;
-                font-size: 20px;
-            }
-            
-            #Contact {
-                background-color: #993D67;
-                color: #ece6ec;
-                margin-top: -50px;
-            }
-            
-            #Contact .ccontent {
-                margin-top: 40px;
-            }
-            
-            .container {
-                position: relative;
-            }
-            
-            #des {
-                position: relative;
-                font-size: 20px;
-                text-align: center;
-            }
-            
-            /* CONTACT FORM 
-            based on : http://www.formget.com/how-to-make-simple-responsive-form-for-a-website/
-            */
-            
-            @import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
-            * {
-                -webkit-box-sizing: border-box;
-                -moz-box-sizing: border-box;
-                box-sizing: border-box;
-            }
-                
-            #Contact .des #envelope {
-                width: 55%;
-                margin-top: 10px;
-                margin-bottom: 10px;
-                margin-left: auto;
-                margin-right: auto;
-                padding: 10px 0;
-            }
-                
-            form{
-                width: 70%;
-                margin: 4% 15%;
-                margin-left: auto;
-            }
-            
-            header {
-                text-align: center;
-                padding-top: 12px;
-                padding-bottom: 8px;
-                margin-top: -11px;
-                margin-bottom: 8px;
-                color: #ece6ec;
-            }
-            
-            input[type=text] {
-                margin-bottom: 20px;
-                margin-top: 10px;
-                width:100%;
-                padding: 5px;
-                border-style: none none solid none;
-                border-color: #ece6ec;
-                background-color: #993D67;
-                color: #ece6ec;
-                font-size: 15px;
-                text-align: center
-            }
-            
-            input[type=submit] {
-                margin-bottom: 20px;
-                width:70%;
-                padding: 10px;
-                border-radius:5px;
-                border:1px solid #ece6ec;
-                background-color: #d392af;
-                color: #993D67;
-                font-size:15px;
-                cursor: pointer;
-                font-weight: bold;
-            }
-                
-            #submit:hover {
-                background-color: black;
-            }
-                
-            textarea {
-                width:100%;
-                padding: 15px;
-                margin-top: 10px;
-                border:1px solid #ece6ec;
-                border-radius:5px;
-                margin-bottom: 20px;
-                resize:none;
-                background-color: #d392af;
-                color: #7f3456;
-                font-weight: bold;
-            }
-                
-            input[type=text]:focus,textarea:focus {
-                border-color: #ece6ec;
-            }
-            
-            @media only screen and (min-width: 601px) and (max-width: 1200px) {
-                div#envelope{
-                    width: 80%;
-                    margin: 10px 30% 10px 11%;
-                    }
-            }
-            
-            @media only screen and (min-width: 351px) and (max-width: 600px){
-                h2{
-                    font-size:16px;
-                }
-                
-                p {
-                    font-size: 12px;
-                }
-                
-                label{
-                    font-size:12px;
-                }
-                
-                input[type=submit]{
-                    padding:5px;
-                }
-                
-                input[type=text]{
-                    padding: 8px;
-                }
-                
-                div#envelope{
-                    width: 80%;
-                    margin: 10px 30% 10px 11%;
-                }
-                
-                #Gallery .feat-images iframe{
-                    height: 400px;
-                }
-                
-                 .abt-des {
-                     font-size: 12px;
-                }
-            }
-            
-            @media only screen and (min-width: 320px) and (max-width: 480px) {
-                .name {
-                    width: 80%;
-                }
-                
-                input[type=submit] {
-                    padding:4px;
-                    font-size:12px;
-                }
-                
-                input[type=text]{
-                    padding: 8px;
-                }
-                
-                label{
-                    font-size:12px;
-                }
-                
-                h2{
-                    font-size:15px;
-                }
-                
-                p {
-                    font-size: 12px;
-                }
-                
-                div#envelope{
-                    width: 80%;
-                    margin: 10px 30% 10px 11%;
-                }
-                
-                #Gallery .feat-images iframe{
-                    height: 250px;
-                }
-                
-                 .abt-des {
-                     font-size: 12px;
-                }
-            }
-        </style>
+        <link rel="stylesheet" href="index.css">
     </head>
   
     <body data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -471,52 +35,54 @@
             </div>
         </nav>
         
-        <div class = "name-head" id = "Home">
-            <div class = "name"> <img src = "images/name_updated.png"> </div>
+        <div class="jumbotron">
+            <div class = "name">
+                <h1><strong>JESSICA PRIETO</strong></h1>
+                <img src="icons/name.png">
+            </div>
         </div>
         
         <!-- ABOUT -->
         <div id = "About">            
             <div class = "container-fluid abt">
-                <div class = "row">
-                    <div class ="col-md-7 abt-des">
-                        <div class="abt-show"><p><em>Hello there! I am Jessica Antonette Prieto and I am a Computer Engineering undergraduate from the University of Alberta.</em></p>
-                        </div>
-                        
-                        <div class="abt-hide">
-                            <p>
-                                <strong>Starting with some random facts about me,</strong> I grew up in the Philippines where I lived for 18 years before moving to Calgary, Alberta. I am a music-lover! My free time involves playing  my guitar or my ukulele and singing. I love going on adventures and taking pictures of everything. Photography is definitely one of my favourites.
-                            </p>
-                            <p>
-                                <strong>I love working with computers</strong> to state the obvious (given my chosen undergraduate deree). Working in the tech industry is definitely what I want to do with my life. I am really interested on <em>web</em> and <em>app</em> development cause it's where I really get to apply my creativity. I know there are a lot of other stuff out there that I have yet to discover. And as I do so, my passion for tech just grows!
-                            </p>
-                            <p>
-                                <strong>I love being involved with my community.</strong> Within the university, especially within the faculty of Engineering, I have joined various student groups and worked with my fellow students.
-                                <ul>
-                                    <li><em>Students' Union -</em> Orientation Leader (2014; 2015)</li>
-                                    <li><em>Engineering Students' Society -</em> Memories Coordinator (2014-2015; 2015-2016)</li>
-                                    <li><em>Engineering Students' Society -</em> Pi Throw Coordinator (2015-2016)</li>
-                                    <li><em>Computer Engineering Club -</em> Vice-President Social (2015-2016)</li>
-                                    <li><em>Computer Engineering Club -</em> President (2016-2017)</li>
-                                </ul>
-                            </p>
-                            <p>
-                                I love getting more experiences by joining <strong>conferences and competitions.</strong>
-                                <ul>
-                                    <li>competed in <strong>HackEd 2016:</strong> Computer Engineering Club's Annual 24-hour hackathon</li>
-                                    <li>attended the <strong>Student Developer Conference</strong> by Startup Edmonton</li>
-                                </ul>
-                            </p>
-                        </div>
+                <div class="abt-img container row">
+                    <div class="image col-md-12"><img src="images/desk.png"></div>
+                </div>
                 
+                <div class ="container abt-des">
+                    <div class="abt-show"><p>Hello there! I am Jessica Antonette Prieto and I am a Computer Engineering undergraduate from the University of Alberta.</p>
+                    </div>
+
+                    <div class="abt-hide">
+                        <p>
+                            <strong>Starting with some random facts about me,</strong> I grew up in the Philippines where I lived for 18 years before moving to Calgary, Alberta. I am a music-lover! My free time involves playing  my guitar or my ukulele and singing. I love going on adventures and taking pictures of everything. Photography is definitely one of my favourites.
+                        </p>
+                        <p>
+                            <strong>I love working with computers</strong> to state the obvious (given my chosen undergraduate deree). Working in the tech industry is definitely what I want to do with my life. I am really interested on <em>web</em> and <em>app</em> development cause it's where I really get to apply my creativity. I know there are a lot of other stuff out there that I have yet to discover. And as I do so, my passion for tech just grows!
+                        </p>
+                        <p>
+                            <strong>I love being involved with my community.</strong> Within the university, especially within the faculty of Engineering, I have joined various student groups and worked with my fellow students.
+                            <ul>
+                                <li><em>Students' Union -</em> Orientation Leader (2014; 2015)</li>
+                                <li><em>Engineering Students' Society -</em> Memories Coordinator (2014-2015; 2015-2016)</li>
+                                <li><em>Engineering Students' Society -</em> Pi Throw Coordinator (2015-2016)</li>
+                                <li><em>Computer Engineering Club -</em> Vice-President Social (2015-2016)</li>
+                                <li><em>Computer Engineering Club -</em> President (2016-2017)</li>
+                            </ul>
+                        </p>
+                        <p>
+                            I love getting more experiences by joining <strong>conferences and competitions.</strong>
+                            <ul>
+                                <li>competed in <strong>HackEd 2016:</strong> Computer Engineering Club's Annual 24-hour hackathon</li>
+                                <li>attended the <strong>Student Developer Conference</strong> by Startup Edmonton</li>
+                            </ul>
+                        </p>
+                    </div>
+
                     <div>
                         <button><p id="hidden"><strong>. . .</strong></p></button>
                     </div>
-                    </div>
-            
-                    <div class="col-md-4">
-                        <img src="images/desk.png">
-                    </div>
+
                 </div>
             </div>
         </div>
@@ -524,38 +90,30 @@
         <!-- PROJECTS -->
         <div id = "Projects">
             <div class = "container des">
-                <h1><strong>Projects</strong></h1>
-                <p>Here I have some of my projects that I have worked with during my university classes, as well as some personal projects that I have done.</p>
-                <div class = "row">
-                    <div class = "col-md-6">
-                        <div class = "pcontent">
-                            <img src = images/projects/ttt-home.jpg>
-                            <div class = "prj">
-                                <p class = "title"><strong>Tic Tac Toe</strong></p>
-                                <p>This impossible game of tic tac toe was implemented by using the minimax algorithm in order to build an AI such that the computer will always win, or the game results in a draw. [Python] </p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class = "col-md-6 center">
-                        <div class = "pcontent">
-                            <img src = images/projects/snake-home.jpg>
-                            <div class = "prj">
-                                <p class = "title"><strong>Snake - on Arduino</strong></p>
-                                <p>For the hardware components of this version of the classic snake game, a joystick and an LCD (Adafruit) was connected to an Arduino Mega. This game was written in C with the use of the Arduino library.</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                    </div>
-                    <div class = "row">
-                        <a href = "projects.html"><div class = "col-md-12 button-hm">
-                            <p><strong>View more projects</strong></p>
-                        </div></a>
-                    </div>
+                <h1><strong>PROJECTS</strong></h1>
                 
+                <div class="border"></div>
+                
+                <div class="row">
+                    <div class="col-md-4"><img src = images/projects/ttt-home.jpg></div>
+                    <div class="col-md-8">
+                        <h1><strong>Tic Tac Toe</strong></h1>
+                        <h3>This impossible game of tic tac toe was implemented by using the minimax algorithm in order to build an AI such that the computer will always win, or the game results in a draw.</h3>
+                    </div>
                 </div>
+                
+                <div class="row">
+                    <div class="col-md-4"><img src=images/projects/snake-home.jpg></div>
+                    <div class="col-md-8">
+                        <h1><strong>Snake on Arduino</strong></h1>
+                        <h3>For the hardware components of this version of the classic snake game, a joystick and an LCD (Adafruit) was connected to an Arduino Mega. This game was written in C with the use of the Arduino library.</h3>
+                    </div>
+                </div>
+                
+                <h3><a href="projects.html">View more ></a></h3>
+                
             </div>
+        </div>
 
         <!-- BLOG -->
         <div id = "Blog">
