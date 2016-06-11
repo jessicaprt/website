@@ -69,14 +69,17 @@ button {
     width: 20%;
     background-color: rgba(16, 162, 104, 0);
     border-style: none;
+    display: block;
+    margin: 0 auto;
 }
 
-button #hidden {
-    font-size: 30px;
+button .abt-btn {
+    padding: 10px;
 }
 
-button #shown {
-    font-size: 30px;
+.abt-btn {
+    font-size: 70px;
+    opacity: 0.8;
 }
 
 .abt {
@@ -212,6 +215,27 @@ button #shown {
     text-decoration: none
 }
 
+#Gallery .col-md-2 button {
+    width: 100%;
+}
+
+#Gallery .col-md-2 img {
+    width: 100%;
+}
+
+#Gallery .row {
+    margin-bottom: 20px;
+}
+
+#Gallery .feat-images {
+    background-color: rgba(0,0,0,0.8);
+    margin-bottom: 30px;
+}
+
+#Gallery .gall img{
+    width: 70%;
+}
+
 .title2 {
     color: #fff;
 }
@@ -220,6 +244,8 @@ button #shown {
     background-color: #993D67;
     color: #ece6ec;
     margin-top: -50px;
+    margin-bottom: 0;
+    
 }
 
 #Contact .ccontent {
@@ -359,7 +385,7 @@ input[type=text]:focus,textarea:focus {
         margin: 10px 30% 10px 11%;
     }
 
-    #Gallery .feat-images iframe{
+    #Gallery .feat-images {
         height: 400px;
     }
 
@@ -399,7 +425,7 @@ input[type=text]:focus,textarea:focus {
         margin: 10px 30% 10px 11%;
     }
 
-    #Gallery .feat-images iframe{
+    #Gallery .feat-images {
         height: 250px;
     }
 

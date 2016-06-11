@@ -49,22 +49,78 @@ $(document).ready(function () {
         $(this).fadeTo(200, 1);
     }); */
     
-    $('.hide1').hide();
-    $('.hide2').hide();
-    $('.hide3').hide();
-    $('.hide4').hide();
-    $('.prj-hide1').hide();
-    $('.prj-hide2').hide();
     $('.abt-hide').hide();
+    $('#shown').hide();
+    $('#2').hide();
+    $('#3').hide();
+    $('#4').hide();
+    $('#5').hide();
+    $('#6').hide();
+    
+    $('.img1').click(function() {
+        $('#1').show();
+        $('#2').hide();
+        $('#3').hide();
+        $('#4').hide();
+        $('#5').hide();
+        $('#6').hide();
+    });
+    
+    $('.img2').click(function() {
+        $('#2').show();
+        $('#1').hide();
+        $('#3').hide();
+        $('#4').hide();
+        $('#5').hide();
+        $('#6').hide();
+    });
+    
+    $('.img3').click(function() {
+        $('#3').show();
+        $('#1').hide();
+        $('#2').hide();
+        $('#4').hide();
+        $('#5').hide();
+        $('#6').hide();
+    });
+    
+    $('.img4').click(function() {
+        $('#4').show();
+        $('#1').hide();
+        $('#2').hide();
+        $('#3').hide();
+        $('#5').hide();
+        $('#6').hide();
+    });
+    
+    $('.img5').click(function() {
+        $('#5').show();
+        $('#1').hide();
+        $('#2').hide();
+        $('#3').hide();
+        $('#4').hide();
+        $('#6').hide();
+    });
+    
+    $('.img6').click(function() {
+        $('#6').show();
+        $('#1').hide();
+        $('#2').hide();
+        $('#3').hide();
+        $('#4').hide();
+        $('#5').hide();
+    });
     
     $('#hidden').click(function() {
         $('.abt-hide').show();
-        $('#hidden').attr('id','shown');
+        $('#hidden').hide();
+        $('#shown').show();
     });
     
     $('#shown').click(function() {
         $('.abt-hide').hide();
-        $('#shown').attr('id','hidden');
+        $('#hidden').show();
+        $('#shown').hide();
     });
     
     $('.blog-el-travel').mouseenter(function(){

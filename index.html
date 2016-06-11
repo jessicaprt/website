@@ -4,16 +4,12 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="bootstrap.min.css">
+        <script src="jquery.min.js"></script>
         <script src="bootstrap.min.js"></script>
         <link rel="shortcut icon" href="images/icon.ico">
         <script type="text/javascrispt" src="background.js"></script>
-        <link rel="stylesheet" href="index.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.css">
-        <link rel="stylesheet" href="index.css">
-        <script src="jquery.min.js"></script>
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/js/foundation.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
         <script src="app.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="index.css">
     </head>
   
     <body data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -84,7 +80,8 @@
                     </div>
 
                     <div>
-                        <button><p id="hidden"><strong>. . .</strong></p></button>
+                        <button><p id="hidden" class ="abt-btn">&#x2304</p></button>
+                        <button><p id="shown" class ="abt-btn">&#x2303</p></button>
                     </div>
 
                 </div>
@@ -168,25 +165,29 @@
                 <h4><br>Here are some of my favourite photos.</h4>
                 
                 <div style="padding:20px">
-                    <ul class="clearing-thumbs clearing-feature" data-clearing>
-                        <li class="clearing-featured-img"><a href="images/gallery-thumbnails/pictures/IMG_3301.jpg" class="th"><img data-caption="moonlight at 3:19am" src="images/gallery-thumbnails/thumbnails/moonlight.jpg" width="200" height="100"></a></li>
+                    <div class="row">
+                        <div class = "col-md-2 img1"><button><img data-caption="moonlight at 3:19am" src="images/gallery-thumbnails/thumbnails/moonlight.jpg"></button></div>
                         
-                        <li class="clearing-featured-img"><a href="images/gallery-thumbnails/pictures/IMG_3284.jpg" class="th"><img data-caption="stars" src="images/gallery-thumbnails/thumbnails/stars.jpg" width="200" height="100"></a></li>
+                        <div class="col-md-2 img2"><button><img data-caption="stars" src="images/gallery-thumbnails/thumbnails/stars.jpg"></button></div>
                         
-                        <li class="clearing-featured-img"><a href="images/gallery-thumbnails/pictures/IMG_0446.jpg" class="th"><img data-caption="Vancouver" src="images/gallery-thumbnails/thumbnails/vancouver1.jpg" width="200" height="100"></a></li>
+                        <div class="col-md-2 img3"><button><img data-caption="Vancouver" src="images/gallery-thumbnails/thumbnails/vancouver1.jpg"></button></div>
                         
-                        <li class="clearing-featured-img"><a href="images/gallery-thumbnails/pictures/IMG_1711.jpg" class="th"><img data-caption="The Parisian at the Las Vegas Strip" src="images/gallery-thumbnails/thumbnails/vegas.jpg" width="200" height="100"></a></li>
+                        <div class="col-md-2 img4"><button><img data-caption="The Parisian at the Las Vegas Strip" src="images/gallery-thumbnails/thumbnails/vegas.jpg"></button></div>
                         
-                        <li class="clearing-featured-img"><a href="images/gallery-thumbnails/pictures/IMG_1900.jpg" class="th"><img data-caption="'Happiest Place on earth' even on a gloomy day" src="images/gallery-thumbnails/thumbnails/disney.jpg" width="200" height="100"></a></li>
+                        <div class="col-md-2 img5"><button><img data-caption="'Happiest Place on earth' even on a gloomy day" src="images/gallery-thumbnails/thumbnails/disney.jpg"></button></div>
+                        
+                        <div class="col-md-2 img6"><button><img data-caption="'Happiest Place on earth' even on a gloomy day" src="images/gallery-thumbnails/thumbnails/BC.jpg"></button></div>
                     </ul>
                 </div>
-
-                <!-- Initialize Foundation JS -->
-                <script>
-                $(document).ready(function() {
-                    $(document).foundation();
-                })
-                </script>
+                
+                <div class="feat-images col-md-12">
+                    <div id="1" class="gall"><img src="images/gallery-thumbnails/pictures/moonlight.jpg"></div>
+                    <div id="2" class="gall"><img src="images/gallery-thumbnails/pictures/stars.jpg"></div>
+                    <div id="3" class="gall"><img src="images/gallery-thumbnails/pictures/vancouver1.jpg"></div>
+                    <div id="4" class="gall"><img src="images/gallery-thumbnails/pictures/vegas.jpg"></div>
+                    <div id="5" class="gall"><img src="images/gallery-thumbnails/pictures/disney.jpg"></div>
+                    <div id="6" class="gall"><img src="images/gallery-thumbnails/pictures/BC.jpg"></div>
+                </div>
                 
                 <a href = "gallery.html"><h3>View more photos ></h3></a>
             </div>
