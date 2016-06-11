@@ -174,6 +174,15 @@ button #shown {
 
 #Blog .row {
     margin-top: 20px;
+    color: #4b4b4b;
+}
+
+#Blog .col-md-8 h3 {
+    color: gray;
+}
+
+#Blog .col-md-8 h4 {
+    color: #4b4b4b;
 }
 
 .blog-title {
@@ -190,30 +199,13 @@ button #shown {
     margin-top: -50px;
 }
 
-#Gallery .feat-images iframe{
-    margin-top: 50px;
-    margin-bottom: 10px;
-    height: 600px;
-    width: 95%;
-    padding: 3px;
-    background-color: rgba(236, 230, 236, 0.1);
-    border-bottom-color: #250033;
-}
-
-#Gallery .row .col-md-12 {
-    border: 2px groove #250033;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    z-index: 1;
-    margin:auto;
-    margin-bottom: 100px;
-    background-color: rgba(236, 230, 236, 0.4);
-    position:relative;
-}
-
 #Gallery h3 {
     color: #8946a0;
     margin-top: 20px;
+}
+
+#Gallery h4 {
+    color: #4b4b4b;
 }
 
 #Gallery a {
