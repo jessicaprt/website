@@ -376,6 +376,15 @@ textarea {
     font-weight: bold;
 }
 
+.footer {
+    text-align: center;
+    background-color: #d6b8e0;
+    color: #400040;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    font-size: 14px;
+}
+
 input[type=text]:focus,textarea:focus {
     border-color: #ece6ec;
 }
