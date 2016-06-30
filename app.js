@@ -111,8 +111,8 @@ $(document).ready(function () {
         $('#5').hide();
     });
     
-    $('#hidden').click(function() {
-        $('.abt-hide').show();
+    $('#hidden').mouseenter(function() {
+        $('.abt-hide').show("slow");
         $('#hidden').hide();
         $('#shown').show();
     });

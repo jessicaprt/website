@@ -56,7 +56,7 @@ body {
 }
 
 #About {
-    background-color: #14CC81;
+    background-color: #d7d7d7;
     padding-bottom: 100px;
     margin-top: -50px;
 }
@@ -73,13 +73,40 @@ button {
     margin: 0 auto;
 }
 
+
+.flat-lay img {
+    width: 100%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.paint {
+    background-color: #d7d7d7;
+}
+
+.paint img{
+    width: 105%;
+    position: relative;
+    overflow: hidden;
+    margin-left: -4%;
+}
+
 .abt-btn {
-    font-size: 70px;
+    font-size: 50px;
+    opacity: 0.8;
+}
+
+.abt-btn2 {
+    font-size: 16px;
     opacity: 0.8;
 }
 
 .abt {
     background-color: #14CC81;
+}
+
+.abt2 {
+    background-color: #d7d7d7;
 }
 
 .abt-img {
@@ -100,8 +127,8 @@ button {
 .abt-des {
     margin: 0 auto;
     margin-bottom: 20px;
-    background-color: rgba(16, 162, 104, 0.6);
-    padding-top: 2%; 
+    background-color: #d7d7d7;
+    margin-top: -5%;
     padding-bottom: 2%; 
     text-align: center;
     font-family: sans-serif;
@@ -115,6 +142,10 @@ button {
 
 .abt-des .abt-show {
     font-size: 30px
+}
+
+.jess {
+    width: 60%;
 }
 
 .des {
