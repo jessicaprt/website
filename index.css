@@ -66,29 +66,36 @@ body {
 }
 
 button {
-    width: 20%;
+    //width: 20%;
     background-color: rgba(16, 162, 104, 0);
     border-style: none;
     display: block;
     margin: 0 auto;
 }
 
-
-.flat-lay img {
-    width: 100%;
-    margin: auto;
-    margin-top: 100px;
+.abt-buttons {
+    padding: 20px
 }
 
-.paint {
-    background-color: #d7d7d7;
+.abt {
+    margin-top: 50px;
+    background-image: url(images/FLAT%20LAY2.jpg);
+    background-size: cover;
 }
 
-.paint img{
-    width: 105%;
-    position: relative;
-    overflow: hidden;
-    margin-left: -4%;
+.hdr-name img {
+    margin-left: 37%;
+    margin-top: 10%;
+    width: 25%;
+}
+
+.divider {
+    height: 50px;
+    background-color: rgba(214, 184, 224, 0.3);
+}
+
+.div-titles {
+    padding: 20px;
 }
 
 .abt-btn {
@@ -102,32 +109,26 @@ button {
 }
 
 .abt {
-    background-color: #14CC81;
+    background-color: rgb(112,215,178);
 }
 
 .abt2 {
     background-color: #d7d7d7;
 }
 
-.abt-img {
-    width: 30%;
-    margin: 0 auto;
-    margin-top: 5%;
-    margin-bottom: 3%;
-    text-align: center;
+.abt-show img {
+    width: 40%;
 }
 
-.abt-img img {
-    width: 70%;
-}
-
-.image {
+.abt-show p{
+    margin-top: 20px;
+    padding: 20px;
 }
 
 .abt-des {
     margin: 0 auto;
     margin-bottom: 20px;
-    margin-top: -8.3%;
+    margin-top: 10px;
     padding-bottom: 2%; 
     text-align: center;
     font-family: sans-serif;
@@ -147,12 +148,14 @@ button {
     width: 60%;
 }
 
+/********************************************************/
 .des {
-    padding-top: 50px; 
-    padding-bottom: 50px; 
+    padding: 50px;
     text-align: center;
     font-size: 16px;
+    background-color: rgba(137, 70, 160, 0.1)
 }
+/********************************************************/
 
 #About .row img {
     width: 110%;
@@ -161,8 +164,8 @@ button {
 
 #Projects {
     background-color: #ece6ec;
-    margin-top: -100px;
-    padding-bottom: 50px;
+    height: inherit;
+    padding: 20px;
 }
 
 .title {
@@ -198,8 +201,7 @@ button {
 
 #Blog {
     background-color: #fff;
-    margin-top: -50px;
-    padding-bottom: 50px;
+    padding: 20px;
 }
 
 #Blog .row {
@@ -226,7 +228,7 @@ button {
 #Gallery {
     background-color: #ece6ec;
     color: #4b4b4b;
-    margin-top: -50px;
+    padding: 20px;
     padding-bottom: 70px;
 }
 

@@ -41,13 +41,13 @@ $(document).ready(function () {
     $('.jessica').mouseleave(function() {
         $(this).fadeTo(200, 1);
     });
-    /*
-    $('a').mouseenter(function() {
-        $(this).fadeTo(200, 0.4);
+    
+    $('.hdr-name').mouseenter(function() {
+        $(this).fadeTo(200, 0.6);
     });
-    $('a').mouseleave(function() {
+    $('.hdr-name').mouseleave(function() {
         $(this).fadeTo(200, 1);
-    }); */
+    }); 
     
     $('.abt-hide').hide();
     $('#shown').hide();
