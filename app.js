@@ -49,6 +49,8 @@ $(document).ready(function () {
         $(this).fadeTo(200, 1);
     }); 
     
+    $('.hdr-name')
+    
     $('.abt-hide').hide();
     $('#shown').hide();
     $('#2').hide();
@@ -188,6 +190,21 @@ $(document).ready(function () {
     $('.lnk-pic').mouseleave(function() {
         $(this).fadeTo(200, 1);
     });
+});
+
+$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 800);
+        return false;
+      }
+    }
+  });
 });
 
 $(window).scroll(function() {

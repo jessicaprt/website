@@ -9,6 +9,7 @@
         <link rel="shortcut icon" href="images/icon.ico">
         <script type="text/javascrispt" src="background.js"></script>
         <script src="app.js" type="text/javascript"></script>
+        <script src="/js/parallax.js-1.4.2/parallax.js"></script>
         <link rel="stylesheet" href="index.css">
     </head>
   
@@ -35,65 +36,43 @@
             </div>
         </nav>
         
-        <!--<div class="jumbotron">
-            <div class = "name">
-                <h1><strong>JESSICA PRIETO</strong></h1>
-                <img src="icons/name.png">
-            </div>
-        </div>-->
-        <div>
-            
-        </div>
-        
         <!-- ABOUT -->
         <div id = "About">            
             <div class = "container-fluid abt">
                 <div>
-                    <div class = "hdr-name">
-                        <a href ="#"><img src = "images/jessica.png"></a>
+                    <div class = "row">
+                        <div class ="col-md-4 profile-pic"></div>
+                        <div class ="col-md-8">
+                            <h1>Hi. My name is <strong>Jessica</strong>!</h1>
+                            <h2>A Computer Engineering undergraduate at the University of Alberta</h2>
+                            <a href = "#info"><button>Learn more about what I do.</button></a>
+                        </div>
                     </div>
                 </div>
             </div>
             
-            <div class="container-fluid abt2">
+            <div class="container-fluid abt2" id="info">
                 <div class ="container abt-des">
-                    
-                    
-                    <div class = "abt-show">
-                        <img src="images/font-png/aboutme.png" class="div-titles">
+                    <h1><strong>Here's what I do.</strong></h1>
+                    <div class="row">
+                        <div class="desc col-md-4">
+                            <div class="info-box">
+                                <img src ="assets/png/skill.png" style="width: 170px">
+                                <h2>Skills</h2>
+                            </div>
+                        </div>
+                        <div class="desc col-md-4">
+                            <div class="info-box">
+                                <img src ="assets/png/involvement.png" style="width: 170px">
+                                <h2>Involvement</h2>
+                            </div>
+                        </div>
+                        <div class="desc col-md-4">
+                            <div class="info-box">
+                                <h2>Hobbies</h2>
+                            </div>
+                        </div>
                     </div>
-
-                    <div class="abt-hide">
-                        <p>
-                            <strong>Starting with some random facts about me,</strong> I grew up in the Philippines where I lived for 18 years before moving to Calgary, Alberta. I am a music-lover! My free time involves playing  my guitar or my ukulele and singing. I love going on adventures and taking pictures of everything. Photography is definitely one of my favourites.
-                        </p>
-                        <p>
-                            <strong>I love working with computers</strong> to state the obvious (given my chosen undergraduate deree). Working in the tech industry is definitely what I want to do with my life. I am really interested on <em>web</em> and <em>app</em> development cause it's where I really get to apply my creativity. I know there are a lot of other stuff out there that I have yet to discover. And as I do so, my passion for tech just grows!
-                        </p>
-                        <p>
-                            <strong>I love being involved with my community.</strong> Within the university, especially within the faculty of Engineering, I have joined various student groups and worked with my fellow students.
-                            <ul>
-                                <li><em>Students' Union -</em> Orientation Leader (2014; 2015)</li>
-                                <li><em>Engineering Students' Society -</em> Memories Coordinator (2014-2015; 2015-2016)</li>
-                                <li><em>Engineering Students' Society -</em> Pi Throw Coordinator (2015-2016)</li>
-                                <li><em>Computer Engineering Club -</em> Vice-President Social (2015-2016)</li>
-                                <li><em>Computer Engineering Club -</em> President (2016-2017)</li>
-                            </ul>
-                        </p>
-                        <p>
-                            My goal is to also be involved in more  <strong>conferences and competitions.</strong> So far here's what i have participated:
-                            <ul>
-                                <li>competed in <strong>HackEd 2016:</strong> Computer Engineering Club's Annual 24-hour hackathon</li>
-                                <li>attended the <strong>Student Developer Conference</strong> by Startup Edmonton</li>
-                            </ul>
-                        </p>
-                    </div>
-
-                    <div>
-                        <button><p id="hidden" class ="abt-btn">&#x2304</p></button>
-                        <button><p id="shown" class ="abt-btn2"><em>Show less</em></p></button>
-                    </div>
-
                 </div>
             </div>
         </div>
@@ -101,8 +80,7 @@
         <!-- PROJECTS -->
         <div id = "Projects">
             <div class = "container des">
-                <img src="images/font-png/projects.png" class="div-titles">
-                
+                <h1><strong>Projects</strong></h1>
                 <div class="border"></div>
                 
                 <div class="row">

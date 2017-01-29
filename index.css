@@ -3,7 +3,7 @@
  }
 
 .navbar {
-    background-color: #d6b8e0;
+    background-color: #333;
     font-size: 18px;
     box-shadow: 0px 0px 0px rgba(255, 255, 255, 0);
     border-style: none;
@@ -16,7 +16,7 @@
 
 body {
     position: relative;
-    /*font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;*/
+    font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
 }
 
 .border {
@@ -35,42 +35,27 @@ body {
     position: relative;
 }
 
-.name img {
-    margin-top: 8%;
-    margin-bottom: 8%;
-    width: 8%;
-}
-
 .name-icon {
     margin-top: -3px;
     height: 24px;
 }
 
-.jumbotron {
-    background-color: #747474;
-    margin-top: 50px;
-}
-
-.jumbotron h1 {
-    color: #fff;
-}
-
 #About {
-    background-color: #d7d7d7;
     padding-bottom: 100px;
     margin-top: -50px;
-}
-
-.abt-show h2 {
-    color: #fff;
+ 
 }
 
 button {
-    //width: 20%;
+    margin-top: 30px;
     background-color: rgba(16, 162, 104, 0);
-    border-style: none;
+    border-style: solid;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    border-color: rgba(255, 255, 255, 0.5);
     display: block;
-    margin: 0 auto;
+    padding: 20px 50px;
+    font-size: 20px;
 }
 
 .abt-buttons {
@@ -78,51 +63,54 @@ button {
 }
 
 .abt {
-    margin-top: 50px;
-    background-image: url(images/FLAT%20LAY2.jpg);
+    padding-top: 50px;
+    margin-top: 100px;
+    height: 700px;
+    background-image: url(images/IMG_3518.jpg);    
     background-size: cover;
+    background-repeat:   no-repeat;
+    background-position: center center; 
+    background-color: 888;
+    background-size: cover;
+    box-shadow: 2px 3px 5px #999999;
+    color: #555 !important;
 }
 
-.hdr-name img {
-    margin-left: 37%;
-    margin-top: 10%;
-    width: 25%;
-}
-
-.divider {
-    height: 50px;
-    background-color: rgba(214, 184, 224, 0.3);
-}
-
-.div-titles {
-    padding: 20px;
-}
-
-.abt-btn {
+.abt h1 {
     font-size: 50px;
-    opacity: 0.8;
 }
 
-.abt-btn2 {
-    font-size: 16px;
-    opacity: 0.8;
+.abt .row {
+    padding: 80px 20px 20px 20px;
 }
 
-.abt {
-    background-color: rgb(112,215,178);
+.abt .row .col-md-8 {
+    padding: 20px 20px 20px 80px;
 }
 
 .abt2 {
-    background-color: #d7d7d7;
+    padding-top: 50px;
+    background-color: rgba(31, 0, 51, 0.1);
+    height: 800px;
+    box-shadow: 2px 3px 5px #999999;
 }
 
-.abt-show img {
-    width: 40%;
+.abt2 .col-md-4 {
+    padding: 20px 10px;
+    height: 40px;
 }
 
-.abt-show p{
-    margin-top: 20px;
-    padding: 20px;
+.abt2 .col-md-4 .info-box {
+    margin-top: 40px;
+    padding-top: 30px;
+    background-color: #fff;
+    border: 1px solid rgba(64, 0, 64, 0.5);
+    height: 300px;
+}
+
+.info-box h2 {
+    position: absolute;
+    margin-top: 50px;
 }
 
 .abt-des {
@@ -131,7 +119,6 @@ button {
     margin-top: 10px;
     padding-bottom: 2%; 
     text-align: center;
-    font-family: sans-serif;
     font-size: 16px;
     color: #400040;
 }
@@ -187,7 +174,7 @@ button {
 }
 
 .row .col-md-8 h2{
-    color: #8946a0;
+    color: rgba(255,255,255, 0.8);
 }
 
 #Project .des {
