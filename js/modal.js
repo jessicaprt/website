@@ -1,25 +1,39 @@
-// Get the modal
-var modal = document.getElementById('myModal');
+var skillmodal = document.getElementById('skillModal');
+var invmodal = document.getElementById('invModal');
+var hobmodal = document.getElementById('hobModal');
 
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn");
+var skillBtn = document.getElementById("skillBtn");
+var invBtn = document.getElementById("invBtn");
+var hobBtn = document.getElementById("hobBtn");
 
-// Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
-// When the user clicks the button, open the modal 
-btn.onclick = function () {
-    modal.style.display = "block";
-}
+skillBtn.onclick = function () {
+    skillmodal.style.display = "block";
+};
 
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-    modal.style.display = "none";
-}
+invBtn.onclick = function () {
+    invmodal.style.display = "block";
+};
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
+hobBtn.onclick = function () {
+    hobmodal.style.display = "block";
+};
+
+span.onclick = function () {
+    skillmodal.style.display = "none";
+};
+
+window.onclick = function (event) {
+    if (event.target == skillmodal) {
+        skillmodal.style.display = "none";
+    }
+    
+    if (event.target == invmodal) {
+        invmodal.style.display = "none";
+    }
+    
+    if (event.target == hobmodal) {
+        hobmodal.style.display = "none";
     }
 }
