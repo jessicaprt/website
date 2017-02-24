@@ -58,7 +58,7 @@
 						<div class="col-md-4">
 							<button id="skillBtn" class="info-box-btn">
 							<div class="info-box">
-								<img src ="icons/skills.png" style="width: 40%"/>
+								<img src ="icons/skills.png" class="info-img" style="width: 40%"/>
 								<h2>About Me</h2>
 								<!------- SKILL MODAL ------->
 								<div id="skillModal" class="modal">
@@ -92,13 +92,12 @@
 						<div class="desc col-md-4">
 							<button id="invBtn" class="info-box-btn">
 								<div class="info-box">
-									<img src ="icons/inv.png" style="width: 40%"/>
+									<img src ="icons/inv.png" class="info-img" style="width: 40%"/>
 									<h2>Involvement</h2>
 									<!----- INVOLVEMENT MODAL ----->
 									<div id="invModal" class="modal">
 										<div class="modal-content">
 											<div class="modal-header">
-												<span class="close">&times;</span>
 												<h2>My Community Involvement</h2>
 											</div>
 											<div class="modal-body">
@@ -156,13 +155,12 @@
 						<div class="col-md-4">
 							<button id="hobBtn" class="info-box-btn">
 								<div class="info-box">
-									<img src ="icons/hob.png" style="width: 40%"/>
+									<img src ="icons/hob.png" class="info-img" style="width: 40%"/>
 									<h2>Hobbies</h2>
 									<!------- HOBBIES MODAL ------->
 									<div id="hobModal" class="modal">
 										<div class="modal-content">
 											<div class="modal-header">
-												<span class="close">&times;</span>
 												<h2>My Hobbies</h2>
 											</div>
 											<div class="modal-body">
@@ -181,9 +179,11 @@
 							</button>
 						</div>
 					</div>
+<!--
 					<div class="row">
 						<a href = "#Projects"><button class="prj-btn">My Projects</button></a>
 					</div>
+-->
 				</div>
 			</div>
 		</div>
@@ -192,65 +192,62 @@
 		<div id = "Projects">
 			<div class = "container-fluid">
 				<h1>Portfolio</h1>
-				<div class="border"></div>
+<!--				<div class="border"></div>-->
 				<div class="row prj-des">
 					<div class="col-md-4 prjimgs prjdes" id="CEsite">
-						<div class="prj">
-							<h2>Computer Engineering Club Website</h2><br>
-							<h4>Worked on a 3-person team project to recreate the CompE club website.</h4>
-						</div>
+						<h2>CompE Club Website</h2><br>
+						<h4>Worked on a 3-person team project to recreate the CompE club website.</h4>
 					</div>
+<!--
 					<div class="col-md-4 prjimgs prjdes" id="TTT">
 						<div class="prj">
 							<h2>TicTacToe</h2><br>
 							<h4>A webapp (deployed on heroku) for an impossible game of tic tac toe. This was implemented by using the minimax algorithm in order to build an AI such that the computer will always win, or the game results in a draw.</h4>
 						</div>
-					</div>
+-->
+<!--					</div>-->
 					<div class="col-md-4 prjimgs prjdes" id="FireEscape">
 						<h2>Fire Escape</h2><br>
 						<h4>A fire safety arcade game built for the purpose of educating the audience for fire safety. This project was an official entry to HackEd 2016 (CompE Club hackathon).</h4>
 					</div>
-				</div>
-				<div class="row">
+<!--				</div>-->
+<!--				<div class="row">-->
+<!--
 					<div class="col-md-4 prjimgs prjdes" id="BinClock">
 						<h2>Arduino Binary Clock</h2><br>
 						<h4>Displays the time using LED's on a breadboard.</h4>
 					</div>
+-->
 					<div class="col-md-4 prjimgs prjdes" id="Snake">
 						<h2>Snake on Arduino</h2><br>
 						<h4>As part of my project in CMPUT 274, My team and I implemented a snake game on Arduino with a joystick and an Adafruit LCD display</h4>
 					</div>
-					<div class="col-md-4 prjimgs prjdes" id=""></div>
+<!--					<div class="col-md-4 prjimgs prjdes" id=""></div>-->
 				</div>
+			
+				</div>
+			<div class="row button">
+				<a href = "./project.html"><button class="prj-btn">View more projects</button></a>
+			</div>
 			</div>
 		</div>                      
 
 		<!-- CONTACT -->
 		<div id = "Contact">
 			<div class = "container des">
-				<h1 class="title2"><strong>Contact Info</strong></h1>
 				<div class="row">
-					<div class="col-md-4">
-						<h4><strong>e-mail:</strong></h4>
+					<div class="col-md-6">
+						<h2><strong>e-mail:</strong></h2>
 						<p>jessicaprieto31@gmail.com
 						<br>jessicaa@ualberta.ca</p>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-6">
 						<a href="http://instagram.com/jessicaaprt"  target="_blank"><img src="images/links/instagram1.jpg" class="cicons"></a>
 						<a href="http://twitter.com/jessprt94"  target="_blank"><img src="images/links/twitter1.jpg" class="cicons"></a>
 						<a href="http://github.com/jessicaprt"  target="_blank"><img src="images/links/github1.jpg" class="cicons"></a>
 					</div>
-					<div class="col-md-4">
-						<h4><strong>e-mail:</strong></h4>
-						<p>jessicaprieto31@gmail.com
-						<br>jessicaa@ualberta.ca</p>
-					</div>
 				</div>
 			</div>
-		</div>
-		<div class="footer">
-			<br>
-				<p>2017 © Jessica Prieto</p>
 		</div>
 	</body>
 </html>

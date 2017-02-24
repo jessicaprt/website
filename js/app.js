@@ -50,6 +50,14 @@ $(document).ready(function () {
 		$(this).addClass('prjdes');
 	});
 	
+	$('.info-img').mouseenter(function() {
+		$(this).fadeTo(200, 0.4);
+	});
+	
+	$('.info-img').mouseleave(function() {
+		$(this).fadeTo(200,1);
+	});
+	
 });
 
 $(function() {
