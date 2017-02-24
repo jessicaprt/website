@@ -26,13 +26,6 @@ body {
   margin-top: 3%;
 }
 
-.name {
-  width: 50%;
-  margin: 0 auto;
-  text-align: center;
-  position: relative;
-}
-
 .name-icon {
   margin-top: -3px;
   height: 24px;
@@ -87,7 +80,6 @@ body {
 .abt2 {
   padding-top: 50px;
   background-color: rgba(31, 0, 51, 0.1);
-  box-shadow: 2px 3px 5px #999999;
 }
 
 .abt2 .col-md-4 {
@@ -103,14 +95,13 @@ body {
 
 .info-box-btn {
   margin-top: 30px;
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 255, 255, 0.5);
   border-style: solid;
   border-color: rgba(53, 0, 64, 0.3);
   border-width: 2px;
   color: rgb(255, 255, 255);
   display: block;
   font-size: 20px;
-  box-shadow: 3px 3px 5px #888888;
 }
 
 .info-box-btn h2 {
@@ -139,21 +130,6 @@ body {
   border-color: rgba(53, 0, 64, 0.5);
   border-width: 3px;
   font-size: 20px;
-}
-
-/********************************************************/
-.des {
-  padding: 50px;
-  text-align: center;
-  font-size: 16px;
-}
-/********************************************************/
-
-
-
-#About .row img {
-  width: 110%;
-  margin: 0 auto;
 }
 
 /************* MODAL ***************/
@@ -224,8 +200,9 @@ body {
 }
 
 .modal-body {
-font-size: 16px;
-  padding: 50px;
+	font-size: 15px;
+	text-align: left !important;
+	padding: 50px;
 }
 
 .modal-body li {
@@ -240,6 +217,10 @@ text-align: left;
 
 #Projects {
   display: block;
+}
+
+.prj-des {
+	padding: 2em 0;
 }
 
 #Projects button {
@@ -261,18 +242,51 @@ text-align: left;
   padding-top: 30px;
 }
 
-
-
-.title {
-  color: #4d4d4d;
-}
-
 #Projects .row {
   margin-bottom: 20px;
 }
 
-.row .col-md-4 img {
-  width: 100%;
+.prjimgs {
+	height: 20em;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: inherit;
+	border-style: solid;
+	border-color: #fff;
+	border-width: 10px;
+}
+
+.prjdes {
+	background-color: rgba(31, 0, 51, 0.1);
+	text-align: center;
+	padding: 2em 5em;
+	color: #555;
+}
+
+.CEsite {
+	background-image: url(../images/projects/a-home.jpg);
+	color: rgba(255,255,255,0);
+}
+
+.TTT {
+	background-image: url(../images/projects/ttt-web.jpg);
+	color: rgba(255,255,255,0);
+}
+
+.BinClock {
+	background-image: url(../images/projects/binaryclock.jpg);
+	color: rgba(255,255,255,0);
+}
+
+.FireEscape {
+	background-image: url(../images/projects/fire_escapev3.jpg);
+	color: rgba(255,255,255,0);
+}
+
+.Snake {
+	background-image: url(../images/projects/snake-home.jpg);
+	color: rgba(255,255,255,0);
 }
 
 .row .col-md-8 {
@@ -280,8 +294,8 @@ text-align: left;
   color: #4d4d4d;
 }
 
-#Projects .row .col-md-8 h2{
-  color: #400040;
+#Projects .prj {
+	padding: 2em;
 }
 
 #Project .des {
@@ -293,142 +307,32 @@ text-align: left;
   text-decoration: none
 }
 
-#Blog {
-  background-color: #fff;
-  padding: 20px;
-}
-
-#Blog .row {
-  margin-top: 20px;
-  color: #4b4b4b;
-}
-
-#Blog .col-md-8 h3 {
-  color: gray;
-}
-
-#Blog .col-md-8 h4 {
-  color: #4b4b4b;
-}
-
-.blog-title {
-  margin-top: 30px;
-}
-
-.blog-title a {
-  color: #8946a0;
-}
-
 .title2 {
-  color: #fff;
+  color: #333;
 }
 
 #Contact {
-  background-color: #333;
-  color: #ece6ec;
-  margin-top: -50px;
-  padding-bottom: 100px;;
-
+  background-color: #fff;
+  color: #333;
+  margin-top: 50px;
+	padding-top: 30px;
+  padding-bottom: 100px;
+	border-style: solid none solid none;
+	border-width: 1px;
+	border-color: #777;
+	text-align: center;
 }
 
-#Contact .ccontent {
-  margin-top: 40px;
+#Contact .cicons {
+	width: 110px;
 }
 
-#Contact .ccontent h4{
-  color: #fff;
+#Contact .row {
+	margin-top: 50px;
 }
 
 #Contact .ccontent label{
-  color: #fff;
-}
-
-.container {
-  position: relative;
-}
-
-#des {
-  position: relative;
-  font-size: 20px;
-  text-align: center;
-}
-
-/* CONTACT FORM 
-based on : http://www.formget.com/how-to-make-simple-responsive-form-for-a-website/
-*/
-
-@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-#Contact .des #envelope {
-  width: 55%;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px 0;
-}
-
-form{
-  width: 70%;
-  margin: 4% 15%;
-  margin-left: auto;
-}
-
-header {
-  text-align: center;
-  padding-top: 12px;
-  padding-bottom: 8px;
-  margin-top: -11px;
-  margin-bottom: 8px;
-  color: #ece6ec;
-}
-
-input[type=text] {
-  margin-bottom: 20px;
-  margin-top: 10px;
-  width:100%;
-  padding: 5px;
-  border-style: none none solid none;
-  border-color: #ece6ec;
-  background-color: #333;
-  color: #fff;
-  font-size: 15px;
-  text-align: center
-}
-
-input[type=submit] {
-  margin-bottom: 20px;
-  width:70%;
-  padding: 10px;
-  border-radius:5px;
-  border:1px solid #ece6ec;
-  background-color: #333;
-  color: #fff;
-  font-size:15px;
-  cursor: pointer;
-  font-weight: bold;
-}
-
-#submit:hover {
-  background-color: black;
-}
-
-textarea {
-  width:100%;
-  padding: 15px;
-  margin-top: 10px;
-  border:1px solid #ece6ec;
-  border-radius:5px;
-  margin-bottom: 20px;
-  resize:none;
-  background-color: #555;
-  color: #fff;
-  font-weight: bold;
+  color: #333;
 }
 
 .footer {
@@ -441,16 +345,6 @@ textarea {
   height: 100px;
 }
 
-input[type=text]:focus,textarea:focus {
-  border-color: #fff;
-}
-
-@media only screen and (min-width: 601px) and (max-width: 1200px) {
-  div#envelope{
-      width: 80%;
-      margin: 10px 30% 10px 11%;
-      }
-}
 
 @media only screen and (min-width: 351px) and (max-width: 600px){
   h2{

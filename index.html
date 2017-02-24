@@ -26,10 +26,10 @@
 				</div>
 				<div class = "collapse navbar-collapse" id = "myNavbar">
 					<ul class = "nav navbar-nav">
-						<li><a href = "#About"><strong>About</strong></a></li>
-						<li><a href = "#Projects"><strong>Projects</strong></a></li>
-						<li><a href = "#Blog"><strong>Blogs</strong></a></li>
-						<li><a href = "#Contact"><strong>Contact</strong></a></li>
+						<li><a href = "#About">About</a></li>
+						<li><a href = "#Projects">Portfolio</a></li>
+<!--						<li><a href = "#Blog"><strong>Blogs</strong></a></li>-->
+						<li><a href = "#Contact">Contact</a></li>
 					</ul>
 				</div>
 			</div>
@@ -42,7 +42,7 @@
 					<div class = "row">
 						<div class ="col-md-4 profile-pic"></div>
 						<div class ="col-md-8">
-								<h1>Hi. My name is <strong>Jessica</strong>!</h1>
+								<h1><strong>Jessica Prieto</strong></h1>
 								<h2>A Computer Engineering undergraduate at the University of Alberta</h2>
 								<a href = "#info"><button class ="header-btn">Learn more about what I do.</button></a>
 						</div>
@@ -52,25 +52,36 @@
             
 			<div class="container-fluid abt2" id="info">
 				<div class ="container abt-des">
-					<h1><strong>Here's what I do.</strong></h1>
+					<h1>Here's what I do.</h1>
+					<div class="border"></div>
 					<div class="row">
 						<div class="col-md-4">
 							<button id="skillBtn" class="info-box-btn">
 							<div class="info-box">
 								<img src ="icons/skills.png" style="width: 40%"/>
-								<h2><strong>Skills</strong></h2>
+								<h2>About Me</h2>
 								<!------- SKILL MODAL ------->
 								<div id="skillModal" class="modal">
 									<div class="modal-content">
 										<div class="modal-header">
 											<span class="close">&times;</span>
-											<h2>Skills</h2>
+											<h2>About Me</h2>
 										</div>
 										<div class="modal-body">
-											<li>HTML5, CSS, JavaScript, Python, Java, C, C#, SQL</li>
+											<div class="row">
+												<h3>UX / UI Designer</h3>
+												<p>Being creative is one of my key skills.<br>I love creating and appreciating good design. I'm really into building a good interface for an audience to appreciate andenjoy. I also love associating graphic design with a functional application.</p>
+											</div>
+											<div class="row">
+												<h3>Web Developer</h3>
+												<p>As soon as I learned front-end development tools and the basics of creating a good website, I knew that what I'm really passionate about. Though I really don't want to limit myself to just looks and design. My goal is to dive more into back-end development and creating more useful Web Applications.</p>
+											</div>
+											<div class="row">
+												<h3>Motivated and Passionate</h3>
+												<p>With a lot of the tools that I know being self-taught, I love surrounding myself with people with different technical backgrounds and gaining insights from them to help me more with my learning. When I'm passionate about someting, I tend to learn quickly and do more research to improve my skill and deepen my passion.</p>
+											</div>
 										</div>
 									</div>
-
 								</div>
 								<script src="js/modal.js"></script>
 							</div>
@@ -82,7 +93,7 @@
 							<button id="invBtn" class="info-box-btn">
 								<div class="info-box">
 									<img src ="icons/inv.png" style="width: 40%"/>
-									<h2><strong>Involvement</strong></h2>
+									<h2>Involvement</h2>
 									<!----- INVOLVEMENT MODAL ----->
 									<div id="invModal" class="modal">
 										<div class="modal-content">
@@ -146,7 +157,7 @@
 							<button id="hobBtn" class="info-box-btn">
 								<div class="info-box">
 									<img src ="icons/hob.png" style="width: 40%"/>
-									<h2><strong>Hobbies</strong></h2>
+									<h2>Hobbies</h2>
 									<!------- HOBBIES MODAL ------->
 									<div id="hobModal" class="modal">
 										<div class="modal-content">
@@ -158,7 +169,7 @@
 												<li>On summers i like to <strong>travel</strong> with my family and go hiking on mountains.</li></br>
 												<li><strong>Photography</strong> is one thing i'm really interested in. I love making memories and documenting them.</li></br>
 												<li>I love listening to <strong>music</strong> particularly to alternative rock, and sometimes a bit of EDM. I enjoy playing my guitar, my piano, and my ukulele. I love singing! sometimes on stage, sometimes for YouTube. </br>
-													<iframe width="500" height="281" src="https://www.youtube.com/embed/BrxuKQRS0rE" frameborder="0" allowfullscreen></iframe>
+<!--													<iframe width="500" height="281" src="https://www.youtube.com/embed/BrxuKQRS0rE" frameborder="0" allowfullscreen></iframe>-->
 												</li></br>
 												<li>I love learning how to code: in class, by myself, or with the help of the people around me.</li></br>
 												<li>I enjoy hanging out with my friends and doing a bunch of activities with them like  watching movies, playing board games and video games, eating out, watching cat videos, doing roadtrips, hacking together side projects and lots more!</li>
@@ -179,99 +190,67 @@
         
 		<!-- PROJECTS -->
 		<div id = "Projects">
-			<div class = "container-fluid prj-des">
-				<h1><strong>Projects</strong></h1>
+			<div class = "container-fluid">
+				<h1>Portfolio</h1>
 				<div class="border"></div>
-
-				<div class="row">
-						<div class="col-md-4"><img src=images/projects/a-home.jpg></div>
-						<div class="col-md-8">
-								<h2><strong>Computer Engineering Club Website</strong></h2>
-								<h4>Part of what I wanted this year for CompE club as the president is to improve the branding of our club. The change is now completely different from the old one and it now looks a lot more appealing. View it <a href = "compeclub.com">here</a>.</h4>
+				<div class="row prj-des">
+					<div class="col-md-4 prjimgs prjdes" id="CEsite">
+						<div class="prj">
+							<h2>Computer Engineering Club Website</h2><br>
+							<h4>Worked on a 3-person team project to recreate the CompE club website.</h4>
 						</div>
-				</div>
-
-				<div class="row">
-						<div class="col-md-4"><img src = images/projects/ttt-home.jpg></div>
-						<div class="col-md-8">
-								<h2><strong>Tic Tac Toe</strong></h2>
-								<h4>This impossible game of tic tac toe was implemented by using the minimax algorithm in order to build an AI such that the computer will always win, or the game results in a draw.</h4>
+					</div>
+					<div class="col-md-4 prjimgs prjdes" id="TTT">
+						<div class="prj">
+							<h2>TicTacToe</h2><br>
+							<h4>A webapp (deployed on heroku) for an impossible game of tic tac toe. This was implemented by using the minimax algorithm in order to build an AI such that the computer will always win, or the game results in a draw.</h4>
 						</div>
-				</div>
-
-<!--				<h3><a href="projects.html">View more projects ></a></h3>-->
-
-			</div>
-		</div>
-
-		<!-- BLOG 
-		<div id = "Blog">
-			<div class = "container des">
-				<h1 class="title"><strong>BLOGS</strong></h1>
-				<div class="border"></div>
-
-				<h2 class="blog-title"><strong><a href="http://misselprup.tumblr.com/tagged/travel">Travel and Outdoors</a></strong></h2>
-				<div class="row">
-					<div class="col-md-4"><img src="images/blog-img-travel.jpg"></div>
-					<div class="col-md-8">
-						<h3><strong>Las Vegas, Nevada</strong></h3>
-						<h4>For the first time in many years, I got to see my relatives again! The main purpose of our trip was to go to my cousin Patricia’s wedding. </h4>
-						<a href="http://misselprup.tumblr.com/post/143193795744/las-vegas-nevada">Read More ></a>
+					</div>
+					<div class="col-md-4 prjimgs prjdes" id="FireEscape">
+						<h2>Fire Escape</h2><br>
+						<h4>A fire safety arcade game built for the purpose of educating the audience for fire safety. This project was an official entry to HackEd 2016 (CompE Club hackathon).</h4>
 					</div>
 				</div>
-
-				<h2 class="blog-title"><strong><a href="http://jp-thoughts.tumblr.com/tagged/university">University Life</a></strong></h2>
 				<div class="row">
-					<div class="col-md-4"><img src="images/blog/a-home.jpg"></div>
-					<div class="col-md-8">
-						<h3><strong>Presidential Duties</strong></h3>
-						<h4>School has been back for less than two weeks now (classes awkwardly started on a Thursday), and it has been pretty busy already. I’m in my 4th year of studies in Computer Engineering, so my classes are for sure tough!<br>On top of my academics, I’ve been balancing running Computer Engineering Club as well. Being the president is no joke, and I am fully aware of this when I signed up for this position.</h4>
-						<a href="http://jp-thoughts.tumblr.com/post/150248155789/presidential-duties">Read More ></a>
+					<div class="col-md-4 prjimgs prjdes" id="BinClock">
+						<h2>Arduino Binary Clock</h2><br>
+						<h4>Displays the time using LED's on a breadboard.</h4>
 					</div>
+					<div class="col-md-4 prjimgs prjdes" id="Snake">
+						<h2>Snake on Arduino</h2><br>
+						<h4>As part of my project in CMPUT 274, My team and I implemented a snake game on Arduino with a joystick and an Adafruit LCD display</h4>
+					</div>
+					<div class="col-md-4 prjimgs prjdes" id=""></div>
 				</div>
-
-
 			</div>
-		</div> -->                       
+		</div>                      
 
 		<!-- CONTACT -->
 		<div id = "Contact">
 			<div class = "container des">
-				<h1 class="title2"><strong>CONTACT</strong></h1>
-				<div class = "ccontent">
-					<h4><strong>e-mail:</strong></h4>
-					<p>jessicaprieto31@gmail.com<br>
-					jessicaa@ualberta.ca</p>
-				</div>
-				<div class = "ccontent" id = "envelope">
-				 <!-- Begin Response-O-Matic Form -->
-					<form enctype="multipart/form-data" method="post" action="http://www.response-o-matic.com/mail.php" accept-charset="UTF-8" target="_blank">
-						<header>
-							<h4><strong>or use this form:</strong></h4>
-						</header>
-						<div>
-							<input type="hidden" name="acctid" id="acctid" value="u2hq5ckde74kbtbr" />
-							<input type="hidden" name="formid" id="formid" value="1286290" />
-							<input type="hidden" name="required_vars" id="required_vars" value="name,email,field-06dad7738d78a56" />
-						</div>
-
-						<input type="text" name="name" id="name" width="100px;" placeholder="Name" /><br>
-
-						<input type="text" name="email" id="email" placeholder="E-mail Address" />
-
-						<label>Message:</label><br>
-						<textarea name="field-06dad7738d78a56" id="field-06dad7738d78a56" rows="6" cols="15"></textarea><br>
-
-						<input type="submit" value="Send" />                            
-					</form>
-					<br>
-
-					<!-- End Response-O-Matic Form -->
+				<h1 class="title2"><strong>Contact Info</strong></h1>
+				<div class="row">
+					<div class="col-md-4">
+						<h4><strong>e-mail:</strong></h4>
+						<p>jessicaprieto31@gmail.com
+						<br>jessicaa@ualberta.ca</p>
+					</div>
+					<div class="col-md-4">
+						<a href="http://instagram.com/jessicaaprt"  target="_blank"><img src="images/links/instagram1.jpg" class="cicons"></a>
+						<a href="http://twitter.com/jessprt94"  target="_blank"><img src="images/links/twitter1.jpg" class="cicons"></a>
+						<a href="http://github.com/jessicaprt"  target="_blank"><img src="images/links/github1.jpg" class="cicons"></a>
+					</div>
+					<div class="col-md-4">
+						<h4><strong>e-mail:</strong></h4>
+						<p>jessicaprieto31@gmail.com
+						<br>jessicaa@ualberta.ca</p>
+					</div>
 				</div>
 			</div>
 		</div>
 		<div class="footer">
-				<p>All Content © Jessica Prieto</p>
+			<br>
+				<p>2017 © Jessica Prieto</p>
 		</div>
 	</body>
 </html>
