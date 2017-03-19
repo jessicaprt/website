@@ -322,27 +322,23 @@ text-align: left;
   color: #333;
 }
 
-#Contact {
+footer {
   background-color: #fff;
   color: #333;
-  margin-top: 50px;
 	padding-top: 30px;
   padding-bottom: 100px;
-	border-style: solid none solid none;
-	border-width: 1px;
-	border-color: rgba(0,0,0,0.3);
 	text-align: center;
 }
 
-#Contact .cicons {
+footer .cicons {
 	width: 110px;
 }
 
-#Contact .row {
+footer .row {
 	margin-top: 50px;
 }
 
-#Contact .ccontent label{
+footer .ccontent label{
   color: #333;
 }
 
